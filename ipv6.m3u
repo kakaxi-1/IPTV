@@ -193,10 +193,18 @@ http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001309/index.m3
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 #EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://live.fanmingming.com/tv/游戏风云.png" group-title="数字精品",游戏风云
 http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226579/index.m3u8
-#EXTINF:-1 tvg-id="GTV游戏竞技" tvg-name="GTV游戏竞技" tvg-logo="https://live.fanmingming.com/tv/GTVDramaHD.png" group-title="数字精品",GTV游戏竞技
-http://61.144.82.98:808/hls/683/index.m3u8
-#EXTINF:-1 tvg-id="GTV网络棋牌" tvg-name="GTV网络棋牌" tvg-logo="https://live.fanmingming.com/tv/GTVEntertainment.png" group-title="数字精品",GTV网络棋牌
-http://111.167.224.47:8888/udp/225.1.1.217:5002
+#EXTINF:-1 tvg-id="GTV游戏竞技" tvg-name="GTV游戏竞技" tvg-logo="https://live.fanmingming.com/tv/游戏竞技.png" group-title="数字精品",GTV游戏竞技
+http://61.144.82.94:808/hls/683/index.m3u8
+#EXTINF:-1 tvg-id="GTV游戏竞技" tvg-name="GTV游戏竞技" tvg-logo="https://live.fanmingming.com/tv/游戏竞技.png" group-title="数字精品",GTV游戏竞技
+http://183.236.13.168:808/hls/84/index.m3u8
+#EXTINF:-1 tvg-id="GTV游戏竞技" tvg-name="GTV游戏竞技" tvg-logo="https://live.fanmingming.com/tv/游戏竞技.png" group-title="数字精品",GTV游戏竞技
+http://119.118.67.215:4022/rtp/232.0.0.112:1234
+#EXTINF:-1 tvg-id="GTV游戏竞技" tvg-name="GTV游戏竞技" tvg-logo="https://live.fanmingming.com/tv/游戏竞技.png" group-title="数字精品",GTV游戏竞技
+http://114.224.124.167:8800/rtp/239.49.1.71:6000
+#EXTINF:-1 tvg-id="GTV游戏竞技" tvg-name="GTV游戏竞技" tvg-logo="https://live.fanmingming.com/tv/游戏竞技.png" group-title="数字精品",GTV游戏竞技
+http://117.9.171.16:8888/udp/225.1.1.222:5002
+#EXTINF:-1 tvg-id="GTV网络棋牌" tvg-name="GTV网络棋牌" tvg-logo="https://live.fanmingming.com/tv/GTV网络棋牌.png" group-title="数字精品",GTV网络棋牌
+http://117.9.171.16:8888/udp/225.1.1.217:5002
 #EXTINF:-1 tvg-id="哒啵电竞" tvg-name="哒啵电竞" tvg-logo="https://live.fanmingming.com/tv/哒啵电竞.png" group-title="数字精品",哒啵电竞
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226951/index.m3u8
 #EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://live.fanmingming.com/tv/哒啵赛事.png" group-title="数字精品",哒啵赛事
