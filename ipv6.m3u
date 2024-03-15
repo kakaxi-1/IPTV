@@ -285,35 +285,65 @@ http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/322
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226966/index.m3u8
 #EXTINF:-1 tvg-id="家庭理财" tvg-name="家庭理财" tvg-logo="https://live.fanmingming.com/tv/家庭理财.png" group-title="数字精品",家庭理财
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226247/index.m3u8
-TLC旅游生活,P2p://generationnexxxt.com:19806/621ca70412034f5eb919c1ec03679804
-动物星球,P2p://generationnexxxt.com:19806/5b41e724ea8e4e7eb92e3dac95589165
-CN卡通频道,P2p://generationnexxxt.com:19806/f4dd909eedc64e6b9736e248aedf6d61
-MOMO亲子台,P2p://generationnexxxt.com:19806/2f2d9ad70ce7410aa99f2b9fa1753dd4
-东森幼幼台,P2p://generationnexxxt.com:19806/baa16215e2224e399f6dc71eb3576ed4
-纬来综合台,P2p://generationnexxxt.com:19806/d40310ae8bba42569d3d90b4cf7d9928
-八大第一台,P2p://generationnexxxt.com:19806/270abff66f5e496fb9c100a0dbca3fe6
-八大综合台,P2p://generationnexxxt.com:19806/6c18a737c1394e59ae5072935d630f40
-三立台湾台,P2p://generationnexxxt.com:19806/ff12e8f29f9b4f61a9b766709aa498f6
-三立都会台,P2p://generationnexxxt.com:19806/7a36f98eee8e48a48ea64a1359083c8a
-东森综合台,P2p://generationnexxxt.com:19806/a05a4d8b51f54013925315261a2c6aa9
-超视,P2p://generationnexxxt.com:19806/5121f16c4b634c1683e9444aa68494b6
-中天综合台,P2p://generationnexxxt.com:19806/d6433dcd1a2a4aacb1c63a81ae8f11e6
-中天娱乐台,P2p://generationnexxxt.com:19806/6932151dd5a74b759a053f78a719fbf3
-东森戏剧台,P2p://generationnexxxt.com:19806/4fae332a68a04f3fa77a158ac1fa4bce
-八大戏剧台,P2p://generationnexxxt.com:19806/4eec82bd1e634ceab82b90e395116c83
-TVBS欢乐台,P2p://generationnexxxt.com:19806/569aec3edbbc4267bd6f829b3d495d5a
-纬来戏剧台,P2p://generationnexxxt.com:19806/69036778f8fc40729301e9e88aeee556
-高点综合台,P2p://generationnexxxt.com:19806/462775e2153243fc92adec0793c638d0
-BBCWorldNews,P2p://generationnexxxt.com:19806/ecc7214268ee448ab42b65d9f2e2663a
-CNBC,P2p://generationnexxxt.com:19806/b642a4ce45734a7190f0acbd8cd462dd
-BloombergTV,P2p://generationnexxxt.com:19806/885bb543b9cb4bbeb5bcfe518fb90780
-HITS,P2p://generationnexxxt.com:19806/a65416c2039f4644aeef10da853fb928
-壹电视新闻台,P2p://generationnexxxt.com:19806/31dad83ef5b74c5db225482cd2e0fbae
-年代新闻,P2p://generationnexxxt.com:19806/95f67e884d88463e907c301d05fa68b7
-东森新闻台,P2p://generationnexxxt.com:19806/e1a899eded4d48578084c61957fb8c2b
-中天新闻台,P2p://generationnexxxt.com:19806/bd9064ee198045a386f1f2dba5073f4e
-民视新闻台,P2p://generationnexxxt.com:19806/d24f18e610d248b7a450d29492b37ebf
-三立新闻台,P2p://generationnexxxt.com:19806/9388262af2604cc798800736d070d39e
-TVBS新闻台,P2p://generationnexxxt.com:19806/6a155a5d7bea461b980b4fa559119a60
-TVBS,P2p://generationnexxxt.com:19806/9fb651a7ec2e402588a0752ba1035476
-东森财经新闻台,P2p://generationnexxxt.com:19806/6596322e000d4091a2f7138e424b32c5
+#EXTINF:-1 group-title="台湾",TLC旅游生活
+P2p://generationnexxxt.com:19806/621ca70412034f5eb919c1ec03679804
+#EXTINF:-1 group-title="台湾",动物星球
+P2p://generationnexxxt.com:19806/5b41e724ea8e4e7eb92e3dac95589165
+#EXTINF:-1 group-title="台湾",CN卡通频道
+P2p://generationnexxxt.com:19806/f4dd909eedc64e6b9736e248aedf6d61
+#EXTINF:-1 group-title="台湾",MOMO亲子台
+P2p://generationnexxxt.com:19806/2f2d9ad70ce7410aa99f2b9fa1753dd4
+#EXTINF:-1 group-title="台湾",东森幼幼台
+P2p://generationnexxxt.com:19806/baa16215e2224e399f6dc71eb3576ed4
+#EXTINF:-1 group-title="台湾",纬来综合台
+P2p://generationnexxxt.com:19806/d40310ae8bba42569d3d90b4cf7d9928
+#EXTINF:-1 group-title="台湾",八大第一台
+P2p://generationnexxxt.com:19806/270abff66f5e496fb9c100a0dbca3fe6
+#EXTINF:-1 group-title="台湾",八大综合台
+P2p://generationnexxxt.com:19806/6c18a737c1394e59ae5072935d630f40
+#EXTINF:-1 group-title="台湾",三立台湾台
+P2p://generationnexxxt.com:19806/ff12e8f29f9b4f61a9b766709aa498f6
+#EXTINF:-1 group-title="台湾",三立都会台
+P2p://generationnexxxt.com:19806/7a36f98eee8e48a48ea64a1359083c8a
+#EXTINF:-1 group-title="台湾",东森综合台
+P2p://generationnexxxt.com:19806/a05a4d8b51f54013925315261a2c6aa9
+#EXTINF:-1 group-title="台湾",超视
+P2p://generationnexxxt.com:19806/5121f16c4b634c1683e9444aa68494b6
+#EXTINF:-1 group-title="台湾",中天综合台
+P2p://generationnexxxt.com:19806/d6433dcd1a2a4aacb1c63a81ae8f11e6
+#EXTINF:-1 group-title="台湾",中天娱乐台
+P2p://generationnexxxt.com:19806/6932151dd5a74b759a053f78a719fbf3
+#EXTINF:-1 group-title="台湾",东森戏剧台
+P2p://generationnexxxt.com:19806/4fae332a68a04f3fa77a158ac1fa4bce
+#EXTINF:-1 group-title="台湾",八大戏剧台
+P2p://generationnexxxt.com:19806/4eec82bd1e634ceab82b90e395116c83
+#EXTINF:-1 group-title="台湾",TVBS欢乐台
+P2p://generationnexxxt.com:19806/569aec3edbbc4267bd6f829b3d495d5a
+#EXTINF:-1 group-title="台湾",纬来戏剧台
+P2p://generationnexxxt.com:19806/69036778f8fc40729301e9e88aeee556
+#EXTINF:-1 group-title="台湾",高点综合台
+P2p://generationnexxxt.com:19806/462775e2153243fc92adec0793c638d0
+#EXTINF:-1 group-title="台湾",BBCWorldNews
+P2p://generationnexxxt.com:19806/ecc7214268ee448ab42b65d9f2e2663a
+#EXTINF:-1 group-title="台湾",CNBC
+P2p://generationnexxxt.com:19806/b642a4ce45734a7190f0acbd8cd462dd
+#EXTINF:-1 group-title="台湾",BloombergTV
+P2p://generationnexxxt.com:19806/885bb543b9cb4bbeb5bcfe518fb90780
+#EXTINF:-1 group-title="台湾",HITS
+P2p://generationnexxxt.com:19806/a65416c2039f4644aeef10da853fb928
+#EXTINF:-1 group-title="台湾",壹电视新闻台
+P2p://generationnexxxt.com:19806/31dad83ef5b74c5db225482cd2e0fbae
+#EXTINF:-1 group-title="台湾",年代新闻
+P2p://generationnexxxt.com:19806/95f67e884d88463e907c301d05fa68b7
+#EXTINF:-1 group-title="台湾",东森新闻台
+P2p://generationnexxxt.com:19806/e1a899eded4d48578084c61957fb8c2b
+#EXTINF:-1 group-title="台湾",中天新闻台
+P2p://generationnexxxt.com:19806/bd9064ee198045a386f1f2dba5073f4e
+#EXTINF:-1 group-title="台湾",民视新闻台
+P2p://generationnexxxt.com:19806/d24f18e610d248b7a450d29492b37ebf
+#EXTINF:-1 group-title="台湾",三立新闻台
+P2p://generationnexxxt.com:19806/9388262af2604cc798800736d070d39e
+#EXTINF:-1 group-title="台湾",TVBS新闻台
+P2p://generationnexxxt.com:19806/6a155a5d7bea461b980b4fa559119a60
+#EXTINF:-1 group-title="台湾",TVBS
+P2p://generationnexxxt.com:19806/9fb651a7ec2e402588a0752ba1035476
