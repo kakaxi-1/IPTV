@@ -33,10 +33,16 @@ http://[2409:8087:7001:20:3::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3
 http://[2409:8087:7001:20:3::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225785/index.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视数字",CCTV-16 
 http://[2409:8087:7001:20:3::9]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/index.m3u8
+#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="央视",CCTV16-4K
+http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视数字",CCTV-17 
 http://[2409:8087:7001:20:3::5]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226198/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="央视数字",CCTV4K
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="央视数字",CCTV4K
+http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
+#EXTINF:-1,tvg-id="CCTV8K超高清" tvg-name="CCTV8K超高清" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视",CCTV8K超高清
+http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="央视数字",兵器科技
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://live.fanmingming.com/tv/怀旧剧场.png" group-title="央视数字",怀旧剧场
@@ -299,5 +305,11 @@ https://www.goodiptv.club/huya/27318500
 https://www.goodiptv.club/huya/11342412
 #EXTINF:-1 tvg-id="林正英" tvg-name="林正英" tvg-logo="https://upload.112114.xyz/logo/linzhengyingyingshu.png" group-title="影视轮播",林正英
 https://www.goodiptv.club/huya/27717388
+#EXTINF:-1,tvg-id="斗鱼4K影院" tvg-name="斗鱼4K影院" tvg-logo="https://epg.112114.xyz/logo/斗鱼4K影院.png" group-title="其他",斗鱼4K影院
+http://159.75.85.63:35455/douyu/9249162
+#EXTINF:-1,tvg-id="斗鱼4K影院" tvg-name="斗鱼4K影院" tvg-logo="https://epg.112114.xyz/logo/斗鱼4K影院.png" group-title="其他",斗鱼4K影院
+http://mmitv.top/test/douyu.php?id=9249162
+#EXTINF:-1,tvg-id="斗鱼4K影院" tvg-name="斗鱼4K影院" tvg-logo="https://epg.112114.xyz/logo/斗鱼4K影院.png" group-title="其他",斗鱼4K影院
+http://epg.112114.xyz/douyu/9249162
 #EXTINF:-1 tvg-id="刘德华" tvg-name="刘德华" tvg-logo="https://upload.112114.xyz/logo/liudehuahuazai.png" group-title="影视轮播",刘德华
 https://epg.pw/stream/5e9dd322430a37093d652ae55ebdd2913283a24eb29c66a30baa84e139e0043f.ctv
