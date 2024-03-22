@@ -73,12 +73,6 @@ http://1.62.64.234/0b926d37065dc656266be75dd9d25565.v.smtcdns.net/zycfcdn.gdwlcl
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226581/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="央视数字",欢笑剧场
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226582/index.m3u8
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://huangsuming.codeberg.page/logo/tv/shuzi/smg/SiTV-生活时尚.png" group-title="央视数字",生活时尚
-http://zteres.sn.chinamobile.com:6060/000000001000/2000000002000000006/1.m3u8?channel-id=hnbblive&Contentid=2000000002000000006&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://upload.112114.xyz/logo/HS4K.png" group-title="央视数字",华数4K
-http://zteres.sn.chinamobile.com:6060/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="精彩影视" tvg-name="精彩影视" tvg-logo="https://huangsuming.codeberg.page/logo/tv/shuzi/wasu/Wasu-精彩影视.png" group-title="央视数字",精彩影视
-http://zteres.sn.chinamobile.com:6060/000000001000/6000000006000320630/index.m3u8
 #EXTINF:-1 tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://live.fanmingming.com/tv/求索记录.png" group-title="央视数字",求索记录
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://live.fanmingming.com/tv/求索动物.png" group-title="央视数字",求索动物
@@ -92,7 +86,7 @@ http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://live.fanmingming.com/tv/金色学堂.png" group-title="央视数字",金色学堂
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226994/index.m3u8
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://live.fanmingming.com/tv/劲爆体育.png" group-title="央视数字",劲爆体育
-http://zteres.sn.chinamobile.com:6060/000000001000/5000000002000029972/index.m3u8?channel-id=bestzb&Contentid=5000000002000029972&livemode=1&stbId=3
+http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226239/index.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="卫视频道",湖南卫视
 http://[2409:8087:7001:20:3::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225799/index.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视频道",浙江卫视
@@ -104,7 +98,7 @@ http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png" group-title="卫视频道",深圳卫视
 http://[2409:8087:7000:20::15]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225801/index.m3u8
 #EXTINF:-1 tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://live.fanmingming.com/tv/星空卫视.png" group-title="卫视频道",星空卫视
-http://61.140.113.125:808/hls/110/index.m3u8
+http://183.1.251.10:8081/hls/87/index.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="卫视频道",凤凰中文
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226547/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="卫视频道",凤凰资讯
@@ -181,8 +175,6 @@ http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226229/index.m3u8
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.com/tv/康巴卫视.png" group-title="卫视频道",康巴卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://huangsuming.codeberg.page/logo/tv/shuzi/smg/SiTV-动漫秀场.png" group-title="卫视频道",动漫秀场
-http://zteres.sn.chinamobile.com:6060/000000001000/2000000002000000009/1.m3u8?channel-id=hnbblive&Contentid=2000000002000000009&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="卫视频道",卡酷少儿
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通.png" group-title="卫视频道",金鹰卡通
@@ -296,16 +288,16 @@ http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="家庭理财" tvg-name="家庭理财" tvg-logo="https://live.fanmingming.com/tv/家庭理财.png" group-title="数字精品",家庭理财
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226247/index.m3u8
 #EXTINF:-1 tvg-id="WWE" tvg-name="WWE" tvg-logo="https://upload.112114.xyz/logo/wwesuaijiao.png" group-title="影视轮播",WWE
-https://epg.pw/stream/3a6b6a08f5343e67882929e3f02f3069610e39876ea76dff62f489b7541e9ca6.ctv
+https://epg.pw/stream/e45f914205569806ba522e267d466330f8286e15cecfbacc661f5801587c88c6.ctv
 #EXTINF:-1 tvg-id="港台电影" tvg-name="港台电影" tvg-logo="https://upload.112114.xyz/logo/gangpian.png" group-title="影视轮播",港台电影
-http://159.75.85.63:35455/douyu/3637778
+https://www.goodiptv.club/huya/23865080
 #EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://upload.112114.xyz/logo/dongzuodianying.png" group-title="影视轮播",动作电影
 https://epg.pw/stream/846d649599e0e3f0dc499d5e5b47769a4575730e8fe640c81b3660eb74e4be14.ctv
 #EXTINF:-1 tvg-id="黑帮电影" tvg-name="黑帮电影" tvg-logo="https://upload.112114.xyz/logo/heibangdianying.png" group-title="影视轮播",黑帮电影
-https://epg.pw/stream/64f00a11758bec6b4a5a99d7540f06801d7a81adcd241998c7b6e522e33e065f.ctv
+https://www.goodiptv.club/huya/27318500
 #EXTINF:-1 tvg-id="周星驰" tvg-name="周星驰" tvg-logo="https://upload.112114.xyz/logo/zhouxingchixingye.png" group-title="影视轮播",周星驰
-https://epg.pw/stream/0f03cd33571a88b383fa856d574671fc2ef6128ecfd0e8811fd9734977aa4593.ctv
+https://www.goodiptv.club/huya/11342412
 #EXTINF:-1 tvg-id="林正英" tvg-name="林正英" tvg-logo="https://upload.112114.xyz/logo/linzhengyingyingshu.png" group-title="影视轮播",林正英
-https://epg.pw/stream/c73fb952280986ffc8a331f19131a3c872474913ff4e4d327415ac06e24bd930.ctv
+https://www.goodiptv.club/huya/27717388
 #EXTINF:-1 tvg-id="刘德华" tvg-name="刘德华" tvg-logo="https://upload.112114.xyz/logo/liudehuahuazai.png" group-title="影视轮播",刘德华
 https://epg.pw/stream/5e9dd322430a37093d652ae55ebdd2913283a24eb29c66a30baa84e139e0043f.ctv
