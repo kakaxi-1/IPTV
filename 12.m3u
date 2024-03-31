@@ -1,535 +1,228 @@
-#EXTM3U
-#EXTINF:-1 ,Unknown_1
-http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/ott.mobaibox.com/PLTV/4/224/3221228165/index.m3u8
-#EXTINF:-1 ,Unknown_4
-http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/wh7f454c46tw1933215962_-1472477943/ott.mobaibox.com/PLTV/3/224/3221227713/index.m3u8?icpid=3&RTS=1674386343&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
-#EXTINF:-1 ,Unknown_5
-http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
-#EXTINF:-1 ,Unknown_9
-http://[2409:8087:2001:20:2800:0:df6e:eb23]:80/ott.mobaibox.com/PLTV/1/224/3221228530/index.m3u8
-#EXTINF:-1 ,Unknown_11
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
 http://[2409:8087:2001:20:2800:0:df6e:eb19]/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
-#EXTINF:-1 ,Unknown_13
-http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226579/index.m3u8
-#EXTINF:-1 ,Unknown_19
-http://[2409:8087:7000:20:1000::22]:6060/000000001000/5000000002000027005/index.m3u8?channel-id=bestzb&Contentid=5000000002000027005&livemode=1&stbId=3
-#EXTINF:-1 ,Unknown_32
-http://1.62.64.234/0b926d37065dc656266be75dd9d25565.v.smtcdns.net/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225563/index.m3u8
-#EXTINF:-1 ,Unknown_33
-http://httplive.slave.bfgd.com.cn:14311/playurl?playtype=live&protocol=http&accesstoken=R5F2408FEU3198804BK78052214IE73560DFP2BF4M340CE68V0Z339CBW1626D4D261E46FEA&playtoken=ABCDEFGH&programid=4200000635
-#EXTINF:-1 ,Unknown_34
-http://[2409:8087:2001:20:2800:0:df6e:eb13]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
-#EXTINF:-1 ,Unknown_35
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="•数字「IPV6」",凤凰资讯「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
+#EXTINF:-1,tvg-id="CCTV8K超高清" tvg-name="CCTV8K超高清" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视",CCTV8K超高清
+http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
+#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="香港",凤凰中文
+http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="香港",凤凰资讯
+http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
+#EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" group-title="香港",凤凰香港
+http://[2409:8087:2001:20:2800:0:df6e:eb1d]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
+#EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" group-title="香港",凤凰香港
+http://r.jdshipin.com/NfC0f
+#EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" group-title="香港",凤凰香港
+http://r.jdshipin.com/yDoTN
+#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="香港",凤凰中文
+http://r.jdshipin.com/cCCzW
+#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="香港",凤凰中文
+https://qist.cc/live/sc.php?id=fhws
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="香港",凤凰资讯
+http://r.jdshipin.com/0Rp07
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="香港",凤凰资讯
+https://qist.cc/live/sc.php?id=fhzx
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/90/0970904509/u970904509rbdctkaQ.jpg" group-title="zonghe", 二龙湖浩哥【经典搞笑】
+https://www.goodiptv.club/yy/28205255
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/85/2830852210/u2830852210C1kUycV.png" group-title="zonghe", 彭禺厶鬼怪奇幻系列电影
+https://www.goodiptv.club/yy/1355249116
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv1hd
+#EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV2HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv2hd
+#EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="央视",CCTV3HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv3hd
+#EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="央视",CCTV4
+https://live.goodiptv.club/api/yqgd.php?id=cctv4
+#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="央视",CCTV5HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv5hd
+#EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" group-title="央视",CCTV5+HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv5p
+#EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="央视",CCTV6HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv6hd
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV7HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv7hd
+#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="央视",CCTV8HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv8hd
+#EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV9HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv9hd
+#EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视",CCTV10HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv10hd
+#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="央视",CCTV11
+https://live.goodiptv.club/api/yqgd.php?id=cctv11
+#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视",CCTV12HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv12hd
+#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="央视",CCTV13
+https://live.goodiptv.club/api/yqgd.php?id=cctv13
+#EXTINF:-1,tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视",CCTV14HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv14hd
+#EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="央视",CCTV15
+https://live.goodiptv.club/api/yqgd.php?id=cctv15
+#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="央视",CCTV16HD
+https://live.goodiptv.club/api/yqgd.php?id=cctv16hd
+#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="央视",CCTV17
+https://live.goodiptv.club/api/yqgd.php?id=cctv17
+#EXTINF:-1,tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV-4K 超高清
+https://live.goodiptv.club/api/sxg.php?id=ys4Kcq_2000
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/4K电影4K.png" group-title="其他",4K超高清电影 4K
+https://live.goodiptv.club/api/sxg.php?id=emdy4k_8000
+#EXTINF:-1,tvg-id="风尚生活" tvg-name="风尚生活" tvg-logo="https://epg.112114.xyz/logo/风尚生活.png" group-title="其他",CBN风尚生活
+https://live.goodiptv.club/api/sxg.php?id=fssh_4000
+#EXTINF:-1,tvg-id="每日影院" tvg-name="每日影院" tvg-logo="https://epg.112114.xyz/logo/每日影院.png" group-title="其他",CBN每日影院
+https://live.goodiptv.club/api/sxg.php?id=mryy_4000
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/CBN幸福剧场.png" group-title="其他",CBN幸福剧场
+https://live.goodiptv.club/api/sxg.php?id=xfjc_4000
+#EXTINF:-1,tvg-id="幸福娱乐" tvg-name="幸福娱乐" tvg-logo="https://epg.112114.xyz/logo/幸福娱乐.png" group-title="其他",CBN幸福娱乐
+https://live.goodiptv.club/api/sxg.php?id=xfyl_4000
+#EXTINF:-1,tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV4K
+https://live.metshop.top/msp.php?id=cctv4k
+#EXTINF:-1,tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="央视",CCTV8K
+https://live.metshop.top/msp.php?id=cctv8k
+#EXTINF:-1,tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://epg.112114.xyz/logo/大湾区卫视.png" group-title="卫视",大湾区卫视
+https://live.goodiptv.club/api/itouch.php?id=1197
+#EXTINF:-1,tvg-id="广东4K超高清" tvg-name="广东4K超高清" tvg-logo="https://epg.112114.xyz/logo/广东4K.png" group-title="广东",广东4K超高清
+https://live.goodiptv.club/api/itouch.php?id=1198
+#EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://epg.112114.xyz/logo/星空卫视.png" group-title="卫视",星空卫视
+http://192.168.10.1:5678/gudou.php?phone=&ptoken=ptoken&pserialnumber=pserialnumber&cid=cid&id=xingkong_1500
+#EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://epg.112114.xyz/logo/星空卫视.png" group-title="卫视",星空卫视
+http://192.168.10.1:5678/gudou.php?phone=15629929296&ptoken=15629929296ptoken&pserialnumber=15629929296pserialnumber&cid=15629929296cid&id=xingkong_1500
+#EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://epg.112114.xyz/logo/星空卫视.png" group-title="卫视",星空卫视
+http://192.168.10.1:5678/gudou.php?phone=15549332823&ptoken=15549332823ptoken&pserialnumber=15549332823pserialnumber&cid=15549332823cid&id=xingkong_1500
+#EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://epg.112114.xyz/logo/星空卫视.png" group-title="卫视",星空卫视
+http://192.168.10.1:5678/gudou.php?id=xingkong_1500
+#EXTINF:-1,tvg-id="大湾区卫视SD" tvg-name="大湾区卫视SD" tvg-logo="https://epg.112114.xyz/logo/大湾区卫视SD.png" group-title="卫视",大湾区卫视SD
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226218/index.m3u8
+#EXTINF:-1,tvg-id="LYTV" tvg-name="LYTV" tvg-logo="https://epg.112114.xyz/logo/LYTV.png" group-title="其他",LYTV
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226322/index.m3u8
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/中国环球.png" group-title="央视",CGTN新闻
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/环球纪录.png" group-title="央视",CGTN纪录
+http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
+#EXTINF:-1 group-title="卫视",翡翠台 
+https://iptv.hiper25.com/TVB/video.m3u8
+#EXTINF:-1 group-title="卫视",明珠台 
+https://iptv.hiper25.com/Pearl/video.m3u8
+#EXTINF:-1 group-title="卫视",澳门澳视
+https://iptv.hiper25.com/TDM/video.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/cctv3.png" group-title="•央视「IPV6」",CCTV3 4K「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/cctv5.png" group-title="•央视「IPV6」",CCTV5 4K「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/cctv16.png" group-title="•央视「IPV6」",CCTV16 4K「IPV6」
+http://[2409:8087:7000:20:1000::22]:6060/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
+#EXTINF:-1 tvg-name="cctv4K" tvg-logo="https://epg.112114.xyz/logo/cctv4k.png" group-title="•央视「IPV6」",CCTV4K「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8K" tvg-logo="https://epg.112114.xyz/logo/cctv8k.png" group-title="•央视「IPV6」",CCTV8K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]/ott.mobaibox.com/PLTV/4/224/3221228165/index.m3u8
-#EXTINF:-1 ,Unknown_36
-http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
-#EXTINF:-1 ,Unknown_48
-http://43.138.170.29:35455/douyu/4360438
-#EXTINF:-1 ,Unknown_64
-http://43.138.170.29:35455/douyu/9826611
-#EXTINF:-1 ,Unknown_82
-http://tc-tct.douyucdn2.cn/dyliveflv1/122402rK7MO9bXSq_2000.flv?wsAuth=8cea39337984fd3341cc9ec569502e4f&token=cpn-androidmpro-0-122402-0fcea45d2300cfa0ac75fafd8679bb53af10de8c33ae99d9&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=p
-#EXTINF:-1 ,Unknown_83
-http://tc-tct.douyucdn2.cn/dyliveflv1a/20415rnWbjg6Ex1K_2000.flv?wsAuth=2ccc7b4ba29208aaba62dae54cbbd68c&token=cpn-androidmpro-0-20415-b6774b3b3249db17fff84d73c7585c95e780dbccdb08e4bc&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=p
-#EXTINF:-1 ,Unknown_84
-http://tc-tct.douyucdn2.cn/dyliveflv1/85894rmovieChow_2000.flv?wsAuth=7d054e041804e80af8aa7e975e2d8573&token=cpn-androidmpro-0-85894-a3575d938a4aa309c687f5fb85a1009fc65cfbeeb2672310&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=pla
-#EXTINF:-1 ,Unknown_85
-http://tc-tct.douyucdn2.cn/dyliveflv1a/20415rnWbjg6Ex1K_2000.flv?wsAuth=99705a1921ddd49fb7079a02f02bedc4&token=cpn-androidmpro-0-20415-b6774b3b3249db17d8beee6676fdf877fe8b1576307ef8e6&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=p
-#EXTINF:-1 ,Unknown_242
-https://live.metshop.top/yy/1382749892
-#EXTINF:-1 ,Unknown_243
-https://live.metshop.top/yy/1382735573
-#EXTINF:-1 ,Unknown_244
-https://live.metshop.top/yy/24921161
-#EXTINF:-1 ,Unknown_245
-https://live.metshop.top/yy/1382736803
-#EXTINF:-1 ,Unknown_246
-https://live.metshop.top/yy/1354930924
-#EXTINF:-1 ,Unknown_247
-https://live.metshop.top/yy/1382745095
-#EXTINF:-1 ,Unknown_248
-https://live.metshop.top/yy/1355171357
-#EXTINF:-1 ,Unknown_249
-https://live.metshop.top/yy/24066336
-#EXTINF:-1 ,Unknown_250
-https://live.metshop.top/yy/1354143966
-#EXTINF:-1 ,Unknown_251
-https://live.metshop.top/yy/1459869766
-#EXTINF:-1 ,Unknown_252
-https://live.metshop.top/yy/1354888751
-#EXTINF:-1 ,Unknown_253
-https://live.metshop.top/yy/1351505899
-#EXTINF:-1 ,Unknown_254
-https://live.metshop.top/yy/1353685311
-#EXTINF:-1 ,Unknown_255
-https://live.metshop.top/yy/1353059120
-#EXTINF:-1 ,Unknown_256
-https://live.metshop.top/yy/24923327
-#EXTINF:-1 ,Unknown_257
-https://live.metshop.top/yy/37988782
-#EXTINF:-1 ,Unknown_258
-https://live.metshop.top/yy/1382745089
-#EXTINF:-1 ,Unknown_259
-https://live.metshop.top/yy/1352227227
-#EXTINF:-1 ,Unknown_260
-https://live.metshop.top/yy/1382702247
-#EXTINF:-1 ,Unknown_261
-https://live.metshop.top/yy/1382627144
-#EXTINF:-1 ,Unknown_262
-https://live.metshop.top/yy/1456668939
-#EXTINF:-1 ,Unknown_263
-https://live.metshop.top/yy/1382737886
-#EXTINF:-1 ,Unknown_264
-https://live.metshop.top/yy/29460894
-#EXTINF:-1 ,Unknown_265
-https://live.metshop.top/yy/1382690078
-#EXTINF:-1 ,Unknown_266
-https://live.metshop.top/yy/23402146
-#EXTINF:-1 ,Unknown_267
-https://live.metshop.top/yy/1454587259
-#EXTINF:-1 ,Unknown_268
-https://live.metshop.top/yy/1355479289
-#EXTINF:-1 ,Unknown_269
-https://live.metshop.top/yy/24407222
-#EXTINF:-1 ,Unknown_270
-https://live.metshop.top/yy/11352878
-#EXTINF:-1 ,Unknown_272
-https://live.metshop.top/yy/34229877
-#EXTINF:-1 ,Unknown_277
-https://live.metshop.top/yy/1353200190
-#EXTINF:-1 ,Unknown_278
-https://live.metshop.top/yy/1354932433
-#EXTINF:-1 ,Unknown_279
-https://live.metshop.top/yy/1354924839
-#EXTINF:-1 ,Unknown_280
-https://live.metshop.top/yy/1353312849
-#EXTINF:-1 ,Unknown_281
-https://live.metshop.top/huya/11342412
-#EXTINF:-1 ,Unknown_282
-https://live.metshop.top/huya/11342421
-#EXTINF:-1 ,Unknown_283
-https://live.metshop.top/huya/11342387
-#EXTINF:-1 ,Unknown_284
-https://live.metshop.top/huya/11342386
-#EXTINF:-1 ,Unknown_285
-https://live.metshop.top/huya/11602058
-#EXTINF:-1 ,Unknown_286
-https://live.metshop.top/huya/11601968
-#EXTINF:-1 ,Unknown_287
-https://live.metshop.top/huya/11352876
-#EXTINF:-1 ,Unknown_288
-https://live.metshop.top/huya/21059581
-#EXTINF:-1 ,Unknown_289
-https://live.metshop.top/huya/11602034
-#EXTINF:-1 ,Unknown_290
-https://live.metshop.top/huya/11342428
-#EXTINF:-1 ,Unknown_291
-https://live.metshop.top/huya/21059577
-#EXTINF:-1 ,Unknown_292
-https://live.metshop.top/huya/11342427
-#EXTINF:-1 ,Unknown_293
-https://live.metshop.top/huya/11352886
-#EXTINF:-1 ,Unknown_294
-https://live.metshop.top/huya/11352962
-#EXTINF:-1 ,Unknown_295
-https://live.metshop.top/huya/21059579
-#EXTINF:-1 ,Unknown_296
-https://live.metshop.top/huya/21059595
-#EXTINF:-1 ,Unknown_297
-https://live.metshop.top/huya/11279247
-#EXTINF:-1 ,Unknown_298
-https://live.metshop.top/huya/11602041
-#EXTINF:-1 ,Unknown_299
-https://live.metshop.top/huya/21059594
-#EXTINF:-1 ,Unknown_300
-https://live.metshop.top/huya/11352934
-#EXTINF:-1 ,Unknown_301
-https://live.metshop.top/huya/21059552
-#EXTINF:-1 ,Unknown_302
-https://live.metshop.top/huya/11601971
-#EXTINF:-1 ,Unknown_303
-https://live.metshop.top/huya/11342414
-#EXTINF:-1 ,Unknown_304
-https://live.metshop.top/huya/21059585
-#EXTINF:-1 ,Unknown_305
-https://live.metshop.top/huya/21059592
-#EXTINF:-1 ,Unknown_306
-https://live.metshop.top/huya/11352877
-#EXTINF:-1 ,Unknown_307
-https://live.metshop.top/huya/11602043
-#EXTINF:-1 ,Unknown_308
-https://live.metshop.top/huya/11352973
-#EXTINF:-1 ,Unknown_309
-https://live.metshop.top/huya/11336587
-#EXTINF:-1 ,Unknown_310
-https://live.metshop.top/huya/11342390
-#EXTINF:-1 ,Unknown_311
-https://live.metshop.top/huya/11279251
-#EXTINF:-1 ,Unknown_312
-https://live.metshop.top/huya/11342429
-#EXTINF:-1 ,Unknown_313
-https://live.metshop.top/huya/11342424
-#EXTINF:-1 ,Unknown_314
-https://live.metshop.top/huya/21059588
-#EXTINF:-1 ,Unknown_315
-https://live.metshop.top/huya/11352963
-#EXTINF:-1 ,Unknown_316
-https://live.metshop.top/huya/880261
-#EXTINF:-1 ,Unknown_317
-https://live.metshop.top/huya/21059599
-#EXTINF:-1 ,Unknown_318
-https://live.metshop.top/huya/11601986
-#EXTINF:-1 ,Unknown_319
-https://live.metshop.top/huya/11352941
-#EXTINF:-1 ,Unknown_320
-https://live.metshop.top/huya/11336719
-#EXTINF:-1 ,Unknown_321
-https://live.metshop.top/huya/21059578
-#EXTINF:-1 ,Unknown_322
-https://live.metshop.top/huya/11602075
-#EXTINF:-1 ,Unknown_323
-https://live.metshop.top/huya/21059587
-#EXTINF:-1 ,Unknown_324
-https://live.metshop.top/huya/21059574
-#EXTINF:-1 ,Unknown_325
-https://live.metshop.top/huya/11352974
-#EXTINF:-1 ,Unknown_326
-https://live.metshop.top/huya/11336590
-#EXTINF:-1 ,Unknown_327
-https://live.metshop.top/huya/11352884
-#EXTINF:-1 ,Unknown_328
-https://live.metshop.top/huya/11602077
-#EXTINF:-1 ,Unknown_329
-https://live.metshop.top/huya/11342423
-#EXTINF:-1 ,Unknown_330
-https://live.metshop.top/huya/11602044
-#EXTINF:-1 ,Unknown_331
-https://live.metshop.top/huya/11352894
-#EXTINF:-1 ,Unknown_332
-https://live.metshop.top/huya/11352897
-#EXTINF:-1 ,Unknown_333
-https://live.metshop.top/huya/11342395
-#EXTINF:-1 ,Unknown_334
-https://live.metshop.top/huya/11342435
-#EXTINF:-1 ,Unknown_335
-https://live.metshop.top/huya/11342419
-#EXTINF:-1 ,Unknown_336
-https://live.metshop.top/huya/11601977
-#EXTINF:-1 ,Unknown_337
-https://live.metshop.top/huya/11602033
-#EXTINF:-1 ,Unknown_338
-https://live.metshop.top/huya/11352965
-#EXTINF:-1 ,Unknown_339
-https://live.metshop.top/huya/11352969
-#EXTINF:-1 ,Unknown_340
-https://live.metshop.top/huya/11352887
-#EXTINF:-1 ,Unknown_341
-https://live.metshop.top/huya/21059580
-#EXTINF:-1 ,Unknown_342
-https://live.metshop.top/huya/11601981
-#EXTINF:-1 ,Unknown_343
-https://live.metshop.top/huya/11601960
-#EXTINF:-1 ,Unknown_344
-https://live.metshop.top/huya/11352903
-#EXTINF:-1 ,Unknown_345
-https://live.metshop.top/huya/21059596
-#EXTINF:-1 ,Unknown_346
-https://live.metshop.top/huya/21059554
-#EXTINF:-1 ,Unknown_347
-http://cfss.cc/cdn/hy/11342412.flv
-#EXTINF:-1 ,Unknown_348
-http://cfss.cc/cdn/hy/11342421.flv
-#EXTINF:-1 ,Unknown_349
-http://cfss.cc/cdn/hy/11342387.flv
-#EXTINF:-1 ,Unknown_350
-http://cfss.cc/cdn/hy/11342386.flv
-#EXTINF:-1 ,Unknown_351
-http://cfss.cc/cdn/hy/11602058.flv
-#EXTINF:-1 ,Unknown_352
-http://cfss.cc/cdn/hy/11601968.flv
-#EXTINF:-1 ,Unknown_353
-http://cfss.cc/cdn/hy/11352876.flv
-#EXTINF:-1 ,Unknown_354
-http://cfss.cc/cdn/hy/21059581.flv
-#EXTINF:-1 ,Unknown_355
-http://cfss.cc/cdn/hy/11602034.flv
-#EXTINF:-1 ,Unknown_356
-https://live.metshop.top/huya/11601972#http://cfss.cc/cdn/hy/11601972.flv
-#EXTINF:-1 ,Unknown_357
-https://live.metshop.top/huya/11282233#http://cfss.cc/cdn/hy/11282233.flv
-#EXTINF:-1 ,Unknown_358
-https://live.metshop.top/huya/11352949#http://cfss.cc/cdn/hy/11352949.flv
-#EXTINF:-1 ,Unknown_359
-https://live.metshop.top/huya/11602041#http://cfss.cc/cdn/hy/11602041.flv
-#EXTINF:-1 ,Unknown_360
-https://live.metshop.top/huya/11352909#http://cfss.cc/cdn/hy/11352909.flv
-#EXTINF:-1 ,Unknown_361
-https://live.metshop.top/huya/11352906#http://cfss.cc/cdn/hy/11352906.flv
-#EXTINF:-1 ,Unknown_362
-https://live.metshop.top/huya/11352935#http://cfss.cc/cdn/hy/11352935.flv
-#EXTINF:-1 ,Unknown_363
-http://cfss.cc/cdn/hy/11336587.flv
-#EXTINF:-1 ,Unknown_364
-http://cfss.cc/cdn/hy/11342390.flv
-#EXTINF:-1 ,Unknown_365
-http://cfss.cc/cdn/hy/11279251.flv
-#EXTINF:-1 ,Unknown_366
-http://cfss.cc/cdn/hy/11342429.flv
-#EXTINF:-1 ,Unknown_367
-http://cfss.cc/cdn/hy/11342424.flv
-#EXTINF:-1 ,Unknown_368
-http://cfss.cc/cdn/hy/21059588.flv
-#EXTINF:-1 ,Unknown_369
-http://cfss.cc/cdn/hy/11601981.flv
-#EXTINF:-1 ,Unknown_370
-http://cfss.cc/cdn/hy/11279247.flv
-#EXTINF:-1 ,Unknown_371
-http://cfss.cc/cdn/hy/11342428.flv
-#EXTINF:-1 ,Unknown_372
-http://cfss.cc/cdn/hy/21059577.flv
-#EXTINF:-1 ,Unknown_373
-http://cfss.cc/cdn/hy/11342427.flv
-#EXTINF:-1 ,Unknown_374
-http://cfss.cc/cdn/hy/11352886.flv
-#EXTINF:-1 ,Unknown_375
-http://cfss.cc/cdn/hy/11352962.flv
-#EXTINF:-1 ,Unknown_376
-http://cfss.cc/cdn/hy/21059579.flv
-#EXTINF:-1 ,Unknown_377
-http://cfss.cc/cdn/hy/21059595.flv
-#EXTINF:-1 ,Unknown_378
-http://cfss.cc/cdn/hy/11602041.flv
-#EXTINF:-1 ,Unknown_379
-http://cfss.cc/cdn/hy/21059594.flv
-#EXTINF:-1 ,Unknown_380
-http://cfss.cc/cdn/hy/11352934.flv
-#EXTINF:-1 ,Unknown_381
-http://cfss.cc/cdn/hy/21059552.flv
-#EXTINF:-1 ,Unknown_382
-http://cfss.cc/cdn/hy/11601971.flv
-#EXTINF:-1 ,Unknown_383
-http://cfss.cc/cdn/hy/11342414.flv
-#EXTINF:-1 ,Unknown_384
-http://cfss.cc/cdn/hy/21059585.flv
-#EXTINF:-1 ,Unknown_385
-http://cfss.cc/cdn/hy/21059592.flv
-#EXTINF:-1 ,Unknown_386
-http://cfss.cc/cdn/hy/11352877.flv
-#EXTINF:-1 ,Unknown_387
-http://cfss.cc/cdn/hy/11602043.flv
-#EXTINF:-1 ,Unknown_388
-http://cfss.cc/cdn/hy/11352973.flv
-#EXTINF:-1 ,Unknown_389
-http://cfss.cc/cdn/hy/880261.flv
-#EXTINF:-1 ,Unknown_390
-http://cfss.cc/cdn/hy/21059586.flv
-#EXTINF:-1 ,Unknown_391
-http://cfss.cc/cdn/hy/11352913.flv
-#EXTINF:-1 ,Unknown_392
-http://cfss.cc/cdn/hy/21059599.flv
-#EXTINF:-1 ,Unknown_393
-http://cfss.cc/cdn/hy/11601986.flv
-#EXTINF:-1 ,Unknown_394
-http://cfss.cc/cdn/hy/11352941.flv
-#EXTINF:-1 ,Unknown_395
-http://cfss.cc/cdn/hy/11336719.flv
-#EXTINF:-1 ,Unknown_396
-http://cfss.cc/cdn/hy//21059578.flv
-#EXTINF:-1 ,Unknown_397
-http://cfss.cc/cdn/hy/11602075.flv
-#EXTINF:-1 ,Unknown_398
-http://cfss.cc/cdn/hy/21059587.flv
-#EXTINF:-1 ,Unknown_399
-http://cfss.cc/cdn/hy/21059574.flv
-#EXTINF:-1 ,Unknown_400
-http://cfss.cc/cdn/hy/11352974.flv
-#EXTINF:-1 ,Unknown_401
-http://cfss.cc/cdn/hy/11336590.flv
-#EXTINF:-1 ,Unknown_402
-http://cfss.cc/cdn/hy/11352884.flv
-#EXTINF:-1 ,Unknown_403
-http://cfss.cc/cdn/hy/11602077.flv
-#EXTINF:-1 ,Unknown_404
-http://cfss.cc/cdn/hy/11342423.flv
-#EXTINF:-1 ,Unknown_405
-http://cfss.cc/cdn/hy/11602044.flv
-#EXTINF:-1 ,Unknown_406
-http://cfss.cc/cdn/hy/11352894.flv
-#EXTINF:-1 ,Unknown_407
-http://cfss.cc/cdn/hy/11352897.flv
-#EXTINF:-1 ,Unknown_408
-http://cfss.cc/cdn/hy/11342395.flv
-#EXTINF:-1 ,Unknown_409
-http://cfss.cc/cdn/hy/11342435.flv
-#EXTINF:-1 ,Unknown_410
-http://cfss.cc/cdn/hy/11342419.flv
-#EXTINF:-1 ,Unknown_411
-http://cfss.cc/cdn/hy/11601977.flv
-#EXTINF:-1 ,Unknown_412
-http://cfss.cc/cdn/hy/11602033.flv
-#EXTINF:-1 ,Unknown_413
-http://cfss.cc/cdn/hy/11352965.flv
-#EXTINF:-1 ,Unknown_414
-http://cfss.cc/cdn/hy/11352969.flv
-#EXTINF:-1 ,Unknown_415
-http://cfss.cc/cdn/hy/11352887.flv
-#EXTINF:-1 ,Unknown_416
-http://cfss.cc/cdn/hy/21059580.flv
-#EXTINF:-1 ,Unknown_418
-http://cfss.cc/cdn/hy/11601960.flv
-#EXTINF:-1 ,Unknown_419
-http://cfss.cc/cdn/hy/11352903.flv
-#EXTINF:-1 ,Unknown_420
-http://cfss.cc/cdn/hy/21059596.flv
-#EXTINF:-1 ,Unknown_421
-http://cfss.cc/cdn/hy/21059554.flv
-#EXTINF:-1 ,Unknown_422
-https://www.goodiptv.club/huya/11342412
-#EXTINF:-1 ,Unknown_423
-https://www.goodiptv.club/huya/11342421
-#EXTINF:-1 ,Unknown_424
-https://www.goodiptv.club/huya/11342387
-#EXTINF:-1 ,Unknown_425
-https://www.goodiptv.club/huya/11342386
-#EXTINF:-1 ,Unknown_426
-https://www.goodiptv.club/huya/11602058
-#EXTINF:-1 ,Unknown_427
-https://www.goodiptv.club/huya/11601968
-#EXTINF:-1 ,Unknown_428
-https://www.goodiptv.club/huya/11352876
-#EXTINF:-1 ,Unknown_429
-https://www.goodiptv.club/huya/21059581
-#EXTINF:-1 ,Unknown_430
-https://www.goodiptv.club/huya/11602034
-#EXTINF:-1 ,Unknown_431
-https://www.goodiptv.club/huya/11601972
-#EXTINF:-1 ,Unknown_432
-https://www.goodiptv.club/huya/11282233
-#EXTINF:-1 ,Unknown_433
-https://www.goodiptv.club/huya/11352949
-#EXTINF:-1 ,Unknown_434
-https://www.goodiptv.club/huya/11602041
-#EXTINF:-1 ,Unknown_435
-https://www.goodiptv.club/huya/11352909
-#EXTINF:-1 ,Unknown_436
-https://www.goodiptv.club/huya/11352906
-#EXTINF:-1 ,Unknown_437
-https://www.goodiptv.club/huya/11352935
-#EXTINF:-1 ,Unknown_438
-https://www.goodiptv.club/huya/11336587
-#EXTINF:-1 ,Unknown_439
-https://www.goodiptv.club/huya/11342390
-#EXTINF:-1 ,Unknown_440
-https://www.goodiptv.club/huya/11279251
-#EXTINF:-1 ,Unknown_441
-https://www.goodiptv.club/huya/11342429
-#EXTINF:-1 ,Unknown_442
-https://www.goodiptv.club/huya/11342424
-#EXTINF:-1 ,Unknown_443
-https://www.goodiptv.club/huya/21059588
-#EXTINF:-1 ,Unknown_444
-https://www.goodiptv.club/huya/11601981
-#EXTINF:-1 ,Unknown_445
-https://www.goodiptv.club/huya/11279247
-#EXTINF:-1 ,Unknown_446
-https://www.goodiptv.club/huya/11342428
-#EXTINF:-1 ,Unknown_447
-https://www.goodiptv.club/huya/21059577
-#EXTINF:-1 ,Unknown_448
-https://www.goodiptv.club/huya/11342427
-#EXTINF:-1 ,Unknown_449
-https://www.goodiptv.club/huya/11352886
-#EXTINF:-1 ,Unknown_450
-https://www.goodiptv.club/huya/11352962
-#EXTINF:-1 ,Unknown_451
-https://www.goodiptv.club/huya/21059579
-#EXTINF:-1 ,Unknown_452
-https://www.goodiptv.club/huya/21059595
-#EXTINF:-1 ,Unknown_454
-https://www.goodiptv.club/huya/21059594
-#EXTINF:-1 ,Unknown_455
-https://www.goodiptv.club/huya/11352934
-#EXTINF:-1 ,Unknown_456
-https://www.goodiptv.club/huya/21059552
-#EXTINF:-1 ,Unknown_457
-https://www.goodiptv.club/huya/11601971
-#EXTINF:-1 ,Unknown_458
-https://www.goodiptv.club/huya/11342414
-#EXTINF:-1 ,Unknown_459
-https://www.goodiptv.club/huya/21059585
-#EXTINF:-1 ,Unknown_460
-https://www.goodiptv.club/huya/21059592
-#EXTINF:-1 ,Unknown_461
-https://www.goodiptv.club/huya/11352877
-#EXTINF:-1 ,Unknown_462
-https://www.goodiptv.club/huya/11602043
-#EXTINF:-1 ,Unknown_463
-https://www.goodiptv.club/huya/11352973
-#EXTINF:-1 ,Unknown_464
-https://www.goodiptv.club/huya/880261
-#EXTINF:-1 ,Unknown_465
-https://www.goodiptv.club/huya/21059586
-#EXTINF:-1 ,Unknown_466
-https://www.goodiptv.club/huya/11352913
-#EXTINF:-1 ,Unknown_467
-https://www.goodiptv.club/huya/21059599
-#EXTINF:-1 ,Unknown_468
-https://www.goodiptv.club/huya/11601986
-#EXTINF:-1 ,Unknown_469
-https://www.goodiptv.club/huya/11352941
-#EXTINF:-1 ,Unknown_470
-https://www.goodiptv.club/huya/11336719
-#EXTINF:-1 ,Unknown_472
-https://www.goodiptv.club/huya/11602075
-#EXTINF:-1 ,Unknown_473
-https://www.goodiptv.club/huya/21059587
-#EXTINF:-1 ,Unknown_474
-https://www.goodiptv.club/huya/21059574
-#EXTINF:-1 ,Unknown_475
-https://www.goodiptv.club/huya/11352974
-#EXTINF:-1 ,Unknown_476
-https://www.goodiptv.club/huya/11336590
-#EXTINF:-1 ,Unknown_477
-https://www.goodiptv.club/huya/11352884
-#EXTINF:-1 ,Unknown_478
-https://www.goodiptv.club/huya/11602077
-#EXTINF:-1 ,Unknown_479
-https://www.goodiptv.club/huya/11342423
-#EXTINF:-1 ,Unknown_480
-https://www.goodiptv.club/huya/11602044
-#EXTINF:-1 ,Unknown_481
-https://www.goodiptv.club/huya/11352894
-#EXTINF:-1 ,Unknown_482
-https://www.goodiptv.club/huya/11352897
-#EXTINF:-1 ,Unknown_483
-https://www.goodiptv.club/huya/11342395
-#EXTINF:-1 ,Unknown_484
-https://www.goodiptv.club/huya/11342435
-#EXTINF:-1 ,Unknown_485
-https://www.goodiptv.club/huya/11342419
-#EXTINF:-1 ,Unknown_486
-https://www.goodiptv.club/huya/11601977
-#EXTINF:-1 ,Unknown_487
-https://www.goodiptv.club/huya/11602033
-#EXTINF:-1 ,Unknown_488
-https://www.goodiptv.club/huya/11352965
-#EXTINF:-1 ,Unknown_489
-https://www.goodiptv.club/huya/11352969
-#EXTINF:-1 ,Unknown_490
-https://www.goodiptv.club/huya/11352887
-#EXTINF:-1 ,Unknown_491
-https://www.goodiptv.club/huya/21059580
-#EXTINF:-1 ,Unknown_493
-https://www.goodiptv.club/huya/11601960
-#EXTINF:-1 ,Unknown_494
-https://www.goodiptv.club/huya/11352903
-#EXTINF:-1 ,Unknown_495
-https://www.goodiptv.club/huya/21059596
-#EXTINF:-1 ,Unknown_496
-https://www.goodiptv.club/huya/21059554
-#EXTINF:-1 ,Unknown_497
-https://live.metshop.top/huya/23864973
-#EXTINF:-1 ,Unknown_498
-https://live.metshop.top/huya/23734246
-#EXTINF:-1 ,Unknown_499
-https://live.metshop.top/huya/21136378
+#EXTINF:-1 tvg-name="凤凰香港" group-title="•数字「IPV6」",凤凰香港「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
+#EXTINF:-1 tvg-name="凤凰中文" group-title="•数字「IPV6」",凤凰中文「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb19]/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="•数字「IPV6」",凤凰资讯「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/previews/0/5/1/051b8607cae8cca6b9d5898b7212266f-full" group-title="直播",Lifelike_Panty
+https://edge-hls.doppiocdn.com/hls/100418440/master/100418440.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/1/8/f/18f8a6c5bcaf72a70f562a7d8347c654-full" group-title="直播",ShyChi
+https://edge-hls.doppiocdn.com/hls/101460943/master/101460943.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/6/0/2/602ba2bec65d66945290e2a38bb21ba7-full" group-title="直播",IsabellaEtthan
+https://edge-hls.doppiocdn.com/hls/1128670/master/1128670.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/4/6/9/4694cf8b66d1902ace7602768be01b3c-full" group-title="直播",CharmingRuby
+https://edge-hls.doppiocdn.com/hls/19455418/master/19455418.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/5/d/b/5db913cb1f597c9a0d03d0d1c0d99c55-full" group-title="直播",YourHobby
+https://edge-hls.doppiocdn.com/hls/20166219/master/20166219.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/1/4/1/1417ba8c220215a96d2d828022a4806e-full" group-title="直播",Kira_sexxx
+https://edge-hls.doppiocdn.com/hls/28602377/master/28602377.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/1/d/3/1d3a37a7894a4475e620b42a7a44cd38-full" group-title="直播",JessyRey
+https://edge-hls.doppiocdn.com/hls/33235663/master/33235663.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/6/9/9/699f0392f1670632a6e93ab2c5a59cd1-full" group-title="直播",KaryMinogue
+https://edge-hls.doppiocdn.com/hls/36651854/master/36651854.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/5/2/f/52f0f2c1bb608553dc5ee5f91685786a-full" group-title="直播",charming_NaNa21
+https://edge-hls.doppiocdn.com/hls/44356188/master/44356188.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/7/5/6/756cc5679640548567b982ff101bc6c9-full" group-title="直播",LulaHofyn
+https://edge-hls.doppiocdn.com/hls/46123311/master/46123311.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/1/2/e/12e25e6a252fb9869eda7204ffd6f422-full" group-title="直播",ibiddi
+https://edge-hls.doppiocdn.com/hls/48575608/master/48575608.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/f/c/4/fc448b2ee530b50822304f2bd88c7323-full" group-title="直播",Anavi_
+https://edge-hls.doppiocdn.com/hls/51783366/master/51783366.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/6/9/5/6959255cd694eb4c6475172d15e527dc-full" group-title="直播",Sex_Echelon
+https://edge-hls.doppiocdn.com/hls/52422727/master/52422727.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/4/e/8/4e883235a5a79a75eefb004e71dd8200-full" group-title="直播",AlisaWhite
+https://edge-hls.doppiocdn.com/hls/55347454/master/55347454.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/2/b/6/2b6a218c7a53ee309b4f5f2bdd87732b-full" group-title="直播",Vassiilisa
+https://edge-hls.doppiocdn.com/hls/60830709/master/60830709.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/9/f/f/9ffa71670e5233774dc10639a6563ed2-full" group-title="直播",ScarlettQuate
+https://edge-hls.doppiocdn.com/hls/62101757/master/62101757.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/8/3/9/839321da25ec553c467c1e5bd60031e2-full" group-title="直播",610Stella
+https://edge-hls.doppiocdn.com/hls/63188730/master/63188730.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/b/1/2/b12505ed8f5a88eb6c880b08fc5e3f26-full" group-title="直播",Eliauk_Q
+https://edge-hls.doppiocdn.com/hls/65380635/master/65380635.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/4/5/4/454b26b84d756c9393d2412a583941e7-full" group-title="直播",AmmyScotch
+https://edge-hls.doppiocdn.com/hls/65410461/master/65410461.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/3/b/3/3b302c3d557fee0b637fdbc0ef32a1ea-fullhttps://i2.100024.xyz/2023/01/30/y0zzj7.webp" group-title="直播",candy-yiyi
+https://edge-hls.doppiocdn.com/hls/66502571/master/66502571.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/4/c/b/4cb2721992814a53056eaed6da941662-full" group-title="直播",MennaLee
+https://edge-hls.doppiocdn.com/hls/66949665/master/66949665.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/e/b/3/eb389d8b125047592a18211e49f81463-full" group-title="直播",Alisa-M
+https://edge-hls.doppiocdn.com/hls/70133259/master/70133259.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/3/d/6/3d66912b9f8b51ff5087ddfbf5559a8f-full" group-title="直播",EarlyFlowerr
+https://edge-hls.doppiocdn.com/hls/71595940/master/71595940.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/0/6/4/064dde0374fe82b95d2204f5eb11f65a-full" group-title="直播",BadAngels666
+https://edge-hls.doppiocdn.com/hls/72074659/master/72074659.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/6/0/e/60e10f96ab8a085fa4201d457ca6e7f5-full" group-title="直播",lub_pearch
+https://edge-hls.doppiocdn.com/hls/72335868/master/72335868.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/9/b/4/9b43359d4d3f316e3e501331f91152dc-full" group-title="直播",IU_party
+https://edge-hls.doppiocdn.com/hls/73770510/master/73770510.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/f/b/0/fb0ab3932ca365fb17bb0f002794e3cc-full" group-title="直播",Elenababy-666
+https://edge-hls.doppiocdn.com/hls/75130636/master/75130636.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/6/8/5/685aeb465e36599c833e71fc65dd6008-full" group-title="直播",Eva-Lung
+https://edge-hls.doppiocdn.com/hls/76999915/master/76999915.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/c/0/f/c0f28ce66ce07cedfde4e8d8c8e58a00-full" group-title="直播",Caroline168
+https://edge-hls.doppiocdn.com/hls/78145290/master/78145290.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/f/8/b/f8b62d683a9f7037af13af398f688d8d-full.webp" group-title="直播",Sweety_one_
+https://edge-hls.doppiocdn.com/hls/78748017/master/78748017.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/a/6/7/a6765193c052b5f70eb2cedc58a5c4ae-full" group-title="直播",hk_Leilei
+https://edge-hls.doppiocdn.com/hls/79922071/master/79922071.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/1/9/7/1976efdee3e99c32940845a55b046b17-full" group-title="直播",SexyDoll_JOJO
+https://edge-hls.doppiocdn.com/hls/81368539/master/81368539.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/9/3/1/931fbee59aedfab20585b83f10109e33-full" group-title="直播",M--I--A
+https://edge-hls.doppiocdn.com/hls/82290028/master/82290028.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/previews/2/a/d/2ad1046ab4bd3ee5c05be923e457c61a-full" group-title="直播",barbiehumpxxx
+https://edge-hls.doppiocdn.com/hls/84207531/master/84207531.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/1/e/8/1e8640c28e6e3623a49830ad41fa4513-full" group-title="直播",amandateasingg_
+https://edge-hls.doppiocdn.com/hls/85624527/master/85624527.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/a/a/6/aa6ea22b4f97a9dce02575fec60809cb-full" group-title="直播",Lindsi_Cutie
+https://edge-hls.doppiocdn.com/hls/86175660/master/86175660.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/9/c/2/9c272a47acae949f5db42c917a24e870-full" group-title="直播",JennyJoice
+https://edge-hls.doppiocdn.com/hls/86590299/master/86590299.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/0/c/b/0cba71daa9482b2d0b7046b46b47b4fe-full" group-title="直播",KissAndTip
+https://edge-hls.doppiocdn.com/hls/87612570/master/87612570.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/b/7/6/b76d2e3f3bdd748c5b0b3fe94218ae47-full" group-title="直播",SophieBaley
+https://edge-hls.doppiocdn.com/hls/87856098/master/87856098.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/d/8/5/d85d6e45e70f05d804cbd3986193cb44-full" group-title="直播",Swag_SASA
+https://edge-hls.doppiocdn.com/hls/87862444/master/87862444.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/c/2/1/c21031d4f7334177869e205591735e1b-full" group-title="直播",Silvia___
+https://edge-hls.doppiocdn.com/hls/89443470/master/89443470.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/b/4/9/b499d996cdde29c9fdf6e18068162e8d-full" group-title="直播",Office_Assistant
+https://edge-hls.doppiocdn.com/hls/93944140/master/93944140.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/2/e/2/2e2098d0a7c89d746ba2a8a339aa8f9f-full" group-title="直播",CAiHongtutu
+https://edge-hls.doppiocdn.com/hls/94875788/master/94875788.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.strpst.com/avatars/6/f/e/6fe79dd89b6b3e16e76baec630733bbd-full" group-title="直播",himari_jp
+https://edge-hls.doppiocdn.com/hls/95388833/master/95388833.m3u8
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://huyaimg.msstatic.com/avatar/1071/97/1b70b2b18fa156936b69e336addd50_180_135.jpg?1612949282",李多多sweetie
+https://yang-1989.eu.org/huya/21518291
+#EXTINF:-1 group-title="英雄联盟电竞经理" tvg-logo="https://huyaimg.msstatic.com/avatar/1066/44/df69a98e456461cdd0bc02acef6996_180_135.jpg?1656083916",狂鸟丶火腿
+https://yang-1989.eu.org/huya/26924603
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://huyaimg.msstatic.com/avatar/1024/10/9b850d6da77704b3c0a2aa125bbdce_180_135.jpg?1568978217",乏味iiiii
+https://yang-1989.eu.org/huya/18186521
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://huyaimg.msstatic.com/avatar/1034/a9/ca0621fd79041a1ff7cd81b81cce4e_180_135.jpg?1557170028",AF-王者强
+https://yang-1989.eu.org/huya/103892
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://huyaimg.msstatic.com/avatar/1043/6d/348db563015797f8b543903b526d8f_180_135.jpg?1630167939",众乐丶凡人
+https://yang-1989.eu.org/huya/517387
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202208/80d30c83d05441ba96448b3589eb2f76_middle.jpg",盐气少女团团子
+https://yang-1989.eu.org/douyu/10002359
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202206/e5b398faf15e4a0d9693ba17f32ae8ff_middle.jpg",一刀怪
+https://yang-1989.eu.org/douyu/10080334
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202203/3fc92306470845c983d6460df715c140_middle.jpg",一只鬼呀
+https://yang-1989.eu.org/douyu/10088546
+#EXTINF:-1 group-title="英雄联盟" tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202112/fe54950888f24584919d101a0eef9f28_middle.jpg",青柠aouo
+https://yang-1989.eu.org/douyu/9951561
