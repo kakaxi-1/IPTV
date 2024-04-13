@@ -1,86 +1,25 @@
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1
-rtp://239.254.200.45:8008
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1
-rtsp://192.168.34.150/PLTV/88888914/224/3221225795/10000100000000060000000000000658_0.smil
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2
-rtp://239.254.200.158:6000
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2
-rtsp://192.168.34.150/PLTV/88888914/224/3221226140/10000100000000060000000000114913_0.smil
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3
-rtp://239.254.201.152:7205
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3
-rtsp://192.168.34.150/PLTV/88888914/224/3221227416/227151682.smil
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4
-rtp://239.254.200.190:6307
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4
-rtsp://192.168.34.150/PLTV/88888914/224/3221226233/10000100000000060000000000207086_0.smil
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4欧洲
-rtp://239.254.201.205:4220
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4欧洲
-rtsp://192.168.34.150/PLTV/88888914/224/3221227494/237541929.smil
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4美洲
-rtp://239.254.201.206:4220
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4美洲
-rtsp://192.168.34.150/PLTV/88888914/224/3221227490/237543079.smil
-#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="地方",CCTV-4K
-rtp://239.254.200.122:7266
-#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="地方",CCTV-4K
-rtsp://192.168.34.150/PLTV/88888914/224/3221227605/377797997.smil
-#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV-5
-rtp://239.254.201.153:7206
-#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV-5
-rtsp://192.168.34.150/PLTV/88888914/224/3221227409/227152435.smil
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV-6
-rtp://239.254.201.154:7207
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV-6
-rtsp://192.168.34.150/PLTV/88888914/224/3221227412/227151684.smil
-#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV-7
-rtp://239.254.200.159:6000
-#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV-7
-rtsp://192.168.34.150/PLTV/88888914/224/3221226143/10000100000000060000000000120499_0.smil
-#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视",CCTV-8
-rtp://239.254.201.155:7208
-#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视",CCTV-8
-rtsp://192.168.34.150/PLTV/88888914/224/3221227426/227151683.smil
-#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视",CCTV-9
-rtp://239.254.200.59:8112
-#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视",CCTV-9
-rtsp://192.168.34.150/PLTV/88888914/224/3221226008/10000100000000060000000000000729_0.smil
-#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视",CCTV-10
-rtp://239.254.200.160:6000
-#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视",CCTV-10
-rtsp://192.168.34.150/PLTV/88888914/224/3221226146/10000100000000060000000000120500_0.smil
-#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视",CCTV-11
-rtp://239.254.201.123:8120
-#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视",CCTV-11
-rtsp://192.168.34.150/PLTV/88888914/224/3221227495/228608729.smil
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视",CCTV-12
-rtp://239.254.200.161:6000
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视",CCTV-12
-rtsp://192.168.34.150/PLTV/88888914/224/3221226149/10000100000000060000000000120501_0.smil
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",CCTV-13
-rtp://239.254.200.9:8264
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",CCTV-13
-rtsp://192.168.34.150/PLTV/88888914/224/3221225654/10000100000000060000000000000503_0.smil
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视",CCTV-14
-rtp://239.254.200.162:6000
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视",CCTV-14
-rtsp://192.168.34.150/PLTV/88888914/224/3221226152/10000100000000060000000000120502_0.smil
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15
-rtp://239.254.201.124:8136
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15
-rtsp://192.168.34.150/PLTV/88888914/224/3221227482/228609146.smil
-#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17
-rtp://239.254.201.120:8144
-#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17
-rtsp://192.168.34.150/PLTV/88888914/224/3221227361/138584028.smil
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+
-rtp://239.254.200.46:8004
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+
-rtsp://192.168.34.150/PLTV/88888914/224/3221227468/251827541.smil
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视"
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
 http://wouu.net:9977/udp/239.254.201.228:7255
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视"
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
 http://wouu.net:9977/udp/239.254.200.45:8008
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视"
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
 http://wouu.net:9977/udp/239.93.0.156:2193
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+rtsp://192.168.34.150/PLTV/88888914/224/3221227506/258433143.smil
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+rtsp://192.168.34.150/PLTV/88888914/224/3221226386/10000100000000060000000000538321_0.smil
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="1"
