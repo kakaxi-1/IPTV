@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="	https://epg.112114.xyz/pp.xml"
+#EXTM3U x-tvg-url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/Troray/IPTV/main/tvxml.xml,https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/EPG-test/main/tvxml-test.xml.gz"
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视数字",CCTV-1 
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视数字",CCTV-2 
