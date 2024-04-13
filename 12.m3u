@@ -79,8 +79,8 @@ rtp://239.254.200.46:8004
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+
 rtsp://192.168.34.150/PLTV/88888914/224/3221227468/251827541.smil
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视"
-http://wouu.net:9977/rtp/239.254.201.228:7255
+http://wouu.net:9977/udp/239.254.201.228:7255
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视"
-http://wouu.net:9977/rtp/239.254.200.45:8008
+http://wouu.net:9977/udp/239.254.200.45:8008
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="央视"
 http://wouu.net:9977/udp/239.93.0.156:2193
