@@ -1,28 +1,28 @@
 #EXTM3U
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="其他",1
-http://59.55.35.32:20000/hls/23/index.m3u8
+http://itms.xznet.org:41097/rtp/239.254.201.150:6345
 #EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="其他",2
-http://59.55.35.32:20000/hls/11/index.m3u8
+http://itms.xznet.org:41097/rtp/239.254.201.201:7269
 #EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",3
-http://59.55.35.32:20000/hls/34/index.m3u8
+http://itms.xznet.org:41097/rtp/239.254.201.157:6269
 #EXTINF:-1,tvg-id="4K综艺" tvg-name="4K综艺" tvg-logo="https://epg.112114.xyz/logo/4K综艺.png" group-title="其他",4
-http://59.55.35.32:20000/hls/39/index.m3u8
+http://itms.xznet.org:41097/rtp/239.254.201.163:6354
 #EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="其他",5
-http://59.55.35.32:20000/hls/43/index.m3u8
+http://itms.xznet.org:41097/rtp/239.254.201.164:6355
 #EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="其他",6
-http://111.224.83.68:1024/rtp/239.254.201.228:7255
+http://itms.xznet.org:41097/rtp/239.254.201.165:6358
 #EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="其他",7
-http://111.224.83.68:1024/rtp/239.254.200.110:6241
+http://itms.xznet.org:41097/rtp/239.254.201.167:6360
 #EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="其他",8
-http://111.224.83.68:1024/rtp/239.254.201.201:7269
+http://itms.xznet.org:41097/rtp/239.254.201.176:7221
 #EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="其他",9
-http://111.224.83.68:1024/rtp/239.254.200.142:6256
+http://itms.xznet.org:41097/rtp/239.254.201.182:7227
 #EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="其他",10
-http://111.224.83.68:1024/rtp/239.254.201.164:6355
+http://itms.xznet.org:41097/rtp/239.254.201.217:7250
 #EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="其他",11
-http://111.224.83.68:1024/rtp/239.254.201.165:6358
+http://itms.xznet.org:41097/rtp/239.254.201.228:7255
 #EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="其他",12
-http://111.224.83.68:1024/rtp/239.254.201.166:6359
+http://itms.xznet.org:41097/rtp/239.254.201.1:5214
 #EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",13
 http://111.224.83.68:1024/rtp/239.254.201.167:6360
 #EXTINF:-1,tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="其他",14
