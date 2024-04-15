@@ -1,51 +1,7 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="其他",1
-http://59.55.35.32:20000/hls/23/index.m3u8
-#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="其他",2
-http://59.55.35.32:20000/hls/11/index.m3u8
-#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",3
-http://59.55.35.32:20000/hls/32/index.m3u8
-#EXTINF:-1,tvg-id="4K综艺" tvg-name="4K综艺" tvg-logo="https://epg.112114.xyz/logo/4K综艺.png" group-title="其他",4
-http://59.55.35.32:20000/hls/34/index.m3u8
-#EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="其他",5
-http://59.55.35.32:20000/hls/39/index.m3u8
-#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="其他",6
-http://59.55.35.32:20000/hls/43/index.m3u8
-#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="其他",7
-http://61.134.238.66:5555/rtp/226.0.2.226:9720
-#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="其他",8
-http://61.134.238.66:5555/rtp/226.0.2.78:8536
-#EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="其他",9
-http://61.134.238.66:5555/rtp/226.0.2.81:8560
-#EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="其他",10
-http://61.134.238.66:5555/rtp/226.0.2.84:8584
-#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="其他",11
-http://61.134.238.66:5555/rtp/226.0.2.182:9368
-#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="其他",12
-http://61.134.238.66:5555/rtp/226.0.2.183:9376
-#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",13
-http://113.138.134.172:8001/rtp/239.111.205.72:5140
-#EXTINF:-1,tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="其他",14
-http://113.138.134.172:8001/rtp/239.111.205.2:5140
-#EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="其他",15
-http://113.138.134.172:8001/rtp/239.112.205.236:5140
-#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="其他",16
-http://113.138.134.172:8001/rtp/239.111.205.4:5140
-#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="其他",17
-http://113.138.134.172:8001/rtp/239.112.205.135:5140
-#EXTINF:-1,tvg-id="CHanne V" tvg-name="CHanne V" tvg-logo="https://epg.112114.xyz/logo/CHANNEV.png" group-title="其他",CHanne V
-http://111.200.180.179:7002/stream/channelid/2022830165?profile=pass
-#EXTINF:-1,tvg-id="CHANNELNEWSASIA" tvg-name="CHANNELNEWSASIA" tvg-logo="https://epg.112114.xyz/logo/CHANNELNEWSASIA.png" group-title="其他",Channel[V]高清
-http://116.55.177.168:4000/udp/239.200.200.131:8888
-#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V" tvg-logo="https://epg.112114.xyz/logo/CHANNELV.png" group-title="其他",CHANNEL-V
-http://125.69.97.4:8888/udp/239.93.0.157:2194
-#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V" tvg-logo="https://epg.112114.xyz/logo/CHANNELV.png" group-title="其他",CHANNEL-V
-http://125.69.97.4:8888/udp/239.93.1.7:2194
-#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V" tvg-logo="https://epg.112114.xyz/logo/CHANNELV.png" group-title="其他",CHANNEL-V
-http://118.112.90.2:8888/udp/239.93.0.157:2194
-#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V" tvg-logo="https://epg.112114.xyz/logo/CHANNELV.png" group-title="其他",CHANNEL-V
-http://118.112.90.2:8888/udp/239.93.1.7:2194
-#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V" tvg-logo="https://epg.112114.xyz/logo/CHANNELV.png" group-title="其他",CHANNEL-V
-http://118.114.222.237:8888/udp/239.93.1.7:2194
-#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V" tvg-logo="https://epg.112114.xyz/logo/CHANNELV.png" group-title="其他",CHANNEL-V
-http://118.114.222.237:8888/udp/239.93.0.157:2194
+#EXTINF:-1,tvg-id="星空" tvg-name="星空，" tvg-logo="https://epg.112114.xyz/logo/星空，HTTP://.71.57.:/UDP/.93.1.10:.png" group-title="其他",星空，http://125.71.57.181:6066/udp/239.93.1.10:2193
+http://125.71.57.181:6066/udp/239.93.1.10:2193
+#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V，" tvg-logo="https://epg.112114.xyz/logo/CHANNELV，HTTP://.71.57.:/UDP/.93.0.:.png" group-title="其他",CHANNEL-V，http://125.71.57.181:6066/udp/239.93.0.157:2194
+http://125.71.57.181:6066/udp/239.93.0.157:2194
+#EXTINF:-1,tvg-id="CHANNEL-V" tvg-name="CHANNEL-V，" tvg-logo="https://epg.112114.xyz/logo/CHANNELV，HTTP://.71.57.:/UDP/.93.1.7:.png" group-title="其他",CHANNEL-V，http://125.71.57.181:6066/udp/239.93.1.7:2194
+http://125.71.57.181:6066/udp/239.93.1.7:2194
