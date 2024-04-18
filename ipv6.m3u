@@ -243,14 +243,8 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010062/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="newtv金牌综艺" tvg-name="newtv金牌综艺" tvg-logo="https://live.fanmingming.com/tv/NEWTV金牌综艺.png" group-title="数字经典",金牌综艺
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010086/1.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="newtv武博世界" tvg-name="newtv武博世界" tvg-logo="https://live.fanmingming.com/tv/NEWTV武博世界.png" group-title="数字经典",武博世界
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010135/1.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="newtv炫舞未来" tvg-name="newtv炫舞未来" tvg-logo="https://live.fanmingming.com/tv/NEWTV炫舞未来.png" group-title="数字经典",炫舞未来
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010039/1.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="newtv怡伴健康" tvg-name="newtv怡伴健康" tvg-logo="https://live.fanmingming.com/tv/NEWTV怡伴健康.png" group-title="数字经典",怡伴健康
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010082/1.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="newtv爱情喜剧" tvg-name="newtv爱情喜剧" tvg-logo="https://live.fanmingming.com/tv/NEWTV爱情喜剧.png" group-title="数字经典",爱情喜剧
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010000/1.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="newtv古装剧场" tvg-name="newtv古装剧场" tvg-logo="https://live.fanmingming.com/tv/NEWTV古装剧场.png" group-title="数字经典",古装剧场
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010004/1.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="newtv超级体育" tvg-name="newtv超级体育" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级体育.png" group-title="数字经典",超级体育
@@ -321,8 +315,6 @@ http://43.138.170.29:35455/douyu/2516864
 
 #EXTINF:-1,tvg-id="影视轮播17" tvg-name="影视轮播17" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播17
 
-#EXTINF:-1,tvg-id="TVBS NEWS" tvg-name="TVBS NEWS" tvg-logo="https://upload.112114.xyz/logo/TVBSNEWS.png" group-title="港澳台",TVBS NEWS
-http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1,tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://upload.112114.xyz/logo/台视新闻.png" group-title="港澳台",台视新闻
 http://66.165.240.154:8080/live/tyxltsxw3/hls.m3u8
 #EXTINF:-1,tvg-id="三立INEWS新闻" tvg-name="三立INEWS新闻" tvg-logo="https://upload.112114.xyz/logo/三立INEWS新闻.png" group-title="港澳台",三立INEWS新闻
@@ -334,15 +326,14 @@ http://66.165.240.154:8080/live/tymsxw1/hls.m3u8
 #EXTINF:-1,tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="https://upload.112114.xyz/logo/中天新闻.png" group-title="港澳台",中天新闻
 http://66.165.240.154:8080/live/ztylt02/hls.m3u8
 #EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://112114.xyz/logo/寰宇新闻.png" group-title="港澳台",寰宇新闻
-http://ali.hlspull.yximgs.com:80/live/68633ee03e842665b26adbc16167c077.flv
+
 #EXTINF:-1,tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="https://upload.112114.xyz/logo/非凡新闻.png" group-title="港澳台",非凡新闻
 rtmp://220.130.201.73/sat/tv581
 #EXTINF:-1,tvg-id="华语电视" tvg-name="华语电视" tvg-logo="https://upload.112114.xyz/logo/华语电视.png" group-title="港澳台",华语电视
 http://66.165.240.154:8080/live/tytvbs11/hls.m3u8
 #EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://upload.112114.xyz/logo/中视.png" group-title="港澳台",中视
-http://66.165.240.154:8080/live/ztylt06/hls.m3u8
-#EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://upload.112114.xyz/logo/中视.png" group-title="港澳台",中视
 rtmp://220.130.201.73/sat/tv091
+http://66.165.240.154:8080/live/ztylt06/hls.m3u8
 #EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://upload.112114.xyz/logo/台视.png" group-title="港澳台",台视
 rtmp://220.130.201.73/sat/tv071
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://upload.112114.xyz/logo/民视.png" group-title="港澳台",民视
@@ -353,6 +344,8 @@ rtmp://220.130.201.73/sat/tv111
 http://66.165.240.154:8080/live/gatdscj02/hls.m3u8
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://upload.112114.xyz/logo/东森超视.png" group-title="港澳台",东森超视
 rtmp://220.130.201.73/sat/tv331
+#EXTINF:-1,tvg-id="TVBS NEWS" tvg-name="TVBS NEWS" tvg-logo="https://upload.112114.xyz/logo/TVBSNEWS.png" group-title="港澳台",TVBS NEWS
+http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://upload.112114.xyz/logo/TVBS.png" group-title="港澳台",TVBS
 http://66.165.240.154:8080/live/tytvbsyz1/hls.m3u8
 #EXTINF:-1,tvg-id="TVB新闻台" tvg-name="TVB新闻台" tvg-logo="https://upload.112114.xyz/logo/TVB4.png" group-title="港澳台",TVB新闻台
