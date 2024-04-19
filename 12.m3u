@@ -1,65 +1,189 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="其他",1
-http://itms.xznet.org:41097/rtp/239.254.201.150:6345
-#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="其他",2
-http://itms.xznet.org:41097/rtp/239.254.201.201:7269
-#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",3
-http://itms.xznet.org:41097/rtp/239.254.201.157:6269
-#EXTINF:-1,tvg-id="4K综艺" tvg-name="4K综艺" tvg-logo="https://epg.112114.xyz/logo/4K综艺.png" group-title="其他",4
-http://itms.xznet.org:41097/rtp/239.254.201.163:6354
-#EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="其他",5
-http://itms.xznet.org:41097/rtp/239.254.201.164:6355
-#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="其他",6
-http://itms.xznet.org:41097/rtp/239.254.201.165:6358
-#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="其他",7
-http://itms.xznet.org:41097/rtp/239.254.201.167:6360
-#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="其他",8
-http://itms.xznet.org:41097/rtp/239.254.201.176:7221
-#EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="其他",9
-http://itms.xznet.org:41097/rtp/239.254.201.182:7227
-#EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="其他",10
-http://itms.xznet.org:41097/rtp/239.254.201.217:7250
-#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="其他",11
-http://itms.xznet.org:41097/rtp/239.254.201.228:7255
-#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="其他",12
-http://itms.xznet.org:41097/rtp/239.254.201.1:5214
-#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",13
-http://111.224.83.68:1024/rtp/239.254.201.167:6360
-#EXTINF:-1,tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="其他",14
-http://111.224.83.68:1024/rtp/239.254.201.176:7221
-#EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="其他",15
-http://111.224.83.68:1024/rtp/239.254.201.182:7227
-#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="其他",16
-http://111.224.83.68:1024/rtp/239.254.201.217:7250
-#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="其他",17
-http://111.224.83.68:1024/rtp/239.254.201.228:7255
-#EXTINF:-1,tvg-id="18" tvg-name="18" tvg-logo="https://epg.112114.xyz/logo/18.png" group-title="其他",18
-http://111.224.83.68:1024/rtp/239.254.201.1:5214
-#EXTINF:-1,tvg-id="19" tvg-name="19" tvg-logo="https://epg.112114.xyz/logo/19.png" group-title="其他",19
-http://219.144.112.31:8888/rtp/239.111.205.72:5140
-#EXTINF:-1,tvg-id="20" tvg-name="20" tvg-logo="https://epg.112114.xyz/logo/20.png" group-title="其他",20
-http://219.144.112.31:8888/rtp/239.111.205.2:5140
-#EXTINF:-1,tvg-id="21" tvg-name="21" tvg-logo="https://epg.112114.xyz/logo/21.png" group-title="其他",21
-http://219.144.112.31:8888/rtp/239.112.205.236:5140
-#EXTINF:-1,tvg-id="22" tvg-name="22" tvg-logo="https://epg.112114.xyz/logo/22.png" group-title="其他",22
-http://219.144.112.31:8888/rtp/239.112.205.135:5140
-#EXTINF:-1,tvg-id="23" tvg-name="23" tvg-logo="https://epg.112114.xyz/logo/23.png" group-title="其他",23
-http://111.224.83.68:1024/rtp/239.254.201.228:7255
-#EXTINF:-1,tvg-id="FRANCE24" tvg-name="FRANCE24" tvg-logo="https://epg.112114.xyz/logo/FRANCE24.png" group-title="其他",24
-http://111.224.83.68:1024/rtp/239.254.200.110:6241
-#EXTINF:-1,tvg-id="25" tvg-name="25" tvg-logo="https://epg.112114.xyz/logo/25.png" group-title="其他",25
-http://183.236.13.168:808/hls/96/index.m3u8
-#EXTINF:-1,tvg-id="26" tvg-name="26" tvg-logo="https://epg.112114.xyz/logo/26.png" group-title="其他",26
-http://61.134.238.66:5555/rtp/226.0.2.226:9720
-#EXTINF:-1,tvg-id="27" tvg-name="27" tvg-logo="https://epg.112114.xyz/logo/27.png" group-title="其他",27
-http://61.134.238.66:5555/rtp/226.0.2.77:8528
-#EXTINF:-1,tvg-id="28" tvg-name="28" tvg-logo="https://epg.112114.xyz/logo/28.png" group-title="其他",28
-http://61.134.238.66:5555/rtp/226.0.2.81:8560
-#EXTINF:-1,tvg-id="29" tvg-name="29" tvg-logo="https://epg.112114.xyz/logo/29.png" group-title="其他",29
-http://61.134.238.66:5555/rtp/226.0.2.84:8584
-#EXTINF:-1,tvg-id="30" tvg-name="30" tvg-logo="https://epg.112114.xyz/logo/30.png" group-title="其他",30
-http://61.134.238.66:5555/rtp/226.0.2.182:9368
-#EXTINF:-1,tvg-id="31" tvg-name="31" tvg-logo="https://epg.112114.xyz/logo/31.png" group-title="其他",31
-http://61.134.238.66:5555/rtp/226.0.2.183:9376
-#EXTINF:-1,tvg-id="32" tvg-name="32" tvg-logo="https://epg.112114.xyz/logo/32.png" group-title="其他",32
-http://61.134.238.66:5555/rtp/226.0.2.218:9656
+#EXTINF:-1,CCTV1
+http://wouu.net:9977/udp/239.93.0.184:5140
+#EXTINF:-1,CCTV2
+http://wouu.net:9977/udp/239.93.1.23:6000
+#EXTINF:-1,CCTV3
+http://wouu.net:9977/udp/239.93.1.11:2223
+#EXTINF:-1,cctv4
+http://wouu.net:9977/udp/239.93.1.105:5140
+#EXTINF:-1,cctv5
+http://wouu.net:9977/udp/239.93.42.37:5140
+#EXTINF:-1,cctv6
+http://wouu.net:9977/udp/239.93.1.13:2226
+#EXTINF:-1,cctv7
+http://wouu.net:9977/udp/239.93.1.67:5140
+#EXTINF:-1,cctv8
+http://wouu.net:9977/udp/239.93.42.39:5140
+#EXTINF:-1,cctv9
+http://wouu.net:9977/udp/239.93.1.24:5140
+#EXTINF:-1,cctv10
+http://wouu.net:9977/udp/239.93.1.28:5140
+#EXTINF:-1,cctv11
+http://wouu.net:9977/udp/239.93.0.102:5140
+#EXTINF:-1,cctv12
+http://wouu.net:9977/udp/239.93.1.30:8124
+#EXTINF:-1,cctv13
+http://wouu.net:9977/udp/239.93.0.66:5140
+#EXTINF:-1,cctv14
+http://wouu.net:9977/udp/239.93.1.29:6000
+#EXTINF:-1,cctv15
+http://wouu.net:9977/udp/239.93.0.103:5140
+#EXTINF:-1,cctv17
+http://wouu.net:9977/udp/239.93.0.92:5140
+#EXTINF:-1,cctv5+
+http://wouu.net:9977/udp/239.93.1.36:8004
+#EXTINF:-1,凤凰中文
+http://wouu.net:9977/udp/239.93.0.162:2192
+#EXTINF:-1,凤凰中文
+http://wouu.net:9977/udp/239.93.1.9:2192
+#EXTINF:-1,凤凰资讯
+http://wouu.net:9977/udp/239.93.0.118:2191
+#EXTINF:-1,星空
+http://wouu.net:9977/udp/239.93.0.156:2193
+#EXTINF:-1,星空
+http://wouu.net:9977/udp/239.93.1.10:2193
+#EXTINF:-1,channel V
+http://wouu.net:9977/udp/239.93.0.157:2194
+#EXTINF:-1,channel V
+http://wouu.net:9977/udp/239.93.1.7:2194
+#EXTINF:-1,湖南卫视
+http://wouu.net:9977/udp/239.93.0.88:5140
+#EXTINF:-1,江苏卫视
+http://wouu.net:9977/udp/239.93.0.89:5140
+#EXTINF:-1,浙江卫视
+http://wouu.net:9977/udp/239.93.0.124:5140
+#EXTINF:-1,东方卫视
+http://wouu.net:9977/udp/239.93.0.123:5140
+#EXTINF:-1,北京卫视
+http://wouu.net:9977/udp/239.93.0.180:5140
+#EXTINF:-1,深圳卫视
+http://wouu.net:9977/udp/239.93.0.182:5140
+#EXTINF:-1,广东卫视
+http://wouu.net:9977/udp/239.93.0.181:5140
+#EXTINF:-1,天津卫视
+http://wouu.net:9977/udp/239.93.0.167:5140
+#EXTINF:-1,山东卫视
+http://wouu.net:9977/udp/239.93.0.168:5140
+#EXTINF:-1,山东教育卫视
+http://wouu.net:9977/udp/239.93.1.196:5140
+#EXTINF:-1,江西卫视
+http://wouu.net:9977/udp/239.93.0.134:5140
+#EXTINF:-1,东南卫视
+http://wouu.net:9977/udp/239.93.0.42:5140
+#EXTINF:-1,黑龙江卫视
+http://wouu.net:9977/udp/239.93.0.183:5140
+#EXTINF:-1,重庆卫视
+http://wouu.net:9977/udp/239.93.1.107:5140
+#EXTINF:-1,贵州卫视
+http://wouu.net:9977/udp/239.93.0.131:5140
+#EXTINF:-1,湖北卫视
+http://wouu.net:9977/udp/239.93.0.250:5140
+#EXTINF:-1,安徽卫视
+http://wouu.net:9977/udp/239.93.1.106:5140
+#EXTINF:-1,河北卫视
+http://wouu.net:9977/udp/239.93.0.132:5140
+#EXTINF:-1,辽宁卫视
+http://wouu.net:9977/udp/239.93.1.108:5140
+#EXTINF:-1,云南卫视
+http://wouu.net:9977/udp/239.93.1.174:5140
+#EXTINF:-1,四川卫视
+http://wouu.net:9977/udp/239.93.0.20:1235
+#EXTINF:-1,四川康巴卫视
+http://wouu.net:9977/udp/239.93.0.41:5140
+#EXTINF:-1,峨眉电影
+http://wouu.net:9977/udp/239.93.0.252:5140
+#EXTINF:-1,河南卫视
+http://wouu.net:9977/udp/239.93.42.45:5140
+#EXTINF:-1,广西卫视
+http://wouu.net:9977/udp/239.93.42.46:5140
+#EXTINF:-1,吉林卫视
+http://wouu.net:9977/udp/239.93.0.248:5140
+#EXTINF:-1,陕西卫视
+http://wouu.net:9977/udp/239.93.0.176:5140
+#EXTINF:-1,陕西农林卫视
+http://wouu.net:9977/udp/239.93.0.100:5140
+#EXTINF:-1,山西卫视
+http://wouu.net:9977/udp/239.93.0.6:5140
+#EXTINF:-1,内蒙古卫视
+http://wouu.net:9977/udp/239.93.0.8:5140
+#EXTINF:-1,青海卫视
+http://wouu.net:9977/udp/239.93.0.192:5140
+#EXTINF:-1,宁夏卫视
+http://wouu.net:9977/udp/239.93.0.247:5140
+#EXTINF:-1,西藏卫视
+http://wouu.net:9977/udp/239.93.0.175:5140
+#EXTINF:-1,新疆卫视
+http://wouu.net:9977/udp/239.93.0.194:5140
+#EXTINF:-1,甘肃卫视
+http://wouu.net:9977/udp/239.93.0.81:5140
+#EXTINF:-1,海南卫视
+http://wouu.net:9977/udp/239.93.0.80:5140
+#EXTINF:-1,兵团卫视
+http://wouu.net:9977/udp/239.93.42.43:5140
+#EXTINF:-1,厦门卫视
+http://wouu.net:9977/udp/239.93.42.57:5140
+#EXTINF:-1,三沙卫视
+http://wouu.net:9977/udp/239.93.42.58:5140
+#EXTINF:-1,cetv 1
+http://wouu.net:9977/udp/239.93.1.111:5140
+#EXTINF:-1,cetv 2
+http://wouu.net:9977/udp/239.93.0.113:5140
+#EXTINF:-1,cetv 4
+http://wouu.net:9977/udp/239.93.0.50:5140
+#EXTINF:-1,炫动卡通
+http://wouu.net:9977/udp/239.93.0.173:5140
+#EXTINF:-1,嘉佳卡通
+http://wouu.net:9977/udp/239.93.0.246:5140
+#EXTINF:-1,卡酷动画
+http://wouu.net:9977/udp/239.93.0.208:5140
+#EXTINF:-1,金鹰卡通
+http://wouu.net:9977/udp/239.93.0.108:5140
+#EXTINF:-1,优漫卡通
+http://wouu.net:9977/udp/239.93.0.251:5140
+#EXTINF:-1,经典电影
+http://wouu.net:9977/udp/239.93.0.57:9024
+#EXTINF:-1,华语影院
+http://wouu.net:9977/udp/239.93.0.138:5140
+#EXTINF:-1,星光院线
+http://wouu.net:9977/udp/239.93.0.139:5140
+#EXTINF:-1,全球大片
+http://wouu.net:9977/udp/239.93.0.105:5140
+#EXTINF:-1,热播剧场
+http://wouu.net:9977/udp/239.93.0.56:9020
+#EXTINF:-1,港剧风云
+http://wouu.net:9977/udp/239.93.0.143:5140
+#EXTINF:-1,谍战剧场
+http://wouu.net:9977/udp/239.93.0.95:5140
+#EXTINF:-1,热门综艺
+http://wouu.net:9977/udp/239.93.0.151:5140
+#EXTINF:-1,音乐现场
+http://wouu.net:9977/udp/239.93.0.198:9044
+#EXTINF:-1,魅力时尚
+http://wouu.net:9977/udp/239.93.0.190:9012
+#EXTINF:-1,生活时尚
+http://wouu.net:9977/udp/239.93.0.106:5140
+#EXTINF:-1,汽摩
+http://wouu.net:9977/udp/239.93.0.62:5140
+#EXTINF:-1,电竞天堂
+http://wouu.net:9977/udp/239.93.1.135:5140
+#EXTINF:-1,游戏风云
+http://wouu.net:9977/udp/239.93.0.136:5140
+#EXTINF:-1,汽车频道
+http://wouu.net:9977/udp/239.93.0.117:1292
+#EXTINF:-1,足球
+http://wouu.net:9977/udp/239.93.0.197:9040
+#EXTINF:-1,高网
+http://wouu.net:9977/udp/239.93.0.202:9068
+#EXTINF:-1,台球
+http://wouu.net:9977/udp/239.93.0.203:9072
+#EXTINF:-1,纪实人文
+http://wouu.net:9977/udp/239.93.1.154:5140
+#EXTINF:-1,地理
+http://wouu.net:9977/udp/239.93.0.200:9052
+#EXTINF:-1,星空精选
+http://wouu.net:9977/udp/239.93.1.171:5140
+#EXTINF:-1,都市剧场
+http://wouu.net:9977/udp/239.93.42.30:5140
+#EXTINF:-1,求索频道
+http://wouu.net:9977/udp/239.93.42.24:5140
