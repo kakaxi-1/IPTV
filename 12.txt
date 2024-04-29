@@ -42,7 +42,7 @@ CCTV4K,http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 深圳卫视,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN181362BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTYjXE4%2FzHcB4DvaRB5Fv5MwoDIwMxbrlyyVy9x6ZDKneDM0LfUyK1%2BahEGNL2DZu0fEvbcgscnXPl2IbJvqKAk
 星空卫视,http://wouu.net:9977/udp/239.93.0.156:2193
 Channel V,http://wouu.net:9977/udp/239.93.0.157:2194
-凤凰香港,http://183.204.13.13/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
+凤凰香港,http://183.204.13.13/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8#http://113.64.145.61:8081/hls/38/index.m3u8#http://103.95.24.37:880/fhxgt.m3u8
 凤凰中文,http://183.204.13.237/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 凤凰资讯,http://183.204.13.237/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 凤凰电影,http://mail.petzhu.top:7000/rtp/239.254.201.1:5214
@@ -179,10 +179,10 @@ CHC高清电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 台视新闻,http://66.165.240.154:8080/live/tyxltsxw3/hls%2Em3u8
 华视新闻,http://livetv.skycf.eu.org/live.m3u8?c=13
 中视新闻,http://livetv.skycf.eu.org/live.m3u8?c=6
-民视,rtmp://220.130.201.73/sat/tv051
-台视,rtmp://220.130.201.73/sat/tv071
-华视,rtmp://220.130.201.73/sat/tv111
-中视,rtmp://220.130.201.73/sat/tv091
+民视,rtmp://220.130.201.73/sat/tv051#rtmp://f13h.mine.nu/sat/tv051
+台视,rtmp://220.130.201.73/sat/tv071#rtmp://f13h.mine.nu/sat/tv071
+华视,rtmp://220.130.201.73/sat/tv111#rtmp://f13h.mine.nu/sat/tv111
+中视,rtmp://220.130.201.73/sat/tv091#rtmp://f13h.mine.nu/sat/tv091
 超视,http://66.165.240.154:8080/live/gatdscj02/hls%2Em3u8
 东森超视,rtmp://220.130.201.73/sat/tv331
 非凡新闻,rtmp://220.130.201.73/sat/tv581
@@ -190,11 +190,11 @@ CHC高清电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 美亚电视C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 TVBS,http://66.165.240.154:8080/live/tytvbsyz1/hls%2Em3u8
-TVB新闻台,http://66.165.240.154:8080/live/TVBwxxwt/hls%2Em3u8
+TVB新闻台,http://66.165.240.154:8080/live/TVBwxxwt/hls%2Em3u8#http://137.175.30.127:9080/hls/inews.m3u8
 TVB娱乐新闻台,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
-TVB翡翠台,http://58.87.99.251:8090/HK/tvb/hls.m3u8
-TVB明珠台,http://xjayrf.eatuo.com:9901/tsfile/live/1005_1.m3u8
-TVB星河台,http://113.64.145.61:8081/hls/135/index.m3u8
+TVB翡翠台,http://58.87.99.251:8090/HK/tvb/hls.m3u8#http://php.jdshipin.com:8880/PLTV/iptv.php?id=fct
+TVB明珠台,http://xjayrf.eatuo.com:9901/tsfile/live/1005_1.m3u8#http://php.jdshipin.com:8880/PLTV/iptv.php?id=mzt
+TVB星河台,http://113.64.145.61:8081/hls/135/index.m3u8#http://php.jdshipin.com:8880/PLTV/iptv.php?id=xinghe#http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 GTV八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
 GTV八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
 GTV八大综合,http://61.221.215.25:8800/hls/56/index.m3u8
