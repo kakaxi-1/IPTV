@@ -347,12 +347,16 @@ http://livetv.skycf.eu.org/live.m3u8?c=13
 http://livetv.skycf.eu.org/live.m3u8?c=6
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://live.fanmingming.com/tv/民视.png" group-title="港澳台",民视
 rtmp://220.130.201.73/sat/tv051
+rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://live.fanmingming.com/tv/台视.png" group-title="港澳台",台视
 rtmp://220.130.201.73/sat/tv071
+rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="https://live.fanmingming.com/tv/华视.png" group-title="港澳台",华视
 rtmp://220.130.201.73/sat/tv111
+rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://live.fanmingming.com/tv/中视.png" group-title="港澳台",中视
 rtmp://220.130.201.73/sat/tv091
+rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1,tvg-id="超视" tvg-name="超视" tvg-logo="https://upload.112114.xyz/logo/超视34.5..png" group-title="港澳台",超视
 http://66.165.240.154:8080/live/gatdscj02/hls%2Em3u8
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://upload.112114.xyz/logo/东森超视.png" group-title="港澳台",东森超视
@@ -370,14 +374,19 @@ http://66.165.240.154:8080/live/tytvbsyz1/hls%2Em3u8
 #EXTINF:-1,tvg-id="TVB新闻台" tvg-name="TVB新闻台" tvg-logo="https://live.fanmingming.com/tv/无线新闻台.png" group-title="港澳台",TVB新闻台
 http://66.165.240.154:8080/live/TVBwxxwt/hls%2Em3u8
 http://66.165.240.154:8080/live/TVBtyzxt1/hls%2Em3u8
+http://137.175.30.127:9080/hls/inews.m3u8
 #EXTINF:-1,tvg-id="TVB娱乐新闻台" tvg-name="TVB娱乐新闻台" tvg-logo="https://upload.112114.xyz/logo/TVBENTERTAINMENTNEWS.png" group-title="港澳台",TVB娱乐新闻台
 http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 #EXTINF:-1,tvg-id="TVB翡翠台" tvg-name="TVB翡翠台" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台.png" group-title="港澳台",TVB翡翠台
 http://58.87.99.251:8090/HK/tvb/hls.m3u8
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=fct
 #EXTINF:-1,tvg-id="TVB明珠台" tvg-name="TVB明珠台" tvg-logo="https://live.fanmingming.com/tv/TVB明珠台.png" group-title="港澳台",TVB明珠台
 http://xjayrf.eatuo.com:9901/tsfile/live/1005_1.m3u8
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=mzt
 #EXTINF:-1,tvg-id="TVB星河台" tvg-name="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳台",TVB星河台
 http://113.64.145.61:8081/hls/135/index.m3u8
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=xinghe
+http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1,tvg-id="GTV八大戏剧" tvg-name="GTV八大戏剧" tvg-logo="https://upload.112114.xyz/logo/八大戏剧台.png" group-title="港澳台",GTV八大戏剧
 http://61.221.215.25:8800/hls/39/index.m3u8
 #EXTINF:-1,tvg-id="GTV八大第一" tvg-name="GTV八大第一" tvg-logo="https://upload.112114.xyz/logo/八大第一.png" group-title="港澳台",GTV八大第一
