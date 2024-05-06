@@ -338,7 +338,7 @@ https://tv.iill.top/douyu/100
 
 #EXTINF:-1,tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="https://live.fanmingming.com/tv/中天新闻台.png" group-title="港澳台",中天新闻
 
-#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://live.fanmingming.com/tv/民视新闻台.png" group-title="港澳台",民视新闻台
+#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://live.fanmingming.com/tv/民视新闻台.png" group-title="港澳台",民视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=11
 #EXTINF:-1,tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://live.fanmingming.com/tv/台视新闻.png" group-title="港澳台",台视新闻
 https://live.wcetv.com/hls/master-ttvnews.m3u8
@@ -347,7 +347,7 @@ http://66.165.240.154:8080/live/tyxltsxw3/hls%2Em3u8
 http://livetv.skycf.eu.org/live.m3u8?c=13
 #EXTINF:-1,tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="https://live.fanmingming.com/tv/中视新闻台.png" group-title="港澳台",中视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=6
-#EXTINF:-1,tvg-id="公视新闻" tvg-name="公视新闻" tvg-logo="https://live.fanmingming.com/tv/公视新闻台.png" group-title="港澳台",公视新闻
+#EXTINF:-1,tvg-id="公视新闻" tvg-name="公视新闻" tvg-logo="https://live.fanmingming.com/tv/公视新闻.png" group-title="港澳台",公视新闻
 http://livetv.skycf.eu.org/live.m3u8?c=8
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://live.fanmingming.com/tv/民视.png" group-title="港澳台",民视
 rtmp://f13h.mine.nu/sat/tv051
@@ -362,7 +362,7 @@ rtmp://220.130.201.73/sat/tv111
 rtmp://f13h.mine.nu/sat/tv091
 rtmp://220.130.201.73/sat/tv091
 #EXTINF:-1,tvg-id="超视" tvg-name="超视" tvg-logo="https://upload.112114.xyz/logo/超视34.5..png" group-title="港澳台",超视
-
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://upload.112114.xyz/logo/东森超视.png" group-title="港澳台",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 rtmp://220.130.201.73/sat/tv331
@@ -373,13 +373,13 @@ http://livetv.skycf.eu.org/live.m3u8?c=4
 #EXTINF:-1,tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="https://upload.112114.xyz/logo/非凡新闻.png" group-title="港澳台",非凡新闻
 rtmp://220.130.201.73/sat/tv581
 #EXTINF:-1,tvg-id="华语电视" tvg-name="华语电视" tvg-logo="https://upload.112114.xyz/logo/华语电视.png" group-title="港澳台",华语电视
-
+http://38.64.72.148:80/hls/modn/list/4002/chunklist0.m3u8
 #EXTINF:-1,tvg-id="美亚电视C+" tvg-name="美亚电视C+" tvg-logo="https://upload.112114.xyz/logo/c+.png" group-title="港澳台",美亚电视C+
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 #EXTINF:-1,tvg-id="TVBS NEWS" tvg-name="TVBS NEWS" tvg-logo="https://live.fanmingming.com/tv/TVBS新闻.png" group-title="港澳台",TVBS NEWS
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://live.fanmingming.com/tv/TVBS.png" group-title="港澳台",TVBS
-
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1,tvg-id="TVB新闻台" tvg-name="TVB新闻台" tvg-logo="https://live.fanmingming.com/tv/无线新闻台.png" group-title="港澳台",TVB新闻台
 
 #EXTINF:-1,tvg-id="TVB娱乐新闻台" tvg-name="TVB娱乐新闻台" tvg-logo="https://upload.112114.xyz/logo/TVBENTERTAINMENTNEWS.png" group-title="港澳台",TVB娱乐新闻台
@@ -404,7 +404,7 @@ http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 #EXTINF:-1,tvg-id="三立戏剧" tvg-name="三立戏剧" tvg-logo="https://upload.112114.xyz/logo/SLXJ.png" group-title="港澳台",三立戏剧
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1,tvg-id="大爱电视台" tvg-name="大爱电视台" tvg-logo="https://live.fanmingming.com/tv/大爱电视.png" group-title="港澳台",大爱电视台
-
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1,tvg-id="MOMOTV" tvg-name="MOMOTV" tvg-logo="https://upload.112114.xyz/logo/MOMOTV.png" group-title="港澳台",MOMOTV
 rtmp://f13h.mine.nu/sat/tv761
 rtmp://220.130.201.73/sat/tv761
