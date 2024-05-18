@@ -84,11 +84,11 @@ http://wouu.net:9977/udp/239.93.0.156:2193
 #EXTINF:-1 tvg-id="Channel V" tvg-name="Channel V" tvg-logo="https://upload.112114.xyz/logo/v.png" group-title="卫视频道",Channel V
 http://wouu.net:9977/udp/239.93.0.157:2194
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视香港台.png" group-title="卫视频道",凤凰香港
-http://php.jdshipin.com:8880/fhhk.php
+http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="卫视频道",凤凰中文
-http://64.140.167.170:8080/live/xsjgat2/hls.m3u8
+http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="卫视频道",凤凰资讯
-http://64.140.167.170:8080/live/ydws12/hls.m3u8
+http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 tvg-id="凤凰电影" tvg-name="凤凰电影" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视电影台.png" group-title="卫视频道",凤凰电影
 http://mail.petzhu.top:7000/rtp/239.254.201.1:5214
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="卫视频道",广东卫视
@@ -134,6 +134,7 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN3840707BESTVSMGSMG9/i
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png" group-title="卫视频道",贵州卫视
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN4252663BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUdU0MzAxFlzyxwiiSP3V3o4YgTd85YleALR8HHnPHszLOK1g6ts8oU5k12ayN74FbOAmnKUze1Wh5%2FkX5b2rvxw
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png" group-title="卫视频道",云南卫视
+http://tvlive.ynradio.com/live/yunnanweishi/chunks.m3u8
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/index.m3u8
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png" group-title="卫视频道",天津卫视
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN3450000BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUZnlX6d6Ukio1jy49XlNnaUAmpLefguRLiOPXiDRWhxHtqJ1Caox489JiEKddi6MNiecVT4WDzN0xwhlk8OSvQg
@@ -320,19 +321,19 @@ http://159.75.85.63:35455/douyu/8814650
 #EXTINF:-1,tvg-id="影视轮播13" tvg-name="影视轮播13" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播13
 http://159.75.85.63:35455/douyu/263824
 #EXTINF:-1,tvg-id="影视轮播14" tvg-name="影视轮播14" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播14
-http://159.75.85.63:35455/douyu/9292492
+http://43.138.170.29:35455/douyu/6725858
 #EXTINF:-1,tvg-id="影视轮播15" tvg-name="影视轮播15" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播15
-http://43.138.170.29:35455/douyu/2337939
+http://43.138.170.29:35455/douyu/426517
 #EXTINF:-1,tvg-id="影视轮播16" tvg-name="影视轮播16" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播16
-http://43.138.170.29:35455/douyu/8722254
+http://live.iill.top/huya.php?id=20985858
 #EXTINF:-1,tvg-id="影视轮播17" tvg-name="影视轮播17" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播17
-http://43.138.170.29:35455/douyu/8415464
+http://live.iill.top/huya.php?id=11352879
 #EXTINF:-1,tvg-id="影视轮播18" tvg-name="影视轮播18" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播18
-http://43.138.170.29:35455/douyu/8867878
+http://live.iill.top/huya.php?id=11601963
 #EXTINF:-1,tvg-id="影视轮播19" tvg-name="影视轮播19" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播19
-https://tv.iill.top/douyu/288016
+http://live.iill.top/douyu.php?id=288016
 #EXTINF:-1,tvg-id="影视轮播20" tvg-name="影视轮播20" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播20
-https://tv.iill.top/douyu/100
+http://live.iill.top/douyu.php?id=100
 #EXTINF:-1,tvg-id="三立INEWS新闻" tvg-name="三立INEWS新闻" tvg-logo="https://upload.112114.xyz/logo/三立INEWS新闻.png" group-title="港澳台",三立INEWS新闻
 
 #EXTINF:-1,tvg-id="三立LIVE新闻" tvg-name="三立LIVE新闻" tvg-logo="https://upload.112114.xyz/logo/三立LIVE.png" group-title="港澳台",三立LIVE新闻
@@ -399,8 +400,10 @@ http://61.221.215.25:8800/hls/39/index.m3u8
 http://61.221.215.25:8800/hls/55/index.m3u8
 #EXTINF:-1,tvg-id="GTV八大综合" tvg-name="GTV八大综合" tvg-logo="https://upload.112114.xyz/logo/八大综合.png" group-title="港澳台",GTV八大综合
 http://61.221.215.25:8800/hls/56/index.m3u8
-#EXTINF:-1,tvg-id="经典影视台" tvg-name="经典影视台" tvg-logo="https://upload.112114.xyz/logo/经典影视台.png" group-title="港澳台",经典影视台
+#EXTINF:-1,tvg-id="经典都市台" tvg-name="经典都市台" tvg-logo="https://upload.112114.xyz/logo/经典都市台.png" group-title="港澳台",经典都市台
 http://ali.hlspull.yximgs.com/live/asdfg32516.flv
+#EXTINF:-1,tvg-id="经典神话台" tvg-name="经典神话台" tvg-logo="https://upload.112114.xyz/logo/经典神话台.png" group-title="港澳台",经典神话台
+http://ali.hlspull.yximgs.com/live/asdfg32522.flv
 #EXTINF:-1,tvg-id="星光视界" tvg-name="星光视界" tvg-logo="https://upload.112114.xyz/logo/星光综合台.png" group-title="港澳台",星光视界
 http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 #EXTINF:-1,tvg-id="三立戏剧" tvg-name="三立戏剧" tvg-logo="https://upload.112114.xyz/logo/SLXJ.png" group-title="港澳台",三立戏剧
