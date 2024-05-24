@@ -361,21 +361,16 @@ http://livetv.skycf.eu.org/live.m3u8?c=6
 http://livetv.skycf.eu.org/live.m3u8?c=8
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://live.fanmingming.com/tv/民视.png" group-title="港澳台",民视
 rtmp://220.130.201.73/sat/tv051
-rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://live.fanmingming.com/tv/台视.png" group-title="港澳台",台视
 rtmp://220.130.201.73/sat/tv071
-rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="https://live.fanmingming.com/tv/华视.png" group-title="港澳台",华视
 rtmp://220.130.201.73/sat/tv111
-rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://live.fanmingming.com/tv/中视.png" group-title="港澳台",中视
 rtmp://220.130.201.73/sat/tv091
-rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1,tvg-id="超视" tvg-name="超视" tvg-logo="https://upload.112114.xyz/logo/超视34.5..png" group-title="港澳台",超视
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://www.lysvc.cc/TVlogo/img/EBC2.png" group-title="港澳台",东森超视
 rtmp://220.130.201.73/sat/tv331
-rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1,tvg-id="东森新闻" tvg-name="东森新闻" tvg-logo="https://www.lysvc.cc/TVlogo/img/EBC6.png" group-title="港澳台",东森新闻
 http://livetv.skycf.eu.org/live.m3u8?c=6
 #EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://live.fanmingming.com/tv/寰宇新闻.png" group-title="港澳台",寰宇新闻
@@ -442,7 +437,7 @@ rtmp://220.130.201.73/sat/tv741
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv073
 #EXTINF:-1,tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="港澳台",TVBS新闻台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv072
-#EXTINF:-1,tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://assets.livednow.com/logo/中天新聞台.png	" group-title="港澳台",中天新闻
+#EXTINF:-1,tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://assets.livednow.com/logo/中天新聞台.png" group-title="港澳台",中天新闻
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv009
 #EXTINF:-1,tvg-id="中天亚洲台" tvg-name="中天亚洲台" tvg-logo="https://assets.livednow.com/logo/中天亞洲台.png" group-title="港澳台",中天亚洲台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv109
@@ -456,39 +451,39 @@ http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv056
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv074
 #EXTINF:-1,tvg-id="非凡新闻台" tvg-name="非凡新闻台" tvg-logo="https://assets.livednow.com/logo/非凡新聞台.png" group-title="港澳台",非凡新闻
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv010
-#EXTINF:-1,tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="https://assets.livednow.com/logo/鏡電視新聞台.png	" group-title="港澳台",镜新闻
+#EXTINF:-1,tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="https://assets.livednow.com/logo/鏡電視新聞台.png" group-title="港澳台",镜新闻
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv075
-#EXTINF:-1,tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://assets.livednow.com/logo/東森新聞.png	" group-title="港澳台",东森新闻
+#EXTINF:-1,tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://assets.livednow.com/logo/東森新聞.png" group-title="港澳台",东森新闻
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv152
-#EXTINF:-1,tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="https://assets.livednow.com/logo/東森財經新聞.png	" group-title="港澳台",东森财经新闻
+#EXTINF:-1,tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="https://assets.livednow.com/logo/東森財經新聞.png" group-title="港澳台",东森财经新闻
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv153
-#EXTINF:-1,tvg-id="半岛新闻" tvg-name="半岛新闻" tvg-logo="https://assets.livednow.com/logo/半島國際新聞台.png	" group-title="港澳台",半岛新闻
+#EXTINF:-1,tvg-id="半岛新闻" tvg-name="半岛新闻" tvg-logo="https://assets.livednow.com/logo/半島國際新聞台.png" group-title="港澳台",半岛新闻
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-ftv10
-#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://assets.livednow.com/logo/民視新聞台.png	" group-title="港澳台",民视新闻台
+#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://assets.livednow.com/logo/民視新聞台.png" group-title="港澳台",民视新闻台
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-ftv13
-#EXTINF:-1,tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="https://assets.livednow.com/logo/民視台灣台.png	" group-title="港澳台",民视台湾台
+#EXTINF:-1,tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="https://assets.livednow.com/logo/民視台灣台.png" group-title="港澳台",民视台湾台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv001
 #EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台.png" group-title="港澳台",寰宇新闻台
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn14
-#EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台灣台.png	" group-title="港澳台",寰宇新闻台湾台
+#EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://assets.livednow.com/logo/寰宇新聞台灣台.png" group-title="港澳台",寰宇新闻台湾台
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn15
-#EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://assets.livednow.com/logo/台視.png	" group-title="港澳台",台视
+#EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://assets.livednow.com/logo/台視.png" group-title="港澳台",台视
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv066
-#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://assets.livednow.com/logo/民視.png	" group-title="港澳台",民视
+#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://assets.livednow.com/logo/民視.png" group-title="港澳台",民视
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv002
-#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://assets.livednow.com/logo/民視.png	" group-title="港澳台",民视
+#EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://assets.livednow.com/logo/民視.png" group-title="港澳台",民视
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv155
-#EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://assets.livednow.com/logo/中視.png	" group-title="港澳台",中视
+#EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://assets.livednow.com/logo/中視.png" group-title="港澳台",中视
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv040
-#EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="https://assets.livednow.com/logo/華視.png	" group-title="港澳台",华视
+#EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="https://assets.livednow.com/logo/華視.png" group-title="港澳台",华视
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv041
-#EXTINF:-1,tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="https://assets.livednow.com/logo/民視台灣台.png	" group-title="港澳台",民视台湾台
+#EXTINF:-1,tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="https://assets.livednow.com/logo/民視台灣台.png" group-title="港澳台",民视台湾台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv156
-#EXTINF:-1,tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://assets.livednow.com/logo/影迷數位電影台.png	" group-title="港澳台",影迷數位電影台
+#EXTINF:-1,tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://assets.livednow.com/logo/影迷數位電影台.png" group-title="港澳台",影迷數位電影台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv011
-#EXTINF:-1,tvg-id="AMC" tvg-name="AMC" tvg-logo="https://assets.livednow.com/logo/AMC-最愛電影.png	" group-title="港澳台",AMC电影台
+#EXTINF:-1,tvg-id="AMC" tvg-name="AMC" tvg-logo="https://assets.livednow.com/logo/AMC-最愛電影.png" group-title="港澳台",AMC电影台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv017
-#EXTINF:-1,tvg-id="CATCHPLAY电影" tvg-name="CATCHPLAY电影" tvg-logo="https://assets.livednow.com/logo/CatchPlay-電影台.png	" group-title="港澳台",CATCHPLAY电影台
+#EXTINF:-1,tvg-id="CATCHPLAY电影" tvg-name="CATCHPLAY电影" tvg-logo="https://assets.livednow.com/logo/CatchPlay-電影台.png" group-title="港澳台",CATCHPLAY电影台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv076
 #EXTINF:-1,tvg-id="靖天电影台" tvg-name="靖天电影台" tvg-logo="https://assets.livednow.com/logo/靖天電影台.png" group-title="港澳台",靖天电影台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv061
@@ -504,7 +499,7 @@ http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn21
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv080
 #EXTINF:-1,tvg-id="台湾戏剧" tvg-name="台湾戏剧" tvg-logo="https://assets.livednow.com/logo/台灣戲劇台.png" group-title="港澳台",台湾戏剧台
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn22
-#EXTINF:-1,tvg-id="靖洋戏剧台" tvg-name="靖洋戏剧台" tvg-logo="https://assets.livednow.com/logo/靖洋戲劇台.png	" group-title="港澳台",靖洋戏剧台
+#EXTINF:-1,tvg-id="靖洋戏剧台" tvg-name="靖洋戏剧台" tvg-logo="https://assets.livednow.com/logo/靖洋戲劇台.png" group-title="港澳台",靖洋戏剧台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv045
 #EXTINF:-1,tvg-id="靖天戏剧台" tvg-name="靖天戏剧台" tvg-logo="https://assets.livednow.com/logo/靖天戲劇台.png" group-title="港澳台",靖天戏剧台
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv058
@@ -520,7 +515,7 @@ http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv014
 http://debian.52sw.top:678/play/mt/litv.php?id=4gtv-4gtv062
 #EXTINF:-1,tvg-id="博斯魅力网" tvg-name="博斯魅力网" tvg-logo="https://assets.livednow.com/logo/博斯魅力台.png" group-title="港澳台",博斯魅力
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn04
-#EXTINF:-1,tvg-id="博斯高球1台" tvg-name="博斯高球1台" tvg-logo="https://assets.livednow.com/logo/博斯高球台.png	" group-title="港澳台",博斯高球1
+#EXTINF:-1,tvg-id="博斯高球1台" tvg-name="博斯高球1台" tvg-logo="https://assets.livednow.com/logo/博斯高球台.png" group-title="港澳台",博斯高球1
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn05
 #EXTINF:-1,tvg-id="博斯高球2台" tvg-name="博斯高球2台" tvg-logo="https://assets.livednow.com/logo/博斯高球二台.png" group-title="港澳台",博斯高球2
 http://debian.52sw.top:678/play/mt/litv.php?id=litv-longturn06
