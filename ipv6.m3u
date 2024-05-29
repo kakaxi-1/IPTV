@@ -388,12 +388,10 @@ http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://live.fanmingming.com/tv/TVBS.png" group-title="港澳台",TVBS
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1,tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://live.fanmingming.com/tv/无线新闻台.png" group-title="港澳台",無線新聞台
-http://zsntlqj.xicp.net:8896/bysid/83
 http://123.202.245.120:8008/bysid/83
 #EXTINF:-1,tvg-id="TVB娱乐新闻台" tvg-name="TVB娱乐新闻台" tvg-logo="https://upload.112114.xyz/logo/TVBENTERTAINMENTNEWS.png" group-title="港澳台",TVB娱乐新闻台
 http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 #EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台.png" group-title="港澳台",翡翠台
-http://beishan008.asuscomm.com:8889/bysid/1
 http://gzcyl001.3322.org:8081/hls/30/index.m3u8
 #EXTINF:-1,tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/TVB明珠台.png" group-title="港澳台",明珠台
 http://123.202.245.120:8008/bysid/2
@@ -421,13 +419,11 @@ https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1,tvg-id="MOMOTV" tvg-name="MOMOTV" tvg-logo="https://upload.112114.xyz/logo/MOMOTV.png" group-title="港澳台",MOMOTV
 rtmp://f13h.mine.nu/sat/tv761
 #EXTINF:-1,tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="https://upload.112114.xyz/logo/纬来育乐.png" group-title="港澳台",纬来育乐
-rtmp://f13h.mine.nu/sat/tv701
 rtmp://220.130.201.73/sat/tv701
 #EXTINF:-1,tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://upload.112114.xyz/logo/纬来体育.png" group-title="港澳台",纬来体育
 http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
 rtmp://220.130.201.73/sat/tv721
 #EXTINF:-1,tvg-id="纬来日本" tvg-name="纬来日本" tvg-logo="https://upload.112114.xyz/logo/纬来日本.png" group-title="港澳台",纬来日本
-rtmp://f13h.mine.nu/sat/tv771
 rtmp://220.130.201.73/sat/tv771
 #EXTINF:-1,tvg-id="緯來精采" tvg-name="緯來精采" tvg-logo="https://upload.112114.xyz/logo/纬来精彩.png" group-title="港澳台",緯來精采
 http://61.221.215.25:8800/hls/48/index.m3u8
