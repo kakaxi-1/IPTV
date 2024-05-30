@@ -345,22 +345,6 @@ http://live.iill.top/huya.php?id=11601963
 http://live.iill.top/douyu.php?id=288016
 #EXTINF:-1,tvg-id="影视轮播20" tvg-name="影视轮播20" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播20
 http://live.iill.top/douyu.php?id=100
-#EXTINF:-1,tvg-id="三立財經新聞" tvg-name="三立財經新聞" tvg-logo="https://www.lysvc.cc/TVlogo/img/SET3.png" group-title="港澳台",三立財經新聞
-http://livetv.skycf.eu.org/live.m3u8?c=12
-#EXTINF:-1,tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://upload.112114.xyz/logo/三立LIVE.png" group-title="港澳台",三立綜合台
-http://livetv.skycf.eu.org/live.m3u8?c=3
-#EXTINF:-1,tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="https://live.fanmingming.com/tv/中天新闻台.png" group-title="港澳台",中天新闻
-http://livetv.skycf.eu.org/live.m3u8?c=7
-#EXTINF:-1,tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://live.fanmingming.com/tv/民视新闻台.png" group-title="港澳台",民視新聞台
-http://livetv.skycf.eu.org/live.m3u8?c=11
-#EXTINF:-1,tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://live.fanmingming.com/tv/台视新闻.png" group-title="港澳台",台視新聞台
-http://livetv.skycf.eu.org/live.m3u8?c=4
-#EXTINF:-1,tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://live.fanmingming.com/tv/华视新闻.png" group-title="港澳台",華視新聞
-http://livetv.skycf.eu.org/live.m3u8?c=13
-#EXTINF:-1,tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://live.fanmingming.com/tv/中视新闻台.png" group-title="港澳台",中視新聞台
-http://livetv.skycf.eu.org/live.m3u8?c=6
-#EXTINF:-1,tvg-id="公視" tvg-name="公視" tvg-logo="https://live.fanmingming.com/tv/公视.png" group-title="港澳台",公視
-http://livetv.skycf.eu.org/live.m3u8?c=8
 #EXTINF:-1,tvg-id="民視" tvg-name="民視" tvg-logo="https://live.fanmingming.com/tv/民视.png" group-title="港澳台",民視
 rtmp://220.130.201.73/sat/tv051
 #EXTINF:-1,tvg-id="台視" tvg-name="台視" tvg-logo="https://live.fanmingming.com/tv/台视.png" group-title="港澳台",台視
@@ -373,10 +357,6 @@ rtmp://220.130.201.73/sat/tv091
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1,tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://www.lysvc.cc/TVlogo/img/EBC2.png" group-title="港澳台",東森超視
 rtmp://220.130.201.73/sat/tv331
-#EXTINF:-1,tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://www.lysvc.cc/TVlogo/img/EBC6.png" group-title="港澳台",東森新聞
-http://livetv.skycf.eu.org/live.m3u8?c=6
-#EXTINF:-1,tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://live.fanmingming.com/tv/寰宇新闻.png" group-title="港澳台",寰宇新聞台
-http://livetv.skycf.eu.org/live.m3u8?c=4
 #EXTINF:-1,tvg-id="非凡新聞台" tvg-name="非凡新聞台" tvg-logo="https://upload.112114.xyz/logo/非凡新闻.png" group-title="港澳台",非凡新聞台
 rtmp://220.130.201.73/sat/tv581
 #EXTINF:-1,tvg-id="华语电视" tvg-name="华语电视" tvg-logo="https://upload.112114.xyz/logo/华语电视.png" group-title="港澳台",华语电视
@@ -418,12 +398,12 @@ http://61.221.215.25:8800/hls/41/index.m3u8
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1,tvg-id="MOMOTV" tvg-name="MOMOTV" tvg-logo="https://upload.112114.xyz/logo/MOMOTV.png" group-title="港澳台",MOMOTV
 rtmp://f13h.mine.nu/sat/tv761
-#EXTINF:-1,tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="https://upload.112114.xyz/logo/纬来育乐.png" group-title="港澳台",纬来育乐
+#EXTINF:-1,tvg-id="緯來育樂" tvg-name="緯來育樂" tvg-logo="https://upload.112114.xyz/logo/纬来育乐.png" group-title="港澳台",緯來育樂
 rtmp://220.130.201.73/sat/tv701
-#EXTINF:-1,tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://upload.112114.xyz/logo/纬来体育.png" group-title="港澳台",纬来体育
+#EXTINF:-1,tvg-id="緯來體育" tvg-name="緯來體育" tvg-logo="https://upload.112114.xyz/logo/纬来体育.png" group-title="港澳台",緯來體育
 http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
 rtmp://220.130.201.73/sat/tv721
-#EXTINF:-1,tvg-id="纬来日本" tvg-name="纬来日本" tvg-logo="https://upload.112114.xyz/logo/纬来日本.png" group-title="港澳台",纬来日本
+#EXTINF:-1,tvg-id="緯來日本" tvg-name="緯來日本" tvg-logo="https://upload.112114.xyz/logo/纬来日本.png" group-title="港澳台",緯來日本
 rtmp://220.130.201.73/sat/tv771
 #EXTINF:-1,tvg-id="緯來精采" tvg-name="緯來精采" tvg-logo="https://upload.112114.xyz/logo/纬来精彩.png" group-title="港澳台",緯來精采
 http://61.221.215.25:8800/hls/48/index.m3u8
@@ -431,6 +411,26 @@ http://61.221.215.25:8800/hls/48/index.m3u8
 rtmp://220.130.201.73/sat/tv731
 #EXTINF:-1,tvg-id="DAZN 2" tvg-name="DAZN 2" tvg-logo="https://upload.112114.xyz/logo/DAZN2.png" group-title="港澳台",DAZN 2
 rtmp://220.130.201.73/sat/tv741
+#EXTINF:-1,tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://live.fanmingming.com/tv/无线新闻台.png" group-title="港澳台",無線新聞台
+https://yang-1989.eu.org/tvb/wxxw
+#EXTINF:-1,tvg-id="TVB娱乐新闻台" tvg-name="TVB娱乐新闻台" tvg-logo="https://yang-1989.eu.org/logo/娱乐新闻.png" group-title="港澳台",TVB娱乐新闻台
+https://yang-1989.eu.org/tvb/ylxw
+#EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台.png" group-title="港澳台",翡翠台
+https://yang-1989.eu.org/tvb/fct
+#EXTINF:-1,tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/TVB明珠台.png" group-title="港澳台",明珠台
+https://yang-1989.eu.org/tvb/mzt
+#EXTINF:-1,tvg-id="星河台" tvg-name="星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河.png" group-title="港澳台",星河台
+https://yang-1989.eu.org/tvb/xh
+#EXTINF:-1,tvg-id="千禧经典台" tvg-name="千禧经典台" tvg-logo="https://yang-1989.eu.org/logo/千禧经典.png" group-title="港澳台",千禧经典台
+https://yang-1989.eu.org/tvb/qxjd
+#EXTINF:-1,tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://yang-1989.eu.org/logo/TVBPlus.png" group-title="港澳台",TVB Plus
+https://yang-1989.eu.org/tvb/tvb
+#EXTINF:-1,tvg-id="三立INEWS" tvg-name="三立INEWS" tvg-logo="https://www.lysvc.cc/TVlogo/img/SET3.png" group-title="港澳台",三立INEWS
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV01.m3u8
+#EXTINF:-1,tvg-id="三立NEWS+" tvg-name="三立NEWS+" tvg-logo="https://upload.112114.xyz/logo/三立LIVE.png" group-title="港澳台",三立NEWS+
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
+#EXTINF:-1,tvg-id="公視新聞台" tvg-name="公視新聞台" tvg-logo="https://upload.112114.xyz/logo/公视新闻网.png" group-title="港澳台",公視新聞台
+https://tv.iill.top/youtube/PNNPTS
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://assets.livednow.com/logo/TVBS.png" group-title="港澳台",TVBS
 https://tv.iill.top/4gtv/183
 #EXTINF:-1,tvg-id="TVBS-新聞台" tvg-name="TVBS-新聞台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="港澳台",TVBS-新聞台
