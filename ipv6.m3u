@@ -368,6 +368,7 @@ http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://live.fanmingming.com/tv/TVBS.png" group-title="港澳台",TVBS
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1,tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://live.fanmingming.com/tv/无线新闻台.png" group-title="港澳台",無線新聞台
+http://fm1077.serv00.net/Smart.php?id=inews_twn
 http://123.202.245.120:8008/bysid/83
 #EXTINF:-1,tvg-id="娱乐新闻台" tvg-name="娱乐新闻台" tvg-logo="https://upload.112114.xyz/logo/TVBENTERTAINMENTNEWS.png" group-title="港澳台",娱乐新闻台
 http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
@@ -426,9 +427,11 @@ https://yang-1989.eu.org/tvb/qxjd
 #EXTINF:-1,tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://yang-1989.eu.org/logo/TVBPlus.png" group-title="港澳台",TVB Plus
 https://yang-1989.eu.org/tvb/tvb
 #EXTINF:-1,tvg-id="三立財經新聞" tvg-name="三立財經新聞" tvg-logo="https://www.lysvc.cc/TVlogo/img/SET3.png" group-title="港澳台",三立財經新聞
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV01.m3u8
+https://tv.iill.top/4gtv/229
 #EXTINF:-1,tvg-id="三立NEWS+" tvg-name="三立NEWS+" tvg-logo="https://upload.112114.xyz/logo/三立LIVE.png" group-title="港澳台",三立NEWS+
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
+#EXTINF:-1,tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://assets.livednow.com/logo/三立綜合台.png" group-title="港澳台",三立綜合台
+
 #EXTINF:-1,tvg-id="公視新聞台" tvg-name="公視新聞台" tvg-logo="https://upload.112114.xyz/logo/公视新闻网.png" group-title="港澳台",公視新聞台
 https://tv.iill.top/youtube/PNNPTS
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://assets.livednow.com/logo/TVBS.png" group-title="港澳台",TVBS
@@ -441,6 +444,8 @@ https://tv.iill.top/4gtv/227
 https://tv.iill.top/4gtv/184
 #EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://assets.livednow.com/logo/中天新聞台.png" group-title="港澳台",中天新聞台
 https://tv.iill.top/4gtv/30
+#EXTINF:-1,tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://assets.livednow.com/logo/中天亞洲台.png" group-title="港澳台",中天亞洲台
+https://tv.iill.top/litv/4gtv-4gtv109
 #EXTINF:-1,tvg-id="台視" tvg-name="台視" tvg-logo="https://assets.livednow.com/logo/台視.png" group-title="港澳台",台視
 https://tv.iill.top/4gtv/4gtv-4gtv066
 #EXTINF:-1,tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://assets.livednow.com/logo/台視新聞台.png" group-title="港澳台",台視新聞台
