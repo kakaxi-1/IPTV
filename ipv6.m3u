@@ -8,10 +8,10 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638727c125355/index.m
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="央视频道",CCTV-4 
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN5000037BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSpr1AVNI633ampcuzdN%2BfH0ZQXwaiVktPr6ILPKXqwOUC2ZXft7ZULN6h9qLQPFOTSlVTfophiKaMb8h1kPV74
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4oz.png" group-title="央视频道",CCTV4欧洲 
-http://114.254.189.79:9999/rtp/239.3.1.213:4220
+http://114.254.83.10:2222/rtp/239.3.1.213:4220
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.213:4220
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4mz.png" group-title="央视频道",CCTV4美洲
-http://114.254.189.79:9999/rtp/239.3.1.214:4220
+http://114.254.83.10:2222/rtp/239.3.1.214:4220
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.214:4220
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="央视频道",CCTV-5 
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638727e617ca0/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSPTZ4CK5oLfjaEYe9dogNMSXw4ajlL%2FoUYC2RZQQDco6uQSifXBocz5ID6RePfIKQ4rFWiHjq%2FeZoDmrzW%2FKlw
@@ -234,19 +234,19 @@ http://[2409:8087:1a01:df::7005]/PLTV/88888888/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://live.fanmingming.com/tv/求索生活.png" group-title="数字经典",求索生活
 http://[2409:8087:1a01:df::7005]/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="淘电影" tvg-name="淘电影" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtdy.png" group-title="数字经典",淘电影
-http://114.254.189.79:9999/rtp/239.3.1.250:8001
+http://114.254.83.10:2222/rtp/239.3.1.250:8001
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.250:8001
 #EXTINF:-1 tvg-id="淘剧场" tvg-name="淘剧场" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtjc.png" group-title="数字经典",淘剧场
-http://114.254.189.79:9999/rtp/239.3.1.95:8001
+http://114.254.83.10:2222/rtp/239.3.1.95:8001
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.95:8001
 #EXTINF:-1 tvg-id="淘娱乐" tvg-name="淘娱乐" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtyl.png" group-title="数字经典",淘娱乐
-http://114.254.189.79:9999/rtp/239.3.1.100:8001
+http://114.254.83.10:2222/rtp/239.3.1.100:8001
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.100:8001
 #EXTINF:-1 tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtbb.png" group-title="数字经典",淘BABY
-http://114.254.189.79:9999/rtp/239.3.1.238:8001
+http://114.254.83.10:2222/rtp/239.3.1.238:8001
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="淘精彩" tvg-name="淘精彩" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtjcai.png" group-title="数字经典",淘精彩
-http://114.254.189.79:9999/rtp/239.3.1.178:8001
+http://114.254.83.10:2222/rtp/239.3.1.178:8001
 http://bplwberp.zzmd.fun:8888/rtp/239.3.1.178:8001
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字经典",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
