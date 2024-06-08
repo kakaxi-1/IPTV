@@ -232,20 +232,15 @@ http://[2409:8087:1a01:df::7005]/PLTV/88888888/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://live.fanmingming.com/tv/求索生活.png" group-title="数字经典",求索生活
 http://[2409:8087:1a01:df::7005]/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="淘电影" tvg-name="淘电影" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtdy.png" group-title="数字经典",淘电影
-http://drive.mxmy.net:8888/rtp/239.3.1.250:8001
-http://bplwberp.zzmd.fun:8888/rtp/239.3.1.250:8001
+http://111.202.12.159:8080/rtp/239.3.1.250:8001
 #EXTINF:-1 tvg-id="淘剧场" tvg-name="淘剧场" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtjc.png" group-title="数字经典",淘剧场
-http://drive.mxmy.net:8888/rtp/239.3.1.95:8001
-http://bplwberp.zzmd.fun:8888/rtp/239.3.1.95:8001
+http://111.202.12.159:8080/rtp/239.3.1.95:8001
 #EXTINF:-1 tvg-id="淘娱乐" tvg-name="淘娱乐" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtyl.png" group-title="数字经典",淘娱乐
-http://drive.mxmy.net:8888/rtp/239.3.1.100:8001
-http://bplwberp.zzmd.fun:8888/rtp/239.3.1.100:8001
+http://111.202.12.159:8080/rtp/239.3.1.100:8001
 #EXTINF:-1 tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtbb.png" group-title="数字经典",淘BABY
-http://drive.mxmy.net:8888/rtp/239.3.1.238:8001
-http://bplwberp.zzmd.fun:8888/rtp/239.3.1.238:8001
+http://111.202.12.159:8080/rtp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="淘精彩" tvg-name="淘精彩" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtjcai.png" group-title="数字经典",淘精彩
-http://drive.mxmy.net:8888/rtp/239.3.1.178:8001
-http://bplwberp.zzmd.fun:8888/rtp/239.3.1.178:8001
+http://111.202.12.159:8080/rtp/239.3.1.178:8001
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字经典",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 #EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://live.fanmingming.com/tv/金色学堂.png" group-title="数字经典",金色学堂
@@ -376,7 +371,7 @@ http://fm1077.serv00.net/Smart.php?id=sanlizhonghe
 https://tv.iill.top/4gtv/169
 #EXTINF:-1,tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET6.png" group-title="港澳台",三立戲劇台
 http://61.221.215.25:8800/hls/41/index.m3u8
-#EXTINF:-1,tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET6.png" group-title="港澳台",三立台湾台
+#EXTINF:-1,tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET4.png" group-title="港澳台",三立台湾台
 http://fm1077.serv00.net/Smart.php?id=sanlitaiwan
 #EXTINF:-1,tvg-id="公視新聞台" tvg-name="公視新聞台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/PTS.png" group-title="港澳台",公視新聞台
 http://fm1077.serv00.net/Smart.php?id=ctv_taiwan
