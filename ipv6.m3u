@@ -347,7 +347,7 @@ http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 http://113.64.145.34:8081/hls/135/index.m3u8
 #EXTINF:-1,tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://live.fanmingming.com/tv/无线新闻台.png" group-title="港澳台",無線新聞台
-https://www.sv6-douyin-cloudfare.cloudns.ch/histar.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=tvb-news
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=inews_twn
 http://php.jdshipin.com:8880/smt.php?id=inews_twn
 #EXTINF:-1,tvg-id="娛樂新聞台" tvg-name="娛樂新聞台" tvg-logo="https://yang-1989.eu.org/logo/娱乐新闻.png" group-title="港澳台",娛樂新聞台
 https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=Tvbentertainment
@@ -366,17 +366,17 @@ https://www.sv6-douyin-cloudfare.cloudns.ch/histar.php?key=7cf3d5ebf95f092bf6e4c
 https://www.sv6-douyin-cloudfare.cloudns.ch/histar.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=settv-news
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 #EXTINF:-1,tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://assets.livednow.com/logo/三立綜合台.png" group-title="港澳台",三立綜合台
-http://fm1077.serv00.net/Smart.php?id=sanlizhonghe
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=sanlizhonghe
 #EXTINF:-1,tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET6.png" group-title="港澳台",三立戲劇台
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1,tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET4.png" group-title="港澳台",三立台灣台
-http://fm1077.serv00.net/Smart.php?id=sanlitaiwan
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=sanlitaiwan
 #EXTINF:-1,tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/PTS.png" group-title="港澳台",公視
-http://fm1077.serv00.net/Smart.php?id=ctv_taiwan
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ctv_taiwan
 #EXTINF:-1,tvg-id="公視戲劇台" tvg-name="公視戲劇台" tvg-logo="https://assets.livednow.com/logo/公視戲劇台.png" group-title="港澳台",公視戲劇台
 http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv042
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://assets.livednow.com/logo/TVBS.png" group-title="港澳台",TVBS
-http://fm1077.serv00.net/Smart.php?id=tvbs
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=tvbs
 #EXTINF:-1,tvg-id="TVBS-新聞台" tvg-name="TVBS-新聞台" tvg-logo="https://assets.livednow.com/logo/TVBS-新聞台.png" group-title="港澳台",TVBS-新聞台
 http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv072
 #EXTINF:-1,tvg-id="TVBS-台劇台" tvg-name="TVBS-台劇台" tvg-logo="https://assets.livednow.com/logo/TVBS-台劇台.png" group-title="港澳台",TVBS-台劇台
@@ -392,9 +392,9 @@ http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv009
 #EXTINF:-1,tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://assets.livednow.com/logo/中天亞洲台.png" group-title="港澳台",中天亞洲台
 http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv109
 #EXTINF:-1,tvg-id="中天娛樂台" tvg-name="中天娛樂台" tvg-logo="https://yang-1989.eu.org/logo/中天娱乐.png" group-title="港澳台",中天娛樂台
-http://fm1077.serv00.net/Smart.php?id=ctient
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ctient
 #EXTINF:-1,tvg-id="中天綜合台" tvg-name="中天綜合台" tvg-logo="https://yang-1989.eu.org/logo/中天综合.png" group-title="港澳台",中天綜合台
-http://fm1077.serv00.net/Smart.php?id=ctizhonghe
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ctizhonghe
 #EXTINF:-1,tvg-id="台視" tvg-name="台視" tvg-logo="https://assets.livednow.com/logo/台視.png" group-title="港澳台",台視
 http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv066
 #EXTINF:-1,tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://assets.livednow.com/logo/台視新聞台.png" group-title="港澳台",台視新聞台
@@ -420,13 +420,13 @@ rtmp://220.130.201.73/sat/tv331
 #EXTINF:-1,tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://assets.livednow.com/logo/東森新聞.png" group-title="港澳台",東森新聞
 http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv152
 #EXTINF:-1,tvg-id="東森综合" tvg-name="東森综合" tvg-logo="https://yang-1989.eu.org/logo/东森综合.png" group-title="港澳台",東森综合
-http://fm1077.serv00.net/Smart.php?id=ettvzhonghe
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ettvzhonghe
 #EXTINF:-1,tvg-id="東森電影" tvg-name="東森電影" tvg-logo="https://yang-1989.eu.org/logo/东森电影.png" group-title="港澳台",東森電影
-http://fm1077.serv00.net/Smart.php?id=ettvmovie
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ettvmovie
 #EXTINF:-1,tvg-id="東森戲劇" tvg-name="東森戲劇" tvg-logo="https://yang-1989.eu.org/logo/东森戏剧.png" group-title="港澳台",東森戲劇
-http://fm1077.serv00.net/Smart.php?id=ettvdrama
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ettvdrama
 #EXTINF:-1,tvg-id="東森洋片" tvg-name="東森洋片" tvg-logo="https://yang-1989.eu.org/logo/东森洋片.png" group-title="港澳台",東森洋片
-http://fm1077.serv00.net/Smart.php?id=ettvwestern
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=ettvwestern
 #EXTINF:-1,tvg-id="東森財經新聞" tvg-name="東森財經新聞" tvg-logo="https://assets.livednow.com/logo/東森財經新聞.png" group-title="港澳台",東森財經新聞
 http://op.880824.xyz:5678/mt-litv.php?id=4gtv-4gtv153
 #EXTINF:-1,tvg-id="民視" tvg-name="民視" tvg-logo="https://assets.livednow.com/logo/民視.png" group-title="港澳台",民視
@@ -484,7 +484,7 @@ http://op.880824.xyz:5678/mt-litv.php?id=litv-longturn21
 #EXTINF:-1,tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://live.fanmingming.com/tv/龙华戏剧.png" group-title="港澳台",龍華戲劇台
 http://op.880824.xyz:5678/mt-litv.php?id=litv-longturn18
 #EXTINF:-1,tvg-id="龍華洋片台" tvg-name="龍華洋片台" tvg-logo="https://yang-1989.eu.org/logo/龙华洋片.png" group-title="港澳台",龍華洋片台
-http://fm1077.serv00.net/Smart.php?id=lunghuawestern_twn
+https://v9-douyin-cloudflare-cdn.sv6-douyin-cloudfare.cloudns.ch/Smartv.php?key=7cf3d5ebf95f092bf6e4c2667458fa59&id=lunghuawestern_twn
 #EXTINF:-1,tvg-id="龍華動畫台" tvg-name="龍華動畫台" tvg-logo="https://assets.livednow.com/logo/龍華卡通台.png" group-title="港澳台",龍華動畫台
 http://op.880824.xyz:5678/mt-litv.php?id=litv-longturn01
 #EXTINF:-1,tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://live.fanmingming.com/tv/龙华日韩台.png" group-title="港澳台",龍華日韓台
