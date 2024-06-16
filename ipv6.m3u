@@ -8,8 +8,10 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638727c125355/index.m
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV-4 
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN5000037BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSpr1AVNI633ampcuzdN%2BfH0ZQXwaiVktPr6ILPKXqwOUC2ZXft7ZULN6h9qLQPFOTSlVTfophiKaMb8h1kPV74
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://live.fanmingming.com/tv/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲 
+http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv4ouhd/57/index.m3u8?&encrypt=
 http://220.176.218.35:8888/udp/239.252.219.192:5140
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://live.fanmingming.com/tv/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
+http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/57/index.m3u8?&encrypt=
 http://220.176.218.35:8888/udp/239.252.219.193:5140
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV-5 
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638727e617ca0/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSPTZ4CK5oLfjaEYe9dogNMSXw4ajlL%2FoUYC2RZQQDco6uQSifXBocz5ID6RePfIKQ4rFWiHjq%2FeZoDmrzW%2FKlw
@@ -231,15 +233,15 @@ http://[2409:8087:1a01:df::7005]/PLTV/88888888/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://live.fanmingming.com/tv/求索生活.png" group-title="数字经典",求索生活
 http://[2409:8087:1a01:df::7005]/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="淘电影" tvg-name="淘电影" tvg-logo="https://upload.112114.xyz/logo/BEIJINGIPTV-TDY.png" group-title="数字经典",淘电影
-http://111.202.12.159:8080/rtp/239.3.1.250:8001
+http://webmail.axxe.top:4022/udp/239.3.1.250:8001
 #EXTINF:-1 tvg-id="淘剧场" tvg-name="淘剧场" tvg-logo="https://upload.112114.xyz/logo/BEIJINGIPTV-T.png" group-title="数字经典",淘剧场
-http://111.202.12.159:8080/rtp/239.3.1.95:8001
+http://webmail.axxe.top:4022/udp/239.3.1.95:8001
 #EXTINF:-1 tvg-id="淘娱乐" tvg-name="淘娱乐" tvg-logo="https://upload.112114.xyz/logo/BJTYL.png" group-title="数字经典",淘娱乐
-http://111.202.12.159:8080/rtp/239.3.1.100:8001
+http://webmail.axxe.top:4022/udp/239.3.1.100:8001
 #EXTINF:-1 tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://upload.112114.xyz/logo/BEIJINGIPTV-TBABY.png" group-title="数字经典",淘BABY
-http://111.202.12.159:8080/rtp/239.3.1.238:8001
+http://webmail.axxe.top:4022/udp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="淘精彩" tvg-name="淘精彩" tvg-logo="https://upload.112114.xyz/logo/BEIJINGIPTV-TJC.png" group-title="数字经典",淘精彩
-http://111.202.12.159:8080/rtp/239.3.1.178:8001
+http://webmail.axxe.top:4022/udp/239.3.1.178:8001
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字经典",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 #EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://live.fanmingming.com/tv/金色学堂.png" group-title="数字经典",金色学堂
@@ -298,9 +300,9 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010021/1.m3u8?IASHt
 #EXTINF:-1 tvg-id="newtv欢乐剧场" tvg-name="newtv欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/NEWTV欢乐剧场.png" group-title="数字经典",欢乐剧场
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010025/1.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1,tvg-id="影视轮播1" tvg-name="影视轮播1" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播1
-https://live.880824.xyz/douyu/122402
+http://tc-tct.douyucdn2.cn/dyliveflv1/122402rK7MO9bXSq_2000.flv?wsAuth=8cea39337984fd3341cc9ec569502e4f&token=cpn-androidmpro-0-122402-0fcea45d2300cfa0ac75fafd8679bb53af10de8c33ae99d9&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=p
 #EXTINF:-1,tvg-id="影视轮播2" tvg-name="影视轮播2" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播2
-https://live.880824.xyz/douyu/315457
+http://tc-tct.douyucdn2.cn/dyliveflv1/85894rmovieChow_2000.flv?wsAuth=7d054e041804e80af8aa7e975e2d8573&token=cpn-androidmpro-0-85894-a3575d938a4aa309c687f5fb85a1009fc65cfbeeb2672310&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=pla
 #EXTINF:-1,tvg-id="影视轮播3" tvg-name="影视轮播3" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播3
 https://live.880824.xyz/douyu/5423
 #EXTINF:-1,tvg-id="影视轮播4" tvg-name="影视轮播4" tvg-logo="https://live.fanmingming.com/tv/4K电影.png" group-title="影视轮播",影视轮播4
