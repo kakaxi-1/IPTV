@@ -361,9 +361,9 @@ http://192.9.178.181:5000/4gtv/169
 #EXTINF:-1,tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET6.png" group-title="港澳台",三立戲劇台
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1,tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/SET4.png" group-title="港澳台",三立台灣台
-https://yang-1989.eu.org/tv/sltw
+
 #EXTINF:-1,tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/PTS.png" group-title="港澳台",公視
-https://yang-1989.eu.org/tv/gs
+
 #EXTINF:-1,tvg-id="公視戲劇台" tvg-name="公視戲劇台" tvg-logo="https://assets.livednow.com/logo/公視戲劇台.png" group-title="港澳台",公視戲劇台
 http://192.9.178.181:5000/litv/4gtv-4gtv042
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://assets.livednow.com/logo/TVBS.png" group-title="港澳台",TVBS
@@ -383,9 +383,9 @@ http://192.9.178.181:5000/litv/4gtv-4gtv009
 #EXTINF:-1,tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://assets.livednow.com/logo/中天亞洲台.png" group-title="港澳台",中天亞洲台
 http://192.9.178.181:5000/litv/4gtv-4gtv109
 #EXTINF:-1,tvg-id="中天娛樂台" tvg-name="中天娛樂台" tvg-logo="https://yang-1989.eu.org/logo/中天娱乐.png" group-title="港澳台",中天娛樂台
-https://yang-1989.eu.org/tv/ztyl
+
 #EXTINF:-1,tvg-id="中天綜合台" tvg-name="中天綜合台" tvg-logo="https://yang-1989.eu.org/logo/中天综合.png" group-title="港澳台",中天綜合台
-https://yang-1989.eu.org/tv/ztzh
+
 #EXTINF:-1,tvg-id="台視" tvg-name="台視" tvg-logo="https://assets.livednow.com/logo/台視.png" group-title="港澳台",台視
 http://192.9.178.181:5000/litv/4gtv-4gtv066
 #EXTINF:-1,tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://assets.livednow.com/logo/台視新聞台.png" group-title="港澳台",台視新聞台
@@ -413,13 +413,13 @@ rtmp://220.130.201.73/sat/tv331
 #EXTINF:-1,tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://assets.livednow.com/logo/東森新聞.png" group-title="港澳台",東森新聞
 http://192.9.178.181:5000/litv/4gtv-4gtv152
 #EXTINF:-1,tvg-id="東森综合" tvg-name="東森综合" tvg-logo="https://yang-1989.eu.org/logo/东森综合.png" group-title="港澳台",東森综合
-https://yang-1989.eu.org/tv/dszh
+
 #EXTINF:-1,tvg-id="東森電影" tvg-name="東森電影" tvg-logo="https://yang-1989.eu.org/logo/东森电影.png" group-title="港澳台",東森電影
-https://yang-1989.eu.org/tv/dsdy
+
 #EXTINF:-1,tvg-id="東森戲劇" tvg-name="東森戲劇" tvg-logo="https://yang-1989.eu.org/logo/东森戏剧.png" group-title="港澳台",東森戲劇
-https://yang-1989.eu.org/tv/dsxj
+
 #EXTINF:-1,tvg-id="東森洋片" tvg-name="東森洋片" tvg-logo="https://yang-1989.eu.org/logo/东森洋片.png" group-title="港澳台",東森洋片
-https://yang-1989.eu.org/tv/dsyp
+
 #EXTINF:-1,tvg-id="東森財經新聞" tvg-name="東森財經新聞" tvg-logo="https://assets.livednow.com/logo/東森財經新聞.png" group-title="港澳台",東森財經新聞
 http://192.9.178.181:5000/litv/4gtv-4gtv153
 #EXTINF:-1,tvg-id="民視" tvg-name="民視" tvg-logo="https://assets.livednow.com/logo/民視.png" group-title="港澳台",民視
@@ -477,7 +477,7 @@ http://192.9.178.181:5000/litv/litv-longturn21
 #EXTINF:-1,tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://live.fanmingming.com/tv/龙华戏剧.png" group-title="港澳台",龍華戲劇台
 http://192.9.178.181:5000/litv/litv-longturn18
 #EXTINF:-1,tvg-id="龍華洋片台" tvg-name="龍華洋片台" tvg-logo="https://yang-1989.eu.org/logo/龙华洋片.png" group-title="港澳台",龍華洋片台
-https://yang-1989.eu.org/tv/lhyp
+
 #EXTINF:-1,tvg-id="龍華動畫台" tvg-name="龍華動畫台" tvg-logo="https://assets.livednow.com/logo/龍華卡通台.png" group-title="港澳台",龍華動畫台
 http://192.9.178.181:5000/litv/litv-longturn01
 #EXTINF:-1,tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://live.fanmingming.com/tv/龙华日韩台.png" group-title="港澳台",龍華日韓台
@@ -499,10 +499,8 @@ http://192.9.178.181:5000/litv/4gtv-4gtv039
 #EXTINF:-1,tvg-id="緯來育樂" tvg-name="緯來育樂" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Videoland6.png" group-title="港澳台",緯來育樂
 rtmp://220.130.201.73/sat/tv701
 #EXTINF:-1,tvg-id="緯來體育" tvg-name="緯來體育" tvg-logo="https://yang-1989.eu.org/logo/纬来体育.png" group-title="港澳台",緯來體育
-https://yang-1989.eu.org/tv/wlty
 rtmp://220.130.201.73/sat/tv721
 #EXTINF:-1,tvg-id="緯來日本" tvg-name="緯來日本" tvg-logo="https://yang-1989.eu.org/logo/纬来日本.png" group-title="港澳台",緯來日本
-https://yang-1989.eu.org/tv/wlrb
 rtmp://220.130.201.73/sat/tv771
 #EXTINF:-1,tvg-id="緯來精采" tvg-name="緯來精采" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Videoland4.png" group-title="港澳台",緯來精采
 http://61.221.215.25:8800/hls/48/index.m3u8
@@ -511,7 +509,7 @@ http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1,tvg-id="緯來戲劇" tvg-name="緯來戲劇" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Videoland3.png" group-title="港澳台",緯來戲劇
 
 #EXTINF:-1,tvg-id="緯來電影" tvg-name="緯來電影" tvg-logo="https://yang-1989.eu.org/logo/纬来电影.png" group-title="港澳台",緯來電影
-https://yang-1989.eu.org/tv/wldy
+
 #EXTINF:-1,tvg-id="好消息" tvg-name="好消息" tvg-logo="https://assets.livednow.com/logo/好消息.png" group-title="港澳台",好消息
 http://192.9.178.181:5000/litv/litv-ftv16
 #EXTINF:-1,tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://assets.livednow.com/logo/好消息2台.png" group-title="港澳台",好消息2台
