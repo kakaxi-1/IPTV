@@ -196,14 +196,14 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/嘉佳卡通.png" group-title="卫视频道",嘉佳卡通
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000343/index.m3u8?IAS
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CETV1.png" group-title="卫视频道",CETV-1
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-1.png" group-title="卫视频道",CETV-1
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
-#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CETV2.png" group-title="卫视频道",CETV-2
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-2.png" group-title="卫视频道",CETV-2
 http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
-#EXTINF:-1 tvg-id="中国教育3台" tvg-name="中国教育3台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CETV3.png" group-title="卫视频道",CETV-3
+#EXTINF:-1 tvg-id="中国教育3台" tvg-name="中国教育3台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-3.png" group-title="卫视频道",CETV-3
 http://hwylivehd.centv.cn/cetv3/bjdm.m3u8
 http://imzbpfrp.zzmd.fun:8888/rtp/239.3.1.55:4120
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CETV4.png" group-title="卫视频道",CETV-4
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-4.png" group-title="卫视频道",CETV-4
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CHC动作电影.png" group-title="数字经典",CHC动作电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
@@ -502,25 +502,25 @@ http://95.179.139.113:5566/litv/litv-longturn12
 http://61.221.215.25:8800/hls/39/index.m3u8
 #EXTINF:-1,tvg-id="八大第一台" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大第一.png" group-title="港澳台",八大第一台
 http://61.221.215.25:8800/hls/55/index.m3u8
-#EXTINF:-1,tvg-id="八大综合台" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/img/八大综合台.png" group-title="港澳台",八大综合台
+#EXTINF:-1,tvg-id="八大综合台" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大综合台.png" group-title="港澳台",八大综合台
 http://61.221.215.25:8800/hls/56/index.m3u8
 #EXTINF:-1,tvg-id="八大精彩台" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大精彩台.png" group-title="港澳台",八大精彩台
 http://95.179.139.113:5566/litv/4gtv-4gtv034
 #EXTINF:-1,tvg-id="八大綜藝台" tvg-name="八大綜藝台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大综合台.png" group-title="港澳台",八大綜藝台
 http://95.179.139.113:5566/litv/4gtv-4gtv039
-#EXTINF:-1,tvg-id="八大娛樂台" tvg-name="八大娛樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/img/八大娱乐台.png" group-title="港澳台",八大娛樂台
+#EXTINF:-1,tvg-id="八大娛樂台" tvg-name="八大娛樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大娱乐台.png" group-title="港澳台",八大娛樂台
 https://lzoq.serv00.net/daili/Smartv.php?id=badaentertain
-#EXTINF:-1,tvg-id="緯來育樂" tvg-name="緯來育樂" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/img/纬来育乐.png" group-title="港澳台",緯來育樂
+#EXTINF:-1,tvg-id="緯來育樂" tvg-name="緯來育樂" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来育乐.png" group-title="港澳台",緯來育樂
 rtmp://220.130.201.73/sat/tv701
 #EXTINF:-1,tvg-id="緯來體育" tvg-name="緯來體育" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来体育.png" group-title="港澳台",緯來體育
 rtmp://220.130.201.73/sat/tv721
 #EXTINF:-1,tvg-id="緯來日本" tvg-name="緯來日本" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来日本.png" group-title="港澳台",緯來日本
 rtmp://220.130.201.73/sat/tv771
-#EXTINF:-1,tvg-id="緯來精采" tvg-name="緯來精采" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/img/纬来精彩.png" group-title="港澳台",緯來精采
+#EXTINF:-1,tvg-id="緯來精采" tvg-name="緯來精采" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来精彩.png" group-title="港澳台",緯來精采
 http://61.221.215.25:8800/hls/48/index.m3u8
-#EXTINF:-1,tvg-id="緯來綜合" tvg-name="緯來綜合" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/img/纬来综合.png" group-title="港澳台",緯來綜合
+#EXTINF:-1,tvg-id="緯來綜合" tvg-name="緯來綜合" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来综合.png" group-title="港澳台",緯來綜合
 
-#EXTINF:-1,tvg-id="緯來戲劇" tvg-name="緯來戲劇" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/img/纬来戏剧.png" group-title="港澳台",緯來戲劇
+#EXTINF:-1,tvg-id="緯來戲劇" tvg-name="緯來戲劇" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来戏剧.png" group-title="港澳台",緯來戲劇
 
 #EXTINF:-1,tvg-id="緯來電影" tvg-name="緯來電影" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来电影.png" group-title="港澳台",緯來電影
 https://lzoq.serv00.net/daili/Smartv.php?id=videolandmovie
