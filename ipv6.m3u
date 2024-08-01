@@ -369,8 +369,10 @@ http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 #EXTINF:-1,tvg-id="三立財經新聞" tvg-name="三立財經新聞" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/三立i NEWS.png" group-title="港澳台",三立財經新聞
 https://yang-1989.eu.org/youtube/FoBfXvlOR6I
 #EXTINF:-1,tvg-id="三立新聞" tvg-name="三立新聞" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/三立新闻.png" group-title="港澳台",三立新聞
+http://192.168.100.1:9999/4gtv/229
 http://95.179.139.113:5566/4gtv/229
 #EXTINF:-1,tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/三立綜合台.png" group-title="港澳台",三立綜合台
+http://192.168.100.1:9999/4gtv/169
 http://95.179.139.113:5566/4gtv/169
 #EXTINF:-1,tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/三立戏剧.png" group-title="港澳台",三立戲劇台
 http://61.221.215.25:8800/hls/41/index.m3u8
@@ -379,52 +381,71 @@ https://lzoq.serv00.net/daili/Smartv.php?id=sanlitaiwan
 #EXTINF:-1,tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/公视.png" group-title="港澳台",公視
 https://lzoq.serv00.net/daili/Smartv.php?id=ctv_taiwan
 #EXTINF:-1,tvg-id="公視戲劇台" tvg-name="公視戲劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/公视戏剧.png" group-title="港澳台",公視戲劇台
+http://192.168.100.1:9999/litv/4gtv-4gtv042
 http://95.179.139.113:5566/litv/4gtv-4gtv042
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TVBS.png" group-title="港澳台",TVBS
+http://192.168.100.1:9999/litv/4gtv-4gtv073
 http://95.179.139.113:5566/litv/4gtv-4gtv073
 #EXTINF:-1,tvg-id="TVBS-新聞台" tvg-name="TVBS-新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TVBS新闻台.png" group-title="港澳台",TVBS-新聞台
+http://192.168.100.1:9999/litv/4gtv-4gtv072
 http://95.179.139.113:5566/litv/4gtv-4gtv072
 #EXTINF:-1,tvg-id="TVBS-台劇台" tvg-name="TVBS-台劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TVBS台剧台.png" group-title="港澳台",TVBS-台劇台
+http://192.168.100.1:9999/4gtv/285
 http://95.179.139.113:5566/4gtv/285
 #EXTINF:-1,tvg-id="TVBS-精采台" tvg-name="TVBS-精采台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TVBS精彩台.png" group-title="港澳台",TVBS-精采台
+http://192.168.100.1:9999/litv/4gtv-4gtv067
 http://95.179.139.113:5566/litv/4gtv-4gtv067
 #EXTINF:-1,tvg-id="TVBS-綜藝台" tvg-name="TVBS-綜藝台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TVBS综艺台.png" group-title="港澳台",TVBS-綜藝台
+http://192.168.100.1:9999/4gtv/284
 http://95.179.139.113:5566/4gtv/284
 #EXTINF:-1,tvg-id="TVBS-歡樂台" tvg-name="TVBS-歡樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TVBS欢乐台.png" group-title="港澳台",TVBS-歡樂台
+http://192.168.100.1:9999/litv/4gtv-4gtv068
 http://95.179.139.113:5566/litv/4gtv-4gtv068
 #EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中天新闻台.png" group-title="港澳台",中天新聞台
+http://192.168.100.1:9999/litv/4gtv-4gtv009
 http://95.179.139.113:5566/litv/4gtv-4gtv009
 #EXTINF:-1,tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中天亚洲台.png" group-title="港澳台",中天亞洲台
+http://192.168.100.1:9999/litv/4gtv-4gtv109
 http://95.179.139.113:5566/litv/4gtv-4gtv109
 #EXTINF:-1,tvg-id="中天娛樂台" tvg-name="中天娛樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中天娱乐台.png" group-title="港澳台",中天娛樂台
 https://lzoq.serv00.net/daili/Smartv.php?id=ctient
 #EXTINF:-1,tvg-id="中天綜合台" tvg-name="中天綜合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中天综合台.png" group-title="港澳台",中天綜合台
 https://lzoq.serv00.net/daili/Smartv.php?id=ctizhonghe
 #EXTINF:-1,tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/台视.png" group-title="港澳台",台視
+http://192.168.100.1:9999/litv/4gtv-4gtv066
 http://95.179.139.113:5566/litv/4gtv-4gtv066
 #EXTINF:-1,tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/台視新聞台.png" group-title="港澳台",台視新聞台
+http://192.168.100.1:9999/litv/4gtv-4gtv051
 http://95.179.139.113:5566/litv/4gtv-4gtv051
 #EXTINF:-1,tvg-id="台視財經台" tvg-name="台視財經台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/台視財經台.png" group-title="港澳台",台視財經台
+http://192.168.100.1:9999/litv/4gtv-4gtv056
 http://95.179.139.113:5566/litv/4gtv-4gtv056
 #EXTINF:-1,tvg-id="台視綜合台" tvg-name="台視綜合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/台視綜合台.png" group-title="港澳台",台視綜合台
 https://lzoq.serv00.net/daili/Smartv.php?id=ttvzhonghe_twn
 #EXTINF:-1,tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/華視.png" group-title="港澳台",華視
+http://192.168.100.1:9999/litv/4gtv-4gtv041
 http://95.179.139.113:5566/litv/4gtv-4gtv041
 #EXTINF:-1,tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/華視新聞.png" group-title="港澳台",華視新聞
+http://192.168.100.1:9999/litv/4gtv-4gtv052
 http://95.179.139.113:5566/litv/4gtv-4gtv052
 #EXTINF:-1,tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中視.png" group-title="港澳台",中視
+http://192.168.100.1:9999/litv/4gtv-4gtv040
 http://95.179.139.113:5566/litv/4gtv-4gtv040
 #EXTINF:-1,tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中視新聞台.png" group-title="港澳台",中視新聞台
+http://192.168.100.1:9999/litv/4gtv-4gtv074
 http://95.179.139.113:5566/litv/4gtv-4gtv074
 #EXTINF:-1,tvg-id="中視經典台" tvg-name="中視經典台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中視經典台.png" group-title="港澳台",中視經典台
+http://192.168.100.1:9999/litv/4gtv-4gtv080
 http://95.179.139.113:5566/litv/4gtv-4gtv080
 #EXTINF:-1,tvg-id="中視菁采台" tvg-name="中視菁采台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中視菁采台.png" group-title="港澳台",中視菁采台
+http://192.168.100.1:9999/litv/4gtv-4gtv064
 http://95.179.139.113:5566/litv/4gtv-4gtv064
 #EXTINF:-1,tvg-id="超視34.5" tvg-name="超視34.5" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/超视34.5..png" group-title="港澳台",超視34.5
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1,tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/东森超视.png" group-title="港澳台",東森超視
 rtmp://220.130.201.73/sat/tv331
 #EXTINF:-1,tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/東森新聞.png" group-title="港澳台",東森新聞
+http://192.168.100.1:9999/litv/4gtv-4gtv152
 http://95.179.139.113:5566/litv/4gtv-4gtv152
 #EXTINF:-1,tvg-id="東森综合" tvg-name="東森综合" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/东森综合.png" group-title="港澳台",東森综合
 https://lzoq.serv00.net/daili/Smartv.php?id=ettvzhonghe
@@ -435,68 +456,102 @@ https://lzoq.serv00.net/daili/Smartv.php?id=ettvdrama
 #EXTINF:-1,tvg-id="東森洋片" tvg-name="東森洋片" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/东森洋片.png" group-title="港澳台",東森洋片
 https://lzoq.serv00.net/daili/Smartv.php?id=ettvwestern
 #EXTINF:-1,tvg-id="東森財經新聞" tvg-name="東森財經新聞" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/東森財經新聞.png" group-title="港澳台",東森財經新聞
+http://192.168.100.1:9999/litv/4gtv-4gtv153
 http://95.179.139.113:5566/litv/4gtv-4gtv153
 #EXTINF:-1,tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視.png" group-title="港澳台",民視
+http://192.168.100.1:9999/litv/4gtv-4gtv155
 http://95.179.139.113:5566/litv/4gtv-4gtv155
 #EXTINF:-1,tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視新聞台.png" group-title="港澳台",民視新聞台
+http://192.168.100.1:9999/litv/litv-ftv13
 http://95.179.139.113:5566/litv/litv-ftv13
 #EXTINF:-1,tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視台灣台.png" group-title="港澳台",民視台灣台
+http://192.168.100.1:9999/litv/4gtv-4gtv001
 http://95.179.139.113:5566/litv/4gtv-4gtv001
 #EXTINF:-1,tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視第一台.png" group-title="港澳台",民視第一台
+http://192.168.100.1:9999/litv/4gtv-4gtv003
 http://95.179.139.113:5566/litv/4gtv-4gtv003
 #EXTINF:-1,tvg-id="民視綜藝台" tvg-name="民視綜藝台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視綜藝台.png" group-title="港澳台",民視綜藝台
+http://192.168.100.1:9999/litv/4gtv-4gtv004
 http://95.179.139.113:5566/litv/4gtv-4gtv004
 #EXTINF:-1,tvg-id="民視影劇台" tvg-name="民視影劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視影劇台.png" group-title="港澳台",民視影劇台
+http://192.168.100.1:9999/litv/litv-ftv09
 http://95.179.139.113:5566/litv/litv-ftv09
 #EXTINF:-1,tvg-id="民視旅遊台" tvg-name="民視旅遊台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/民視旅遊台.png" group-title="港澳台",民視旅遊台
+http://192.168.100.1:9999/litv/litv-ftv07
 http://95.179.139.113:5566/litv/litv-ftv07
 #EXTINF:-1,tvg-id="非凡新聞台" tvg-name="非凡新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/非凡新聞台.png" group-title="港澳台",非凡新聞台
+http://192.168.100.1:9999/litv/4gtv-4gtv010
 http://95.179.139.113:5566/litv/4gtv-4gtv010
 #EXTINF:-1,tvg-id="非凡商業台" tvg-name="非凡商業台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/非凡商業台.png" group-title="港澳台",非凡商業台
+http://192.168.100.1:9999/litv/4gtv-4gtv048
 http://95.179.139.113:5566/litv/4gtv-4gtv048
 #EXTINF:-1,tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/鏡電視新聞台.png" group-title="港澳台",鏡電視新聞台
+http://192.168.100.1:9999/litv/4gtv-4gtv075
 http://95.179.139.113:5566/litv/4gtv-4gtv075
 #EXTINF:-1,tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/寰宇新聞台.png" group-title="港澳台",寰宇新闻台
+http://192.168.100.1:9999/litv/litv-longturn14
 http://95.179.139.113:5566/litv/litv-longturn14
 #EXTINF:-1,tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/寰宇新聞台灣台.png" group-title="港澳台",寰宇新闻台湾台
+http://192.168.100.1:9999/litv/litv-longturn15
 http://95.179.139.113:5566/litv/litv-longturn15
+#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/寰宇財經台.png" group-title="新聞財經", 寰宇財經台
+http://192.168.100.1:9999/litv/litv-longturn23
+http://95.179.139.113:5566/litv/litv-longturn23
 #EXTINF:-1,tvg-id="靖天電影台" tvg-name="靖天電影台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天电影台.png" group-title="港澳台",靖天電影台
+http://192.168.100.1:9999/litv/4gtv-4gtv061
 http://95.179.139.113:5566/litv/4gtv-4gtv061
 #EXTINF:-1,tvg-id="靖天戲劇台" tvg-name="靖天戲劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天戲劇台.png" group-title="港澳台",靖天戲劇台
+http://192.168.100.1:9999/litv/4gtv-4gtv058
 http://95.179.139.113:5566/litv/4gtv-4gtv058
 #EXTINF:-1,tvg-id="靖天歡樂台" tvg-name="靖天歡樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天歡樂台.png" group-title="港澳台",靖天歡樂台
+http://192.168.100.1:9999/litv/4gtv-4gtv054
 http://95.179.139.113:5566/litv/4gtv-4gtv054
 #EXTINF:-1,tvg-id="靖天综合台" tvg-name="靖天综合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天綜合台.png" group-title="港澳台",靖天綜合台
+http://192.168.100.1:9999/litv/4gtv-4gtv046
 http://95.179.139.113:5566/litv/4gtv-4gtv046
 #EXTINF:-1,tvg-id="靖天資訊台" tvg-name="靖天資訊台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天資訊台.png" group-title="港澳台",靖天資訊台
+http://192.168.100.1:9999/litv/4gtv-4gtv065
 http://95.179.139.113:5566/litv/4gtv-4gtv065
 #EXTINF:-1,tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天卡通台.png" group-title="港澳台",靖天卡通台
+http://192.168.100.1:9999/litv/4gtv-4gtv044
 http://95.179.139.113:5566/litv/4gtv-4gtv044
 #EXTINF:-1,tvg-id="靖天日本台" tvg-name="靖天日本台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天日本台.png" group-title="港澳台",靖天日本台
+http://192.168.100.1:9999/litv/4gtv-4gtv047
 http://95.179.139.113:5566/litv/4gtv-4gtv047
 #EXTINF:-1,tvg-id="靖天國際台" tvg-name="靖天國際台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天國際台.png" group-title="港澳台",靖天國際台
+http://192.168.100.1:9999/litv/4gtv-4gtv063
 http://95.179.139.113:5566/litv/4gtv-4gtv063
 #EXTINF:-1,tvg-id="靖天映畫台" tvg-name="靖天映畫台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天映畫台.png" group-title="港澳台",靖天映畫台
+http://192.168.100.1:9999/litv/4gtv-4gtv055
 http://95.179.139.113:5566/litv/4gtv-4gtv055
 #EXTINF:-1,tvg-id="靖天育樂台" tvg-name="靖天育樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖天育乐.png" group-title="港澳台",靖天育樂台
+http://192.168.100.1:9999/litv/4gtv-4gtv062
 http://95.179.139.113:5566/litv/4gtv-4gtv062
 #EXTINF:-1,tvg-id="靖洋卡通-Nice-Bingo" tvg-name="靖洋卡通-Nice-Bingo" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖洋卡通.png" group-title="港澳台",靖洋卡通-Nice-Bingo
+http://192.168.100.1:9999/litv/4gtv-4gtv057
 http://95.179.139.113:5566/litv/4gtv-4gtv057
 #EXTINF:-1,tvg-id="靖洋戲劇台" tvg-name="靖洋戲劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/靖洋戏剧.png" group-title="港澳台",靖洋戲劇台
+http://192.168.100.1:9999/litv/4gtv-4gtv045
 http://95.179.139.113:5566/litv/4gtv-4gtv045
 #EXTINF:-1,tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龙华电影.png" group-title="港澳台",龍華電影台
+http://192.168.100.1:9999/litv/litv-longturn03
 http://95.179.139.113:5566/litv/litv-longturn03
 #EXTINF:-1,tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龙华经典.png" group-title="港澳台",龍華經典台
+http://192.168.100.1:9999/litv/litv-longturn21
 http://95.179.139.113:5566/litv/litv-longturn21
 #EXTINF:-1,tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龙华戏剧.png" group-title="港澳台",龍華戲劇台
+http://192.168.100.1:9999/litv/litv-longturn18
 http://95.179.139.113:5566/litv/litv-longturn18
 #EXTINF:-1,tvg-id="龍華洋片台" tvg-name="龍華洋片台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龙华洋片.png" group-title="港澳台",龍華洋片台
 https://lzoq.serv00.net/daili/Smartv.php?id=lunghuawestern_twn
 #EXTINF:-1,tvg-id="龍華動畫台" tvg-name="龍華動畫台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龍華卡通台.png" group-title="港澳台",龍華動畫台
+http://192.168.100.1:9999/litv/litv-longturn01
 http://95.179.139.113:5566/litv/litv-longturn01
 #EXTINF:-1,tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龙华日韩台.png" group-title="港澳台",龍華日韓台
+http://192.168.100.1:9999/litv/litv-longturn11
 http://95.179.139.113:5566/litv/litv-longturn11
 #EXTINF:-1,tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/龙华偶像.png" group-title="港澳台",龍華偶像台
+http://192.168.100.1:9999/litv/litv-longturn12
 http://95.179.139.113:5566/litv/litv-longturn12
 #EXTINF:-1,tvg-id="八大戲劇台" tvg-name="八大戲劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大戏剧.png" group-title="港澳台",八大戲劇台
 http://61.221.215.25:8800/hls/39/index.m3u8
@@ -505,8 +560,10 @@ http://61.221.215.25:8800/hls/55/index.m3u8
 #EXTINF:-1,tvg-id="八大综合台" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大综合台.png" group-title="港澳台",八大综合台
 http://61.221.215.25:8800/hls/56/index.m3u8
 #EXTINF:-1,tvg-id="八大精彩台" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大精彩台.png" group-title="港澳台",八大精彩台
+http://192.168.100.1:9999/litv/4gtv-4gtv034
 http://95.179.139.113:5566/litv/4gtv-4gtv034
 #EXTINF:-1,tvg-id="八大綜藝台" tvg-name="八大綜藝台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大综艺.png" group-title="港澳台",八大綜藝台
+http://192.168.100.1:9999/litv/4gtv-4gtv039
 http://95.179.139.113:5566/litv/4gtv-4gtv039
 #EXTINF:-1,tvg-id="八大娛樂台" tvg-name="八大娛樂台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/八大娱乐台.png" group-title="港澳台",八大娛樂台
 https://lzoq.serv00.net/daili/Smartv.php?id=badaentertain
@@ -525,64 +582,96 @@ http://extraott.com/7921751389/6097373662/5490
 #EXTINF:-1,tvg-id="緯來電影" tvg-name="緯來電影" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/纬来电影.png" group-title="港澳台",緯來電影
 https://lzoq.serv00.net/daili/Smartv.php?id=videolandmovie
 #EXTINF:-1,tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/好消息.png" group-title="港澳台",好消息
+http://192.168.100.1:9999/litv/litv-ftv16
 http://95.179.139.113:5566/litv/litv-ftv16
 #EXTINF:-1,tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/好消息2台.png" group-title="港澳台",好消息2台
+http://192.168.100.1:9999/litv/litv-ftv17
 http://95.179.139.113:5566/litv/litv-ftv17
+#EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/影迷數位紀實台.png" group-title="電影戲劇", 影迷數位紀實台
+http://192.168.100.1:9999/4gtv/212
+http://95.179.139.113:5566/4gtv/212
 #EXTINF:-1,tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/影迷數位電影台.png" group-title="港澳台",影迷數位電影台
+http://192.168.100.1:9999/litv/4gtv-4gtv011
 http://95.179.139.113:5566/litv/4gtv-4gtv011
 #EXTINF:-1,tvg-id="AMC-最愛電影" tvg-name="AMC-最愛電影" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/AMC-最愛電影.png" group-title="港澳台",AMC-最愛電影
+http://192.168.100.1:9999/litv/4gtv-4gtv017
 http://95.179.139.113:5566/litv/4gtv-4gtv017
 #EXTINF:-1,tvg-id="CatchPlay-電影台" tvg-name="CatchPlay-電影台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CatchPlay-電影台.png" group-title="港澳台",CatchPlay-電影台
+http://192.168.100.1:9999/litv/4gtv-4gtv076
 http://95.179.139.113:5566/litv/4gtv-4gtv076
 #EXTINF:-1,tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/半島國際新聞台.png" group-title="港澳台",半島國際新聞台
+http://192.168.100.1:9999/litv/litv-ftv10
 http://95.179.139.113:5566/litv/litv-ftv10
 #EXTINF:-1,tvg-id="采昌影劇台" tvg-name="采昌影劇台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/采昌影劇台.png" group-title="港澳台",采昌影劇台
+http://192.168.100.1:9999/litv/4gtv-4gtv049
 http://95.179.139.113:5566/litv/4gtv-4gtv049
 #EXTINF:-1,tvg-id="智林體育台" tvg-name="智林體育台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/智林體育台.png" group-title="港澳台",智林體育台
+http://192.168.100.1:9999/litv/4gtv-4gtv101
 http://95.179.139.113:5566/litv/4gtv-4gtv101
 #EXTINF:-1,tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/時尚運動X.png" group-title="港澳台",時尚運動X
+http://192.168.100.1:9999/4gtv/277
 http://95.179.139.113:5566/4gtv/277
 #EXTINF:-1,tvg-id="博斯魅力台" tvg-name="博斯魅力台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯魅力台.png" group-title="港澳台",博斯魅力台
+http://192.168.100.1:9999/litv/litv-longturn04
 http://95.179.139.113:5566/litv/litv-longturn04
 #EXTINF:-1,tvg-id="博斯高球台" tvg-name="博斯高球台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯高球台.png" group-title="港澳台",博斯高球台
+http://192.168.100.1:9999/litv/litv-longturn05
 http://95.179.139.113:5566/litv/litv-longturn05
 #EXTINF:-1,tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯高球二台.png" group-title="港澳台",博斯高球二台
+http://192.168.100.1:9999/litv/litv-longturn06
 http://95.179.139.113:5566/litv/litv-longturn06
 #EXTINF:-1,tvg-id="博斯運動一台" tvg-name="博斯運動一台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯運動一台.png" group-title="港澳台",博斯運動一台
+http://192.168.100.1:9999/litv/litv-longturn07
 http://95.179.139.113:5566/litv/litv-longturn07
 #EXTINF:-1,tvg-id="博斯運動二台" tvg-name="博斯運動二台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯運動二台.png" group-title="港澳台",博斯運動二台
+http://192.168.100.1:9999/litv/litv-longturn08
 http://95.179.139.113:5566/litv/litv-longturn08
 #EXTINF:-1,tvg-id="博斯網球台" tvg-name="博斯網球台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯网球.png" group-title="港澳台",博斯網球台
+http://192.168.100.1:9999/litv/litv-longturn09
 http://95.179.139.113:5566/litv/litv-longturn09
 #EXTINF:-1,tvg-id="博斯無限台" tvg-name="博斯無限台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯無限台.png" group-title="港澳台",博斯無限台
+http://192.168.100.1:9999/litv/litv-longturn10
 http://95.179.139.113:5566/litv/litv-longturn10
 #EXTINF:-1,tvg-id="博斯無限二台" tvg-name="博斯無限二台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/博斯無限二台.png" group-title="港澳台",博斯無限二台
+http://192.168.100.1:9999/litv/litv-longturn13
 http://95.179.139.113:5566/litv/litv-longturn13
 #EXTINF:-1,tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/DAZN1.png" group-title="港澳台",DAZN 1
 rtmp://220.130.201.73/sat/tv731
 #EXTINF:-1,tvg-id="DAZN 2" tvg-name="DAZN 2" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/DAZN2.png" group-title="港澳台",DAZN 2
 rtmp://220.130.201.73/sat/tv741
 #EXTINF:-1,tvg-id="TraceSports" tvg-name="TraceSports" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/TraceSports.png" group-title="港澳台",TraceSports
+http://192.168.100.1:9999/litv/4gtv-4gtv077
 http://95.179.139.113:5566/litv/4gtv-4gtv077
 #EXTINF:-1,tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/視納華仁紀實頻道.png" group-title="港澳台",視納華仁紀實頻道
+http://192.168.100.1:9999/litv/4gtv-4gtv013
 http://95.179.139.113:5566/litv/4gtv-4gtv013
 #EXTINF:-1,tvg-id="客家電視台" tvg-name="客家電視台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/客家電視台.png" group-title="港澳台",客家電視台
+http://192.168.100.1:9999/litv/4gtv-4gtv043
 http://95.179.139.113:5566/litv/4gtv-4gtv043
 #EXTINF:-1,tvg-id="Classica-古典樂" tvg-name="Classica-古典樂" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/Classica-古典樂.png" group-title="港澳台",Classica-古典樂
+http://192.168.100.1:9999/litv/4gtv-4gtv059
 http://95.179.139.113:5566/litv/4gtv-4gtv059
 #EXTINF:-1,tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/豬哥亮歌廳秀.png" group-title="港澳台",豬哥亮歌廳秀
+http://192.168.100.1:9999/litv/4gtv-4gtv006
 http://95.179.139.113:5566/litv/4gtv-4gtv006
 #EXTINF:-1,tvg-id="Smart-知識台" tvg-name="Smart-知識台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/Smart-知識台.png" group-title="港澳台",Smart-知識台
+http://192.168.100.1:9999/litv/litv-longturn19
 http://95.179.139.113:5566/litv/litv-longturn19
 #EXTINF:-1,tvg-id="達文西頻道" tvg-name="達文西頻道" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/達文西頻道.png" group-title="港澳台",達文西頻道
+http://192.168.100.1:9999/litv/4gtv-4gtv018
 http://95.179.139.113:5566/litv/4gtv-4gtv018
 #EXTINF:-1,tvg-id="Arirang-TV" tvg-name="Arirang-TV" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/阿里郎.png" group-title="港澳台",Arirang-TV
+http://192.168.100.1:9999/litv/4gtv-4gtv079
 http://95.179.139.113:5566/litv/4gtv-4gtv079
 #EXTINF:-1,tvg-id="ELTA娛樂" tvg-name="ELTA娛樂" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/ELTA娛樂.png" group-title="港澳台",ELTA娛樂
+http://192.168.100.1:9999/litv/4gtv-4gtv070
 http://95.179.139.113:5566/litv/4gtv-4gtv070
 #EXTINF:-1,tvg-id="ELTA生活英語" tvg-name="ELTA生活英語" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/ELTA生活英語.png" group-title="港澳台",ELTA生活英語
+http://192.168.100.1:9999/litv/litv-longturn20
 http://95.179.139.113:5566/litv/litv-longturn20
 #EXTINF:-1,tvg-id="ELTA生活旅遊" tvg-name="ELTA生活旅遊" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/ELTA生活旅遊.png" group-title="港澳台",ELTA生活旅遊
+http://192.168.100.1:9999/4gtv/237
 http://95.179.139.113:5566/4gtv/237
-#EXTINF:-1,tvg-id="MOMOTV" tvg-name="MOMOTV" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/momo亲子台.png" group-title="港澳台",MOMOTV
+#EXTINF:-1 tvg-id="MOMO-親子台" tvg-name="MOMO 親子台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/MOMO-親子台.png" group-title="少兒", MOMO 親子台
+http://192.168.100.1:9999/4gtv/231
 http://95.179.139.113:5566/4gtv/231
