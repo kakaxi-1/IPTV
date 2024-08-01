@@ -3,7 +3,7 @@
 
 #更新日志
 
-2024/08/02：优化部分EPG、LOGO。大部分gat来源感谢pixman大佬，地址https://pixman.io
+2024/08/02：优化部分EPG、LOGO。大部分gat感谢pixman大佬的教程，地址https://pixman.io
 
 2024/06/13：优化部分gat高清源
 
