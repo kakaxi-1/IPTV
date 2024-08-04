@@ -199,11 +199,11 @@ http://cn.zzmd.fun:8888/rtp/239.3.1.55:4120
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-4.png" group-title="卫视频道",CETV-4
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CHC动作电影.png" group-title="数字经典",CHC动作电影
-http://106.59.2.162:55555/udp/239.200.201.31:8144
+http://218.76.32.193:9901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CHC家庭影院.png" group-title="数字经典",CHC家庭影院
-http://106.59.2.162:55555/udp/239.200.201.30:8140
+http://218.76.32.193:9901/tsfile/live/1018_1.m3u8
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CHC影迷电影.png" group-title="数字经典",CHC影迷电影
-http://106.59.2.162:55555/udp/239.200.201.34:8148
+http://218.76.32.193:9901/tsfile/live/1019_1.m3u8
 #EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/重温经典.png" group-title="数字经典",重温经典
 http://[2409:8087:2801:22:100::76]/wh7f454c46tw1394075491_-2119906554/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236436/1/index.m3u8?fmt=ts2hls&icpid=88888888&RTS=1717812218&from=5&hms_devid=330&online=1717812218&vqe=3
 http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
