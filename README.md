@@ -1,4 +1,4 @@
-卡卡西的博客 :link: https://kakaxi-1.github.io/blog 
+卡卡西的博客 :link: https://kakaxi-1.github.io/blog （记录学习过程，分享优质文件）
 
 源涵盖几乎所有卫视节目，完美台标加节目预告，资源收集来自网络，侵权联系删除。
 备注：部分高清直播源需开启IPV6，部分需开代理，有问题请留言
