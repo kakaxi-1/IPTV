@@ -40,6 +40,7 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CCTV17.png" group-title="央视频道",CCTV-17 
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 #EXTINF:-1 tvg-id="CCTV 4K" tvg-name="CCTV 4K" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CCTV-4K.png" group-title="央视频道",CCTV 4K
+http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024081303.m3u8
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV 8K" tvg-name="CCTV 8K" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CCTV-8K.png" group-title="央视频道",CCTV8K
 http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2020603421.m3u8
@@ -66,7 +67,7 @@ http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024163303.m3u8
 #EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CCTV-怀旧剧场.png" group-title="央视频道",怀旧剧场
 http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024171903.m3u8
 #EXTINF:-1 tvg-id="文化精品" tvg-name="文化精品" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CCTV-央视文化精品.png" group-title="央视频道",文化精品
-http://175.18.189.238:9902/tsfile/live/1028_1.m3u8?key=txiptv
+http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024172303.m3u8
 #EXTINF:-1 tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/CCTV-电视指南.png" group-title="央视频道",电视指南
 http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024172503.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/湖南卫视.png" group-title="卫视频道",湖南卫视
@@ -177,7 +178,7 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/哈哈炫动.png" group-title="卫视频道",哈哈炫动
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/嘉佳卡通.png" group-title="卫视频道",嘉佳卡通
-http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001227/index.m3u8
+http://hlsbkmgsplive.miguvideo.com/wd_r1/2018/nfmedia/jjkt/1000/index.m3u8?&encrypt=
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-1.png" group-title="卫视频道",CETV-1
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/kakaxi-1/TVLOGO/main/中国教育电视台-2.png" group-title="卫视频道",CETV-2
