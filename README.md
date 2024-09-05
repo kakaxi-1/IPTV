@@ -1,4 +1,6 @@
-卡卡西的博客 :link: https://kakaxi-1.github.io/blog （记录学习过程，分享优质文件）
+愿世界和平！
+
+（记录学习过程，分享优质文件）
 
 订阅链接：https://live.kakaxi-1.ink/ipv6.m3u
 
