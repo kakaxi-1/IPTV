@@ -2,6 +2,8 @@
 
 订阅链接：https://live.kakaxi-1.ink/ipv6.m3u
 
+频道LOGO:https://live.kakaxi-1.ink/LOGO/名称.png
+
 源涵盖几乎所有卫视节目，完美台标加节目预告，资源收集来自网络，侵权联系删除。
 备注：部分高清直播源需开启IPV6，部分需开代理，有问题请留言
 
