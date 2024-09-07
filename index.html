@@ -4,68 +4,272 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>kakaxi TV Live Streaming</title>
+    <title>Complex Modern Webpage</title>
     <style>
-        body {
+        /* 基本样式 */
+        body, html {
+            margin: 0;
+            padding: 0;
             font-family: 'Arial', sans-serif;
-            background-color: #222;
-            color: #fff;
+            background-color: #f0f0f0;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #333;
+            padding: 15px;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+
+        /* 头部部分 */
+        header {
             height: 100vh;
-        }
-        .container {
+            background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
             text-align: center;
-            background-color: #333;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            max-width: 600px;
-            width: 100%;
         }
-        img {
-            width: 120px;
+
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+        }
+
+        /* 关于我们部分 */
+        #about {
+            padding: 60px 30px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
             margin-bottom: 20px;
         }
-        h1 {
-            font-size: 2.8rem;
-            color: #4CAF50;
-            margin-bottom: 10px;
-        }
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-            color: #eee;
-        }
-        p {
+
+        #about p {
             font-size: 1.2rem;
-            margin-bottom: 30px;
-            line-height: 1.5;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .btn {
-            display: inline-block;
-            padding: 10px 25px;
+
+        /* 服务部分 */
+        #services {
+            padding: 60px 30px;
+            background-color: #f9f9f9;
+        }
+
+        #services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card h3 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .card button {
             background-color: #4CAF50;
             color: white;
-            text-decoration: none;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .card button:hover {
+            background-color: #45a049;
+        }
+
+        /* 联系我们部分 */
+        #contact {
+            padding: 60px 30px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        #contact form input,
+        #contact form textarea {
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #contact form button {
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
             border-radius: 5px;
             font-size: 1.1rem;
+            cursor: pointer;
         }
-        .btn:hover {
+
+        #contact form button:hover {
             background-color: #45a049;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .card-container {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-      
-        <h1>卡卡西 TV</h1>
-        <h2>愿世界和平</h2>
-        <p>你将看到一个一直在努力完善的节目列表和TVlogo的项目.</p >
-        <a href="https://github.com/kakaxi-1/IPTV " class="btn" target="_blank">Visit GitHub for More</a >
-    </div>
+
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- 头部部分 -->
+    <header>
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <p>Modern Solutions for Your Digital Needs</p >
+        </div>
+    </header>
+
+    <!-- 关于我们部分 -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading company in providing cutting-edge technology solutions. Our mission is to empower businesses to thrive in the digital age by delivering high-quality services and innovative products.</p >
+    </section>
+
+    <!-- 服务部分 -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="card-container">
+            <div class="card">
+                < img src="https://source.unsplash.com/300x200/?web-development" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>We build modern and responsive websites that align with your business goals.</p >
+                <button>Learn More</button>
+            </div>
+            <div class="card">
+                < img src="https://source.unsplash.com/300x200/?data" alt="Data Analysis">
+                <h3>Data Analysis</h3>
+                <p>Our data analysis services help you make informed decisions with confidence.</p >
+                <button>Learn More</button>
+            </div>
+            <div class="card">
+                < img src="https://source.unsplash.com/300x200/?ai" alt="AI Solutions">
+                <h3>AI Solutions</h3>
+                <p>We provide AI-powered solutions that bring efficiency and innovation to your processes.</p >
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们部分 -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p >
+    </footer>
+
 </body>
 </html>
