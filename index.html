@@ -210,6 +210,29 @@ header p {
             margin-bottom: 10px;
             color: #333;
         }
+        /* 鸣谢部分 */
+#acknowledgements ul {
+    list-style-type: none; /* 移除默认的列表符号 */
+    margin: 0 auto;
+    max-width: 800px;
+    padding-left: 20px; /* 缩进 */
+}
+
+#acknowledgements ul li {
+    font-size: 1.5rem; /* 鸣谢字体大小 */
+    margin-bottom: 10px;
+    color: #333;
+    position: relative;
+    padding-left: 30px; /* 为心形符号留出空间 */
+}
+
+#acknowledgements ul li::before {
+    content: "❤"; /* 添加心形符号 */
+    position: absolute;
+    left: 0;
+    color: red; /* 设置心形符号的颜色 */
+    font-size: 1.5rem; /* 确保心形符号与文字大小一致 */
+}
         /* 更新日志部分 */
         #updates {
             padding: 50px;
@@ -318,6 +341,20 @@ header p {
 </section>
 
 <section id="updates">
+    <section id="acknowledgements">
+    <h2>特别鸣谢</h2>
+    <ul>
+        <li>❤ 感谢pixman贡献的docker项目</li>
+        <li>❤ 感谢肥羊贡献的直播源以及思路</li>
+        <li>❤ 感谢fanmingming贡献的直播源以及思路</li>
+        <li>❤ 感谢YanG贡献的直播源以及思路</li>
+        <li>❤ 感谢977567941贡献的直播源以及思路</li>
+        <li>❤ 感谢所有贡献直播源的社区成员。</li>
+        <li>❤ 感谢GitHub提供的平台支持。</li>
+        <li>❤ 感谢我的用户和支持者。</li>
+    </ul>
+</section>
+    
     <h2>更新日志</h2>
     <div class="update-log">
         <div class="update-entry">
