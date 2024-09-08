@@ -211,63 +211,52 @@ header p {
             color: #333;
         }
         /* 鸣谢部分 */
-#acknowledgements ul {
-    list-style-type: none; /* 移除默认的列表符号 */
-    margin: 0 auto;
-    max-width: 800px;
-    padding-left: 20px; /* 缩进 */
-}
-
-#acknowledgements ul li {
-    font-size: 1.5rem; /* 鸣谢字体大小 */
-    margin-bottom: 10px;
-    color: #333;
-    position: relative;
-    padding-left: 30px; /* 为心形符号留出空间 */
-}
-
-#acknowledgements ul li::before {
-    content: "❤"; /* 添加心形符号 */
-    position: absolute;
-    left: 0;
-    color: red; /* 设置心形符号的颜色 */
-    font-size: 1.5rem; /* 确保心形符号与文字大小一致 */
-}
-        /* 更新日志部分 */
-        #updates {
-            padding: 50px;
-            background-color: #f9f9f9;
-        }
-
-        #updates h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-        }
-
-        .update-log {
-            max-width: 800px;
+        #acknowledgements ul {
+            list-style-type: none; /* 移除默认的列表符号 */
             margin: 0 auto;
+            max-width: 800px;
+            padding-left: 20px; /* 缩进 */
         }
 
-        .update-entry {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-
-        .update-entry h3 {
-            margin: 0 0 10px 0;
+        #acknowledgements ul li {
+            font-size: 1.5rem; /* 鸣谢字体大小 */
+            margin-bottom: 10px;
             color: #333;
+            position: relative;
+            padding-left: 30px; /* 为心形符号留出空间 */
         }
 
-        .update-entry p {
-            margin: 0;
-            color: #555;
+        #acknowledgements ul li::before {
+            content: "❤"; /* 添加心形符号 */
+            position: absolute;
+            left: 0;
+            color: red; /* 设置心形符号的颜色 */
+            font-size: 1.5rem; /* 确保心形符号与文字大小一致 */
         }
 
+        
+        /* 更新日志部分 */
+        #updates ul {
+            list-style-type: none; /* 移除默认的列表符号 */
+            margin: 0 auto;
+            max-width: 800px;
+            padding-left: 0; /* 移除多余缩进 */
+        }
+
+        #updates ul li {
+            font-size: 1.5rem; /* 更新日志字体大小 */
+            margin-bottom: 10px;
+            color: #333;
+            position: relative;
+            padding-left: 0; /* 确保时间和内容左对齐 */
+        }
+
+        /* 全局标题样式，确保所有 h2 大小相同 */
+        h2 {
+            font-size: 2.5rem; /* 统一标题字体大小 */
+            margin-bottom: 40px;
+            text-align: center;
+        }
         
         /* 页脚样式 */
         footer {
@@ -355,33 +344,16 @@ header p {
     </ul>
 </section>
     
+  <section id="updates">
     <h2>更新日志</h2>
-    <div class="update-log">
-        <div class="update-entry">
-            <h3>2024-09-06</h3>
-            <p>影视轮播改名斗鱼轮播，并详细化</p >
-        </div>
-        <div class="update-entry">
-            <h3>2024-08-23</h3>
-            <p>部分频道ipv6没有新加入地方组播iptv，实现部分低分辨率频道</p >
-        </div>
-        <div class="update-entry">
-            <h3>2024-08-02</h3>
-            <p>优化部分EPG、LOGO。大部分gat感谢pixman大佬的教程，地址https://pixman.io</p >
-        </div>
-        <div class="update-entry">
-            <h3>2024-06-13</h3>
-            <p>优化部分gat高清源</p >
-        </div>
-        <div class="update-entry">
-            <h3>2024-06-03</h3>
-            <p>完善LOGO</p >
-        </div>
-        <div class="update-entry">
-            <h3>2024-06-02</h3>
-            <p>gat大幅变更，挂代理观看</p >
-        </div>
-    </div>
+    <ul>
+        <li>2024-09-06 影视轮播改名斗鱼轮播，并详细化。</li>
+        <li>2024-08-23 部分频道ipv6没有新加入地方组播iptv，实现部分低分辨率频道。</li>
+        <li>2024-08-02 优化部分EPG、LOGO。</li>
+        <li>2024-06-13 优化部分gat高清源。</li>
+        <li>2024-06-03 完善LOGO。</li>
+        <li>2024-06-02 优化部分EPG、LOGO。</li>
+    </ul>
 </section>
 
     <!-- 页脚 -->
