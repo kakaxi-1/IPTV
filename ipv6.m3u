@@ -227,6 +227,10 @@ http://tnvcn.com:8012/rtp/239.3.1.100:8001%24%E5%8C%97%E4%BA%ACuni1+
 http://tnvcn.com:8012/rtp/239.3.1.238:8001%24%E5%8C%97%E4%BA%ACuni1+
 #EXTINF:-1 tvg-id="淘精彩" tvg-name="淘精彩" tvg-logo="https://live.kakaxi-1.ink/LOGO/淘精彩.png" group-title="数字经典",淘精彩
 http://tnvcn.com:8012/rtp/239.3.1.178:8001
+#EXTINF:-1 tvg-id="1905亚洲" tvg-name="1905亚洲" tvg-logo="https://live.kakaxi-1.ink/LOGO/1905.png" group-title="数字经典",1905亚洲
+http://tv.kakaxi-1.ink:8899/1905.php?id=1905a
+#EXTINF:-1 tvg-id="1905国际" tvg-name="1905国际" tvg-logo="https://live.kakaxi-1.ink/LOGO/1905.png" group-title="数字经典",1905国际
+http://tv.kakaxi-1.ink:8899/1905.php?id=1905b
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://live.kakaxi-1.ink/LOGO/纪实人文.png" group-title="数字经典",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 #EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://live.kakaxi-1.ink/LOGO/金色学堂.png" group-title="数字经典",金色学堂
