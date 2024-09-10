@@ -1,44 +1,23 @@
-name: EPG Fetcher
-
+name: EPG Update
 on:
   push:
   schedule:
-    - cron: '0 1,3,5,7,9,11,13,15,17,19,21,23 * * *' 
+    - cron: '15 16,18,20,22,0,2,4,6,8,10,12,14 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Fetch EPG Files
+    - uses: actions/checkout@v3
+    - name: Update EPG Files
       run: |
-
-        rm -f epg.xml epg.xml.gz
-        
-
-        wget https://e.erw.cc/e.xml -O e.xml
-        wget https://epg.112114.xyz/pp.xml -O epg_part.xml
-        
-
-        cat e.xml epg_part.xml > epg.xml
-        
-
-        gzip -c epg.xml > epg.xml.gz
-        
-
-        rm -f e.xml epg_part.xml
-
-
+        rm -f e.xml && wget  https://e.erw.cc/e.xml -O e.xml
+        rm -f e.xml.gz && wget http://epg.51zmt.top:8000/e.xml.gz -O e.xml.gz
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        
-
-        git add epg.xml epg.xml.gz
-        git commit -m "EPG Automatic Fetcher."
-    
-       - name: Debug GitHub Token
-         run: |
-         curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/user
+        git add e.xml e.xml.gz
+        git commit -m "EPG Automatic Update."
+    - name: Push changes
+      run: git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
