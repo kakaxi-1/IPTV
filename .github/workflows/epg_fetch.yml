@@ -2,7 +2,7 @@ name: EPG Fetcher
 
 on:
   schedule:
-    - cron: '00 14,16,18,20,22,0,2,4,6,8,10,12, * * *'
+    - cron: '0 4-2/4 * * *'  # 每天凌晨4点到隔天凌晨2点之间每4小时运行一次
 
 jobs:
   fetch-epg:
@@ -11,6 +11,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        # 确保拉取完整的历史和文件（包括之前的 epg.xml）
+        fetch-depth: 0
 
     - name: Set up Python environment
       uses: actions/setup-python@v4
@@ -43,10 +46,8 @@ jobs:
         with open('epg2.xml', 'wb') as file2:
             file2.write(response2.content)
 
-    - name: Combine or update epg.xml
+    - name: Update epg.xml in repository
       run: |
-        import os
-
         # Read the content of fetched EPG files
         with open('e.xml', 'r') as file1:
             epg1 = file1.read()
@@ -54,15 +55,9 @@ jobs:
         with open('epg2.xml', 'r') as file2:
             epg2 = file2.read()
 
-        # Check if epg.xml already exists in the repository
-        if os.path.exists('epg.xml'):
-            # If epg.xml exists, append the new content
-            with open('epg.xml', 'a') as output_file:
-                output_file.write('\n' + epg1 + '\n' + epg2)
-        else:
-            # If epg.xml doesn't exist, create a new file
-            with open('epg.xml', 'w') as output_file:
-                output_file.write(epg1 + '\n' + epg2)
+        # Update the existing epg.xml in the repository
+        with open('epg.xml', 'w') as output_file:
+            output_file.write(epg1 + '\n' + epg2)
 
     - name: Commit and push changes if epg.xml is updated
       run: |
@@ -72,5 +67,4 @@ jobs:
         git diff --cached --exit-code || git commit -m 'Update EPG file'
         git push
       env:
-        # Set GitHub token to allow pushing changes
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
