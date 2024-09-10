@@ -39,7 +39,6 @@ jobs:
         git add epg.xml epg.xml.gz
         git commit -m "EPG Automatic Fetcher."
     
-    - name: Push changes
-      run: git push origin main
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT }}
+       - name: Debug GitHub Token
+         run: |
+    curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/user
