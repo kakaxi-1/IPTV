@@ -6,7 +6,7 @@ def merge_xml_files(files):
         tree = ET.parse(file)
         root_elements.append(tree.getroot())
     
-    merged_root = ET.Element("root")  # 创建一个根元素
+    merged_root = ET.Element("root")  
     for root in root_elements:
         for child in root:
             merged_root.append(child)
