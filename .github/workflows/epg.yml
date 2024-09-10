@@ -16,11 +16,11 @@ jobs:
     - name: Fetch EPG Files
       run: |
 
-        rm -f e.xml e.xml.gz epg.xml epg.xml.gz
+        rm -f e.xml e.xml.gz
         
 
-        wget https://e.erw.cc/e.xml -O e.xml
-        wget https://assets.livednow.com/epg.xml -O epg_part.xml
+        curl -o e.xml https://e.erw.cc/e.xml
+        curl -o epg_part.xml https://assets.livednow.com/epg.xml || echo "Failed to download epg_part.xml"
         
 
         cat e.xml epg_part.xml > epg.xml
