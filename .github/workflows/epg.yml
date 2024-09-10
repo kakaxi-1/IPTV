@@ -1,28 +1,44 @@
 name: EPG Fetcher
+
 on:
   push:
   schedule:
-    - cron: '00 00,2,4,6,8,10,12,14,18,20,22, * * *'
+    - cron: '0 0,2,4,6,8,10,12,14,18,20,22 * * *'  # 每天的每隔两小时和整点运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Fetcher EPG Files
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Fetch EPG Files
       run: |
+        # 删除旧的文件
         rm -f epg.xml epg.xml.gz
-        wget https://e.erw.cc/e.xml.gz -O e.xml.gz
+        
+        # 下载新的文件
+        wget https://e.erw.cc/e.xml -O e.xml
         wget https://assets.livednow.com/epg.xml -O epg_part.xml
-        gzip -d e.xml.gz
+        
+        # 合并 XML 文件
         cat e.xml epg_part.xml > epg.xml
-        epg.xml.gz
+        
+        # 压缩合并后的 XML 文件
         gzip -c epg.xml > epg.xml.gz
+        
+        # 清理临时文件
         rm -f e.xml epg_part.xml
+
+        # 配置 Git
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 提交更改
         git add epg.xml epg.xml.gz
         git commit -m "EPG Automatic Fetcher."
+    
     - name: Push changes
       run: git push origin main
       env:
