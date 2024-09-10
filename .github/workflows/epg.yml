@@ -3,7 +3,7 @@ name: EPG Fetcher
 on:
   push:
   schedule:
-    - cron: '0 0,2,4,6,8,10,12,14,18,20,22 * * *'  # 每隔2小时运行一次
+    - cron: '0 0,2,4,6,8,10,12,14,18,20,22 * * *'
 
 jobs:
   build:
@@ -15,28 +15,31 @@ jobs:
 
     - name: Fetch EPG Files
       run: |
-        # 删除旧文件
-        rm -f e.xml e.xml.gz
+
+        rm -f e.xml e.xml.gz epg.xml epg.xml.gz
         
-        # 下载文件
-        curl -o e.xml https://e.erw.cc/e.xml
-        curl -o epg_part.xml https://assets.livednow.com/epg.xml || echo "Failed to download epg_part.xml"
+
+        wget https://e.erw.cc/e.xml -O e.xml
+        wget https://assets.livednow.com/epg.xml -O epg_part.xml
         
-        # 合并文件
+
         cat e.xml epg_part.xml > epg.xml
         
-        # 重新压缩为 .gz 文件
+
         gzip -c epg.xml > epg.xml.gz
         
-        # 清理临时文件
+
         rm -f e.xml epg_part.xml
+
+
+        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EPG File</title></head><body><h1>EPG File</h1><p>You can download the EPG file from the link below:</p >Download EPG XML</body></html>' > index.html
         
-        # 配置 Git 用户信息
+
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         
-        # 提交更改
-        git add epg.xml epg.xml.gz
+
+        git add epg.xml epg.xml.gz index.html
         git commit -m "EPG Automatic Fetcher."
 
     - name: Push changes
