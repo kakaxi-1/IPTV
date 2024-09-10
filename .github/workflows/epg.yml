@@ -16,7 +16,7 @@ jobs:
     - name: Fetch EPG Files
       run: |
 
-        rm -f e.xml e.xml.gz
+        rm -f e.xml e.xml.gz epg_part.xml epg.xml.gz epg.xml
         
 
         curl -o e.xml https://e.erw.cc/e.xml
@@ -31,8 +31,6 @@ jobs:
 
         rm -f e.xml epg_part.xml
 
-
-        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EPG File</title></head><body><h1>EPG File</h1><p>You can download the EPG file from the link below:</p >Download EPG XML</body></html>' > index.html
         
 
         git config --local user.name "github-actions[bot]"
