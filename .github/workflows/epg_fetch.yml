@@ -2,7 +2,7 @@ name: EPG Fetcher
 
 on:
   schedule:
-    - cron: '0 4-2/4 * * *'  # 每天凌晨4点到隔天凌晨2点之间每4小时运行一次
+    - cron: '00 00,2,4,6,8,10,12,14,18,20,22, * * *'
 
 jobs:
   fetch-epg:
