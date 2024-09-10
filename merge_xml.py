@@ -1,18 +1,26 @@
 import xml.etree.ElementTree as ET
 
 def merge_xml_files(files):
-    root_elements = []
-    for file in files:
-        tree = ET.parse(file)
-        root_elements.append(tree.getroot())
-    
-    merged_root = ET.Element("root")  
-    for root in root_elements:
-        for child in root:
-            merged_root.append(child)
-    
-    merged_tree = ET.ElementTree(merged_root)
-    merged_tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+    try:
+        root = None
+        for file in files:
+            # 读取文件时指定编码
+            with open(file, 'r', encoding='utf-8') as f:
+                tree = ET.parse(f)
+                if root is None:
+                    root = tree.getroot()
+                else:
+                    root.extend(tree.getroot())
 
-if __name__ == "__main__":
-    merge_xml_files(["e.xml", "epg_part.xml"])
+        # 输出合并后的 XML 文件，指定编码
+        tree = ET.ElementTree(root)
+        with open('epg.xml', 'wb') as f:
+            tree.write(f, encoding='utf-8', xml_declaration=True)
+            
+    except ET.ParseError as e:
+        print(f"XML parsing error: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+# 使用文件名列表调用函数
+merge_xml_files(["e.xml", "epg_part.xml"])
