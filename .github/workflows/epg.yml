@@ -20,7 +20,7 @@ jobs:
         
 
         wget https://e.erw.cc/e.xml -O e.xml
-        wget https://assets.livednow.com -O epg_part.xml
+        wget https://epg.112114.xyz/pp.xml -O epg_part.xml
         
 
         cat e.xml epg_part.xml > epg.xml
