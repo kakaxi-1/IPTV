@@ -41,4 +41,4 @@ jobs:
     
        - name: Debug GitHub Token
          run: |
-    curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/user
+         curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/user
