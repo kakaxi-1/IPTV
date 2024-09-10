@@ -10,41 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
     - name: Checkout repository
       uses: actions/checkout@v3
 
-
-    - name: Set up Python
-      uses: actions/setup-python@v3
-      with:
-        python-version: '3.8'  
-
-
-
-    - name: Fetch and Merge EPG Files
+    - name: Fetch EPG Files
       run: |
 
-        rm -f e.xml epg.xml epg_part.xml
+        rm -f e.xml epg.xml 
         
-
         curl -o e.xml https://e.erw.cc/e.xml
-        curl -o epg_part.xml https://assets.livednow.com/epg.xml
-        
-
-        python merge_xml.py
-        
-
-        rm -f e.xml epg_part.xml
-        
-
+       
+        cat e.xml > epg.xml
+        rm -f e.xml 
+      
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        
-
+      
         git add epg.xml
         git commit -m "EPG Automatic Fetcher."
-
 
     - name: Push changes
       run: git push origin main
