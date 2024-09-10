@@ -8,6 +8,8 @@
 
   （记录学习过程）
 
+地址：https://live.kakaxi-1.ink/
+
 订阅链接：https://live.kakaxi-1.ink/ipv6.m3u
 
 频道LOGO：https://live.kakaxi-1.ink/LOGO/名称.png
