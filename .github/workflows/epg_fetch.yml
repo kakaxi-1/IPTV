@@ -11,8 +11,14 @@ jobs:
     - uses: actions/checkout@v3
     - name: Fetcher EPG Files
       run: |
-        rm -f e.xml && wget https://e.erw.cc/e.xml.gz
-        rm -f e.xml.gz && wget https://assets.livednow.com/epg.xml
+        rm -f epg.xml epg.xml.gz
+        wget https://e.erw.cc/e.xml.gz -O e.xml.gz
+        wget https://assets.livednow.com/epg.xml -O epg_part.xml
+        gzip -d e.xml.gz
+        cat e.xml epg_part.xml > epg.xml
+        epg.xml.gz
+        gzip -c epg.xml > epg.xml.gz
+        rm -f e.xml epg_part.xml
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add epg.xml epg.xml.gz
