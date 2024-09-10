@@ -1,0 +1,76 @@
+name: EPG Fetcher
+
+on:
+  schedule:
+    - cron: '0 4-2/4 * * *'  # 每天凌晨4点到隔天凌晨2点之间每4小时运行一次
+
+jobs:
+  fetch-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install required libraries
+      run: |
+        python -m pip install requests gzip
+
+    - name: Fetch EPG from URLs
+      run: |
+        import requests
+        import gzip
+        import shutil
+
+        # Fetch first EPG file
+        url1 = 'https://e.erw.cc/e.xml.gz'
+        response1 = requests.get(url1, stream=True)
+        with open('e.xml.gz', 'wb') as file1:
+            file1.write(response1.content)
+        
+        with gzip.open('e.xml.gz', 'rb') as f_in:
+            with open('e.xml', 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+        # Fetch second EPG file
+        url2 = 'https://assets.livednow.com/epg.xml'
+        response2 = requests.get(url2)
+        with open('epg2.xml', 'wb') as file2:
+            file2.write(response2.content)
+
+    - name: Combine or update epg.xml
+      run: |
+        import os
+
+        # Read the content of fetched EPG files
+        with open('e.xml', 'r') as file1:
+            epg1 = file1.read()
+
+        with open('epg2.xml', 'r') as file2:
+            epg2 = file2.read()
+
+        # Check if epg.xml already exists in the repository
+        if os.path.exists('epg.xml'):
+            # If epg.xml exists, append the new content
+            with open('epg.xml', 'a') as output_file:
+                output_file.write('\n' + epg1 + '\n' + epg2)
+        else:
+            # If epg.xml doesn't exist, create a new file
+            with open('epg.xml', 'w') as output_file:
+                output_file.write(epg1 + '\n' + epg2)
+
+    - name: Commit and push changes if epg.xml is updated
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add epg.xml
+        git diff --cached --exit-code || git commit -m 'Update EPG file'
+        git push
+      env:
+        # Set GitHub token to allow pushing changes
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
