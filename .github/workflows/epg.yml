@@ -3,7 +3,7 @@ name: EPG Fetcher
 on:
   push:
   schedule:
-    - cron: '0 1,3,5,7,9,11,13,15,17,19,21,23 * * *'
+    - cron: '0 1,3,5,7,9,11,13,15,17,19,21,23 * * *'  
 
 jobs:
   build:
@@ -18,17 +18,21 @@ jobs:
         rm -f e.xml epg.xml 
         
         curl -o e.xml https://e.erw.cc/e.xml
-       
+        
         cat e.xml > epg.xml
         rm -f e.xml 
-
-        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EPG Files</title></head><body><h1>Welcome to the EPG Fetcher Site</h1><p>The EPG XML file is available at epg.xml.</p ></body></html>' > index.html
-      
+        
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-      
-        git add epg.xml index.html
+        
+        git add epg.xml
         git commit -m "EPG Automatic Fetcher."
+
+    - name: Add index.html
+      run: |
+        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EPG Files</title></head><body><h1>Welcome to the EPG Fetcher Site</h1><p>The EPG XML file is available at epg.xml.</p ></body></html>' > index.html
+        git add index.html
+        git commit -m "Add index.html for GitHub Pages"
 
     - name: Push changes
       run: git push origin main
