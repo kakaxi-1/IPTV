@@ -15,7 +15,7 @@ jobs:
 
     - name: Fetch EPG Files
       run: |
-        rm -f e.xml epg.xml 
+        rm -f epg.xml 
         
         curl -o e.xml https://e.erw.cc/e.xml
         
