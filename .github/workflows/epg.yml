@@ -16,7 +16,7 @@ jobs:
     - name: Fetch EPG Files
       run: |
         rm -f e.xml epg.xml
-        curl -o e.xml https://e.erw.cc/e.xml
+        curl -o e.xml https://epg.112114.xyz/pp.xml
         ls -l  # List files to verify e.xml is downloaded
         cat e.xml  # Show the content of e.xml for debugging
         cat e.xml > epg.xml
