@@ -41,6 +41,10 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
+    - name: Pull remote changes
+      run: |
+        git pull origin main
+
     - name: Add and commit changes
       run: |
         git add epg.xml index.html
