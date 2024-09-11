@@ -18,11 +18,16 @@ jobs:
         rm -f e.xml epg.xml 
         curl -o e.xml https://e.erw.cc/e.xml
         cat e.xml > epg.xml
-        rm -f e.xml 
+        rm -f e.xml
         
         # Show the content of the downloaded files for debugging
         ls -l
         cat epg.xml
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Add index.html
       run: |
