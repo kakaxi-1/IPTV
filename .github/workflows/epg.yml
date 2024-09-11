@@ -1,16 +1,4 @@
-name: EPG Fetcher
-
-on:
-  push:
-  schedule:
-    - cron: '0 1,3,5,7,9,11,13,15,17,19,21,23 * * *'  
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
+- name: Checkout repository
   uses: actions/checkout@v3
 
 - name: Remove old file
