@@ -8,7 +8,7 @@
 
   （记录学习过程）
 
-地址：https://live.kakaxi-1.ink/docs/index.html
+地址：https://live.kakaxi-1.ink
 
 订阅链接：https://live.kakaxi-1.ink/ipv6.m3u
 
