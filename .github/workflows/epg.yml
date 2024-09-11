@@ -13,29 +13,31 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Pull latest changes
+      run: git pull origin main
+
     - name: Fetch EPG Files
       run: |
-        echo "Fetching EPG files..."
         rm -f e.xml epg.xml 
+        
         curl -o e.xml https://e.erw.cc/e.xml
+        
         cat e.xml > epg.xml
         rm -f e.xml 
-        
-    - name: Add index.html
-      run: |
-        echo "Creating index.html..."
-        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EPG Files</title></head><body><h1>Welcome to the EPG Fetcher Site</h1><p>The EPG XML file is available at epg.xml.</p ></body></html>' > index.html
-        
-    - name: Configure Git
-      run: |
+      
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         
-    - name: Commit and Push Changes
+        git add epg.xml
+        git commit -m "EPG Automatic Fetcher."
+    
+    - name: Add index.html
       run: |
-        echo "Adding and committing changes..."
-        git add epg.xml index.html
-        git commit -m "Update EPG files and add index.html"
-        git push origin main
+        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>EPG Files</title></head><body><h1>Welcome to the EPG Fetcher Site</h1><p>The EPG XML file is available at epg.xml.</p ></body></html>' > index.html
+        git add index.html
+        git commit -m "Add index.html for GitHub Pages"
+    
+    - name: Push changes
+      run: git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
