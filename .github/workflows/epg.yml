@@ -19,10 +19,10 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add epg.xml
-        git commit -m "Force update EPG files" --allow-empty || echo "Nothing to commit"
+        git commit -m "Update EPG files"
 
     - name: Push changes
       run: |
-        git push --force origin main
+        git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
