@@ -17,6 +17,8 @@ jobs:
       run: |
         rm -f e.xml epg.xml
         curl -o e.xml https://e.erw.cc/e.xml
+        ls -l  # List files to verify e.xml is downloaded
+        cat e.xml  # Show the content of e.xml for debugging
         cat e.xml > epg.xml
         rm -f e.xml
 
@@ -30,7 +32,7 @@ jobs:
 
     - name: Show epg.xml content
       run: |
-        cat epg.xml
+        cat epg.xml  # Show the content of epg.xml for debugging
 
     - name: Show index.html content
       run: |
