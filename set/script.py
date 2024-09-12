@@ -602,7 +602,7 @@ future_time = current_time + timedelta(hours=8)
 formatted_future_time = future_time.strftime("%Y-%m-%d %H:%M:%S")
 
 #enter
-with open('IP-address.txt', 'a', encoding='utf-8') as file:
+with open('IP_address.txt', 'a', encoding='utf-8') as file:
     file.write('\n' * 2)  # enter
     file.write(formatted_future_time + '\n')  # enter
     file.write('\n')  # enter
@@ -619,13 +619,13 @@ pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter
 
-with open('Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file, open('IP-address.txt', 'a', encoding='utf-8') as IP-address:
+with open('Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file, open('IP_address.txt', 'a', encoding='utf-8') as IP_address:
 
     for line in file:
 
         if re.search(pattern, line) and line.count(',') == 1:  #enter
 
-         IP-address.write(line)  #go
+         IP_address.write(line)  #go
 		 
 		 
 #enter
@@ -634,13 +634,13 @@ keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农�
 pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter	 
-with open('Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file, open('IP-address.txt', 'a', encoding='utf-8') as IP-address:
+with open('Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file, open('IP_address.txt', 'a', encoding='utf-8') as IP_address:
 
     for line in file:
 
         if re.search(pattern, line) and line.count(',') == 1:  #enter
 
-         IP-address.write(line)  #enter 
+         IP_address.write(line)  #enter 
 		 
 		 
 		 
@@ -651,7 +651,7 @@ keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农�
 pattern = '|'.join(keywords)  #enterenter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter	 
-with open('Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file, open('IP-address.txt', 'a', encoding='utf-8') as IP-address:
+with open('Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file, open('IP_address.txt', 'a', encoding='utf-8') as IP_address:
 
     for line in file:
 
@@ -664,10 +664,10 @@ with open('Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file, open
 
 
 #enter
-with open('IP-address.txt', 'r', encoding='utf-8') as file_in:
+with open('IP_address.txt', 'r', encoding='utf-8') as file_in:
     # go
     with open('IP_addressjump.txt', 'w', encoding='utf-8') as file_out:
-        #enterIP-address.txt
+        #enterIP_address.txt
         for line in file_in:
             #enterIP_addressjump.txt
             file_out.write(line)
@@ -677,9 +677,9 @@ with open('IP-address.txt', 'r', encoding='utf-8') as file_in:
 seen_lines = set()
 
 #enter
-with open('IP-addressjump.txt', 'r', encoding='utf-8') as file_in, \
-     open('IP-address.txt', 'w', encoding='utf-8') as file_out:
-    #enter IP-addressjump.txt
+with open('IP_addressjump.txt', 'r', encoding='utf-8') as file_in, \
+     open('IP_address.txt', 'w', encoding='utf-8') as file_out:
+    #enter IP_addressjump.txt
     for line in file_in:
         #enter
         stripped_line = line.strip()
@@ -1090,7 +1090,7 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
 
 #enter
 
-os.remove("IP-addressjump.txt")
+os.remove("IP_addressjump.txt")
 
 os.remove("AMER-delete.txt")
 
