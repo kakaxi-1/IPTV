@@ -9,13 +9,19 @@
 
 地址：https://live.kakaxi-1.ink
 
-订阅链接：https://live.kakaxi-1.ink/ipv6.m3u
+订阅链接：
+
+需要IPV6网络支持，部分需要代理：https://live.kakaxi-1.ink/ipv6.m3u
+
+支持IPV4网络：https://live.kakaxi-1.ink/iptv.txt
 
 频道LOGO：https://live.kakaxi-1.ink/LOGO/名称.png
 
-EPG：通用：https://live.kakaxi-1.ink/epg.xml
+EPG：
 
-需网络支持：http://tv.kakaxi-1.ink:8877/epg/t.xml
+epg通用：https://live.kakaxi-1.ink/epg.xml
+
+需ipv6网络支持：http://tv.kakaxi-1.ink:8877/epg/t.xml
    
 
      
