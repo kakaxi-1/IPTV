@@ -614,7 +614,7 @@ print("enter ok。")
 
 #enter
 #enter
-keywords = ['S川A爱科幻','江S南京生活','江XB都市剧场','河BA农民高清']  
+keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农科','山XD都市剧场','广DA经济科教','广XH南宁都市','江S南京生活','江XB都市剧场','河BA农民高清','河N民生频道','河NC电视剧频道','浙JC教育高清','湖N常德新闻','福JA少儿','辽LD沈阳新闻','重QD影视频道','陕XA新闻资讯']  
 pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter
@@ -630,7 +630,7 @@ with open('Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file, open('IP_address.t
 		 
 #enter
 #enter		 
-keywords = ['S川A爱科幻','江S南京生活','江XB都市剧场','河BA农民高清']  
+keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农科','山XD都市剧场','广DA经济科教','广XH南宁都市','江S南京生活','江XB都市剧场','河BA农民高清','河N民生频道','河NC电视剧频道','浙JC教育高清','湖N常德新闻','福JA少儿','辽LD沈阳新闻','重QD影视频道','陕XA新闻资讯']  
 pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter	 
@@ -647,7 +647,7 @@ with open('Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file, open('IP_add
 		 
 #enter
 #enter		 
-keywords = ['S川A爱科幻','江S南京生活','江XB都市剧场','河BA农民高清']  
+keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农科','山XD都市剧场','广DA经济科教','广XH南宁都市','江S南京生活','江XB都市剧场','河BA农民高清','河N民生频道','河NC电视剧频道','浙JC教育高清','湖N常德新闻','福JA少儿','辽LD沈阳新闻','重QD影视频道','陕XA新闻资讯']  
 pattern = '|'.join(keywords)  #enterenter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter	 
@@ -734,7 +734,7 @@ import fileinput
 file_contents = []   #enter
 
 #enter
-file_paths = ['Sus.txt','Susa.txt','Susaw.txt','JX-LOW-SPD.txt','gaar-SPD.txt',"ga"]
+file_paths = ['Sus.txt','Susa.txt','Susaw.txt','gaa-SPD.txt','gaar-SPD.txt',"ga.txt"]
 
 
 
