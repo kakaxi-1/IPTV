@@ -1,0 +1,49 @@
+name: auto
+
+on:
+  schedule:
+  - cron: '42 14,16,18,20,22,0,2,4,6,8,10,12 * * *'  #6>8>10>12>14>16>18>20>22>0>2>4&&&
+  workflow_dispatch:
+    分支:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: Install numpy          
+        run: pip install 'numpy==1.26.4'
+      - name: Install dependencies
+        run: pip install selenium requests futures eventlet
+      - name: Install dependencies
+        run: pip install opencv-python requests 
+      - name: Install dependencies
+        run: pip install Beautifulsoup4 requests 
+      - name: Install dependencies
+        run: pip install translate requests 
+      - name: Install dependencies
+        run: pip install replace
+      - name: Install dependencies
+        run: pip install input
+        
+      - name: Run iptv
+        run: python ${{ github.workspace }}/set/script.py
+         
+      - name: Commit results
+        run: |
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Action"
+            if [ -n "$(git status --porcelain)" ]; then
+            git commit -am "Automatic update"
+            git push
+            else
+              echo "No changes detected, skipping commit."
+            fi
