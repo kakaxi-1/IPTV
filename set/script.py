@@ -782,11 +782,11 @@ for line in fileinput.input("merga.txt", inplace=True):  #enter
 
     line = line.replace("CCTV3综艺", "CCTV3")
 
-    line = line.replace("CCTV4国际", "CCTV4")
-
     line = line.replace("CCTV4中文国际", "CCTV4")
 
-    line = line.replace("CCTV4欧洲", "CCTV4")
+    line = line.replace("CCTV4美洲", "CCTV4美")
+
+    line = line.replace("CCTV4欧洲", "CCTV4欧")
 
     line = line.replace("CCTV5体育", "CCTV5")
 
@@ -804,7 +804,7 @@ for line in fileinput.input("merga.txt", inplace=True):  #enter
 
     line = line.replace("CCTV8电视剧", "CCTV8")
 
-    line = line.replace("CCTV8纪录", "CCTV9")
+    line = line.replace("CCTV9纪录", "CCTV9")
 
     line = line.replace("CCTV9记录", "CCTV9")
 
@@ -944,7 +944,7 @@ with open('g.txt', 'r', encoding='utf-8') as file1:
 #star#########################
 #enter#############################################################################################
 
-keywords = ['CCTV','CETV', 'CF', 'IPT淘', 'CHC', 'IWA', '凤凰卫视', '星空', 'CHANNEL-V', '卫视', '金鹰卡通', '纪实科教', '卡酷少儿', '嘉佳卡通', '哈哈炫动', '乐游频道', '动漫秀场', '新动漫','纪实人文', '金色学堂',  '纪实科教', '金鹰纪实', '求索记录']  #enter
+keywords = ['CCTV','CETV', 'CF', 'IPT淘', 'CHC', 'IWA', '凤凰卫视', '星空', 'CHANNEL', '卫视', '金鹰卡通', '纪实科教', '卡酷少儿', '嘉佳卡通', '哈哈炫动', '乐游频道', '动漫秀场', '新动漫','纪实人文', '金色学堂',  '纪实科教', '金鹰纪实', '求索记录']  #enter
 
 pattern = '|'.join(keywords)  #enter
 
