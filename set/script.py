@@ -4,6 +4,8 @@ import time
 
 from datetime import datetime, timedelta
 
+from collections import defaultdict
+
 import concurrent.futures
 
 from selenium import webdriver
