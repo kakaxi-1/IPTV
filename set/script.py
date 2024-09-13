@@ -1103,3 +1103,21 @@ os.remove("排序.txt")
 os.remove("T1.txt")
 
 print("over")
+
+with open('iptv.txt', 'r', encoding="utf-8") as file:
+    lines = file.readlines()
+
+url_dict = defaultdict(list)
+
+for line in lines:
+    parts = line.strip().split(',', 1)
+    if len(parts) == 2:
+        name, url = parts
+        url_dict[name].append(url)
+
+with open('iptv.txt', 'w', encoding="utf-8") as file:
+    for name, urls in url_dict.items():
+        merged_url = f"{name}, {'#'.join(urls)}\n"
+        file.write(merged_url)
+
+print("Processing complete")
