@@ -1,8 +1,13 @@
 import os
 
 # 定义分类规则
-cctv_channels = ['CCTV1', 'CCTV2', 'CCTV3', 'CCTV4', 'CCTV4欧', 'CCTV4美', 'CCTV5', 'CCTV5+', 'CCTV6', 'CCTV7', 'CCTV8', 'CCTV9', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15', 'CCTV17']
-extra_cctv_channels = ['文化精品', '央视台球', '风云音乐', '第一剧场', '风云剧场', '怀旧剧场', '女性时尚', '高尔夫网球', '风云足球', '电视指南', '世界地理', '兵器科技', 'CETV1', 'CETV2', 'CETV4', 'CETV5']
+cctv_main_channels = ['CCTV1']
+cctv_other_channels = ['CCTV2', 'CCTV3', 'CCTV4', 'CCTV4欧', 'CCTV4美', 'CCTV5', 'CCTV5+', 'CCTV6', 'CCTV7', 'CCTV8', 'CCTV9']
+cctv_grouped_channels = ['CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15', 'CCTV17']
+other_cctv_channels = [
+    "文化精品", "央视台球", "风云音乐", "第一剧场", "风云剧场", "怀旧剧场", "女性时尚", 
+    "高尔夫网球", "风云足球", "电视指南", "世界地理", "兵器科技", "CETV1", "CETV2", "CETV4", "CETV5"
+]
 satellite_channels = [
     '湖南卫视', '浙江卫视', '江苏卫视', '东方卫视', '深圳卫视', '广东卫视', '广西卫视', '东南卫视', '海南卫视', '北京卫视', '河北卫视',
     '河南卫视', '湖北卫视', '江西卫视', '四川卫视', '重庆卫视', '贵州卫视', '云南卫视', '天津卫视', '安徽卫视', '山东卫视', '辽宁卫视',
@@ -25,7 +30,9 @@ def read_iptv_file(filepath):
 
 def classify_channels(lines):
     """对IPTV频道内容进行分类"""
-    cctv_dict = {channel: [] for channel in cctv_channels}
+    cctv_main_dict = {channel: [] for channel in cctv_main_channels}
+    cctv_other_dict = {channel: [] for channel in cctv_other_channels}
+    cctv_grouped_dict = {channel: [] for channel in cctv_grouped_channels}
     satellite_list = []
     digital_list = []
 
@@ -34,29 +41,59 @@ def classify_channels(lines):
         if not line:
             continue
 
-        # 分类CCTV频道和额外的CCTV相关频道
-        for cctv in cctv_channels + extra_cctv_channels:
+        # 分类CCTV1
+        for cctv in cctv_main_channels:
             if cctv in line:
-                cctv_dict.setdefault(cctv, []).append(line)
+                cctv_main_dict[cctv].append(line)
                 break
+        # 分类CCTV2-CCTV9
         else:
-            # 分类卫视频道
-            if any(sat in line for sat in satellite_channels):
-                satellite_list.append(line)
-            # 分类数字频道
-            elif any(dig in line for dig in digital_channels):
-                digital_list.append(line)
+            for cctv in cctv_other_channels:
+                if cctv in line:
+                    cctv_other_dict[cctv].append(line)
+                    break
+            # 分类CCTV10-CCTV17
+            else:
+                for cctv in cctv_grouped_channels:
+                    if cctv in line:
+                        cctv_grouped_dict[cctv].append(line)
+                        break
+                # 分类其他央视频道
+                else:
+                    for key in other_cctv_channels:
+                        if key in line:
+                            cctv_grouped_dict[key].append(line)
+                            break
+                    else:
+                        # 分类卫视频道
+                        if any(sat in line for sat in satellite_channels):
+                            satellite_list.append(line)
+                        # 分类数字频道
+                        elif any(dig in line for dig in digital_channels):
+                            digital_list.append(line)
 
-    return cctv_dict, satellite_list, digital_list
+    return cctv_main_dict, cctv_other_dict, cctv_grouped_dict, satellite_list, digital_list
 
-def write_zubo_file(output_file, cctv_dict, satellite_list, digital_list):
+def write_zubo_file(output_file, cctv_main_dict, cctv_other_dict, cctv_grouped_dict, satellite_list, digital_list):
     """将分类后的频道信息写入到zubo.txt"""
     with open(output_file, 'w', encoding='utf-8') as file:
-        # 写入央视分类
+        # 写入CCTV1分类
         file.write("央视,#genre#\n")
-        for cctv in cctv_channels + extra_cctv_channels:
-            if cctv_dict.get(cctv):
-                for line in cctv_dict[cctv]:
+        for cctv in cctv_main_channels:
+            if cctv_main_dict[cctv]:
+                for line in cctv_main_dict[cctv]:
+                    file.write(line + '\n')
+
+        # 写入CCTV2-CCTV9分类
+        for cctv in cctv_other_channels:
+            if cctv_other_dict[cctv]:
+                for line in cctv_other_dict[cctv]:
+                    file.write(line + '\n')
+
+        # 写入CCTV10-CCTV17和其他央视分类
+        for cctv in cctv_grouped_channels + other_cctv_channels:
+            if cctv_grouped_dict[cctv]:
+                for line in cctv_grouped_dict[cctv]:
                     file.write(line + '\n')
 
         # 写入卫视频道
@@ -77,8 +114,8 @@ def main():
     if not lines:
         return
 
-    cctv_dict, satellite_list, digital_list = classify_channels(lines)
-    write_zubo_file(zubo_file, cctv_dict, satellite_list, digital_list)
+    cctv_main_dict, cctv_other_dict, cctv_grouped_dict, satellite_list, digital_list = classify_channels(lines)
+    write_zubo_file(zubo_file, cctv_main_dict, cctv_other_dict, cctv_grouped_dict, satellite_list, digital_list)
 
 if __name__ == "__main__":
     main()
