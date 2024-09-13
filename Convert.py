@@ -32,7 +32,7 @@ def classify_channels(lines):
     """对IPTV频道内容进行分类"""
     cctv_main_dict = {channel: [] for channel in cctv_main_channels}
     cctv_other_dict = {channel: [] for channel in cctv_other_channels}
-    cctv_grouped_dict = {channel: [] for channel in cctv_grouped_channels}
+    cctv_grouped_dict = {channel: [] for channel in cctv_grouped_channels + other_cctv_channels}
     satellite_list = []
     digital_list = []
 
