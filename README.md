@@ -17,11 +17,8 @@
 
 频道LOGO：https://live.kakaxi-1.ink/LOGO/名称.png
 
-EPG：
+EPG：https://live.kakaxi-1.ink/epg.xml
 
-epg通用：https://live.kakaxi-1.ink/epg.xml
-
-需ipv6网络支持：http://tv.kakaxi-1.ink:8877/epg/t.xml
    
 
      
