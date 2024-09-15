@@ -34,10 +34,10 @@ import fileinput
 #enter
 exclude_strings = ['121.207.104', 'xeace.cn:8888', '//27.10', '//220.176.218', '//171.221.129', '//118.122.111', '//27.191.71', '//175.11.171', '//220.176.218', '//117.43.80', '//182.139.152', '//118.122.111', '//118.112.60', '//27.191.71', '//122.232.188', '//125.71.44', '//122.234.77', '//122.232.188', '//14.105.105.35', '//27.191.71.248', '//144.255.40.160', '//140.250.221', '//223.242.146', '//182.139.215', '//182.150.168', '//120.32.11', '//113.86.204.209', '//110.185.44', '///61.157.92.168', '//59.56.214', '//117.25.38', '//125.82.171', '//117.12.148', '//183.5.92', '//117.66.231', '//36.47.83', '//115.221.95', '//113.120.108', '//115.193.167', '//117.28.112', '//117.25.38', '//117.67.169', '//221.15.251', '//117.67.169', '//221.15.251', '//116.5.168', '//175.0.95', '//118.248.154', '//220.175.144', '//118.254.201', '//14.154.192', '//124.112.208', '//182.148.30', '//110.185.70', '//183.5.97.206', '//123.55.112', '//222.182.115', '//14.117.233', '//113.13.242', '//59.56.214.134', '//58.42.184.132', '//58.42.184.132', '//220.192.1.40', '//27.11.253.19', '//27.11.58.239', '//14.105.104', '//183.54.208.185', '//116.252.77.132', '//221.232.175', '//144.255.44.24', '//113.222.42.190', '//61.150.11', '//110.185.10', '//118.254', '//122.232.188', '//171.116.157', '//125.43.40', '//125.86.181', '//27.153.80', '//61.190.129.1', '//182.46.8', '//119.130.11', '//58.63.65', '//1.84.218', '//183.184', '//171.217.81', '//27.190.83.', '//1.197.1', '//58.46.249', '//125.71.170', '//119.4.15', '//222.138.213', '//222.138.213', '//222.94.90', '//222.95.95', '//117.69', '//60.168.228', '//223.215.43', '//223.240.250', '//60.171.98', '//27.151.150', '//+', '//+', '//+', '//+', '//+']
 #enter
-file_paths = ["北京联通.txt", "贵州电信.txt", "江西电信.txt", "河北电信.txt", "Sus.txt"]
+file_paths = ["txt_files/北京联通.txt", "txt_files/贵州电信.txt", "txt_files/江西电信.txt", "txt_files/河北电信.txt", "txt_files/Sus.txt"]
 
 #enter
-with open("Kmerga2H+OLD.txt", "w", encoding="utf-8") as output:
+with open("txt_files/Kmerga2H+OLD.txt", "w", encoding="utf-8") as output:
     #enter
     for file_path in file_paths:
         #enter
@@ -58,7 +58,7 @@ tested_ips = {}
 
 #enter
 lines = []
-with open('Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file:
+with open('txt_files/Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 #enter
@@ -111,7 +111,7 @@ for line in lines:
         cap.release()
 
 #enter
-with open('Kmerga2H+OLD-SPD.txt', 'w', encoding='utf-8') as file:
+with open('txt_files/Kmerga2H+OLD-SPD.txt', 'w', encoding='utf-8') as file:
     for line in lines:
         #enter,enter
         if line.count(',') == 1:
@@ -136,10 +136,10 @@ with open('Kmerga2H+OLD-SPD.txt', 'w', encoding='utf-8') as file:
 exclude_strings = ['121.207.104', 'xeace.cn:8888', '//27.10', '//220.176.218', '//171.221.129', '//118.122.111', '//27.191.71', '//175.11.171', '//220.176.218', '//117.43.80', '//182.139.152', '//118.122.111', '//118.112.60', '//27.191.71', '//122.232.188', '//125.71.44', '//122.234.77', '//122.232.188', '//14.105.105.35', '//27.191.71.248', '//144.255.40.160', '//140.250.221', '//223.242.146', '//182.139.215', '//182.150.168', '//120.32.11', '//113.86.204.209', '//110.185.44', '///61.157.92.168', '//59.56.214', '//117.25.38', '//125.82.171', '//117.12.148', '//183.5.92', '//117.66.231', '//36.47.83', '//115.221.95', '//113.120.108', '//115.193.167', '//117.28.112', '//117.25.38', '//117.67.169', '//221.15.251', '//117.67.169', '//221.15.251', '//116.5.168', '//175.0.95', '//118.248.154', '//220.175.144', '//118.254.201', '//14.154.192', '//124.112.208', '//182.148.30', '//110.185.70', '//183.5.97.206', '//123.55.112', '//222.182.115', '//14.117.233', '//113.13.242', '//59.56.214.134', '//58.42.184.132', '//58.42.184.132', '//220.192.1.40', '//27.11.253.19', '//27.11.58.239', '//14.105.104', '//183.54.208.185', '//116.252.77.132', '//221.232.175', '//144.255.44.24', '//113.222.42.190', '//61.150.11', '//110.185.10', '//118.254', '//122.232.188', '//171.116.157', '//125.43.40', '//125.86.181', '//27.153.80', '//61.190.129.1', '//182.46.8', '//119.130.11', '//58.63.65', '//1.84.218', '//183.184', '//171.217.81', '//27.190.83.', '//1.197.1', '//58.46.249', '//125.71.170', '//119.4.15', '//222.138.213', '//222.138.213', '//222.94.90', '//222.95.95', '//117.69', '//60.168.228', '//223.215.43', '//223.240.250', '//60.171.98', '//27.151.150', '//+', '//+', '//+', '//+', '//+']
 
 #enter
-file_paths = ["江苏电信.txt", "天津联通.txt", "Susa.txt"]
+file_paths = ["txt_files/江苏电信.txt", "txt_files/天津联通.txt", "txt_files/Susa.txt"]
 
 #enter
-with open("Kmergalow2H+lowOLD.txt", "w", encoding="utf-8") as output:
+with open("txt_files/Kmergalow2H+lowOLD.txt", "w", encoding="utf-8") as output:
     #enter
     for file_path in file_paths:
         #enter
@@ -159,7 +159,7 @@ tested_ips = {}
 
 #enter
 lines = []
-with open('Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file:
+with open('txt_files/Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 #enter
@@ -212,7 +212,7 @@ for line in lines:
         cap.release()
 
 #enter
-with open('Kmergalow2H+lowOLD-SPD.txt', 'w', encoding='utf-8') as file:
+with open('txt_files/Kmergalow2H+lowOLD-SPD.txt', 'w', encoding='utf-8') as file:
     for line in lines:
         #enter,enter
         if line.count(',') == 1:
@@ -239,10 +239,10 @@ with open('Kmergalow2H+lowOLD-SPD.txt', 'w', encoding='utf-8') as file:
 exclude_strings = ['121.207.104', 'xeace.cn:8888', '//27.10', '//220.176.218', '//171.221.129', '//118.122.111', '//27.191.71', '//175.11.171', '//220.176.218', '//117.43.80', '//182.139.152', '//118.122.111', '//118.112.60', '//27.191.71', '//122.232.188', '//125.71.44', '//122.234.77', '//122.232.188', '//14.105.105.35', '//27.191.71.248', '//144.255.40.160', '//140.250.221', '//223.242.146', '//182.139.215', '//182.150.168', '//120.32.11', '//113.86.204.209', '//110.185.44', '///61.157.92.168', '//59.56.214', '//117.25.38', '//125.82.171', '//117.12.148', '//183.5.92', '//117.66.231', '//36.47.83', '//115.221.95', '//113.120.108', '//115.193.167', '//117.28.112', '//117.25.38', '//117.67.169', '//221.15.251', '//117.67.169', '//221.15.251', '//116.5.168', '//175.0.95', '//118.248.154', '//220.175.144', '//118.254.201', '//14.154.192', '//124.112.208', '//182.148.30', '//110.185.70', '//183.5.97.206', '//123.55.112', '//222.182.115', '//14.117.233', '//113.13.242', '//59.56.214.134', '//58.42.184.132', '//58.42.184.132', '//220.192.1.40', '//27.11.253.19', '//27.11.58.239', '//14.105.104', '//183.54.208.185', '//116.252.77.132', '//221.232.175', '//144.255.44.24', '//113.222.42.190', '//61.150.11', '//110.185.10', '//118.254', '//122.232.188', '//171.116.157', '//125.43.40', '//125.86.181', '//27.153.80', '//61.190.129.1', '//182.46.8', '//119.130.11', '//58.63.65', '//1.84.218', '//183.184', '//171.217.81', '//27.190.83.', '//1.197.1', '//58.46.249', '//125.71.170', '//119.4.15', '//222.138.213', '//222.138.213', '//222.94.90', '//222.95.95', '//117.69', '//60.168.228', '//223.215.43', '//223.240.250', '//60.171.98', '//27.151.150', '//+', '//+', '//+', '//+', '//+']
 
 #enter
-file_paths = ["四川电信.txt", "四川联通.txt", "Susaw.txt"]
+file_paths = ["txt_files/四川电信.txt", "txt_files/四川联通.txt", "txt_files/Susaw.txt"]
 
 #enter
-with open("Kmergaverylow2H+verylowOLD.txt", "w", encoding="utf-8") as output:
+with open("txt_files/Kmergaverylow2H+verylowOLD.txt", "w", encoding="utf-8") as output:
     #enter
     for file_path in file_paths:
         #enter
@@ -262,7 +262,7 @@ tested_ips = {}
 
 #enter
 lines = []
-with open('Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file:
+with open('txt_files/Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 #enter
@@ -315,7 +315,7 @@ for line in lines:
         cap.release()
 
 #enter
-with open('Kmergaverylow2H+verylowOLD-SPD.txt', 'w', encoding='utf-8') as file:
+with open('txt_files/Kmergaverylow2H+verylowOLD-SPD.txt', 'w', encoding='utf-8') as file:
     for line in lines:
         #enter,enter
         if line.count(',') == 1:
@@ -346,7 +346,7 @@ tested_ips = {}
 
 #enter
 lines = []
-with open('gaa.txt', 'r', encoding='utf-8') as file:
+with open('txt_files/gaa.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 #enter
@@ -399,7 +399,7 @@ for line in lines:
         cap.release()
 
 #enter
-with open('gaa-SPD.txt', 'w', encoding='utf-8') as file:
+with open('txt_files/gaa-SPD.txt', 'w', encoding='utf-8') as file:
     for line in lines:
         #enter,enter
         if line.count(',') == 1:
@@ -429,7 +429,7 @@ tested_ips = {}
 
 #enter
 lines = []
-with open('gaar.txt', 'r', encoding='utf-8') as file:
+with open('txt_files/gaar.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 #enter
@@ -482,7 +482,7 @@ for line in lines:
         cap.release()
 
 #enter
-with open('gaar-SPD.txt', 'w', encoding='utf-8') as file:
+with open('txt_files/gaar-SPD.txt', 'w', encoding='utf-8') as file:
     for line in lines:
         #enter,enter
         if line.count(',') == 1:
@@ -515,9 +515,9 @@ with open('gaar-SPD.txt', 'w', encoding='utf-8') as file:
 
 
 #enter
-with open('Kmerga2H+OLD-SPD.txt', 'r', encoding='utf-8') as file_in:
+with open('txt_files/Kmerga2H+OLD-SPD.txt', 'r', encoding='utf-8') as file_in:
     #enter
-    with open('Kmerga2H+OLD-SPDjump.txt', 'w', encoding='utf-8') as file_out:
+    with open('txt_files/Kmerga2H+OLD-SPDjump.txt', 'w', encoding='utf-8') as file_out:
         #enter
         for line in file_in:
             #enter
@@ -528,8 +528,8 @@ with open('Kmerga2H+OLD-SPD.txt', 'r', encoding='utf-8') as file_in:
 seen_lines = set()
 
 #enter
-with open('Kmerga2H+OLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
-     open('Sus.txt', 'w', encoding='utf-8') as file_out:
+with open('txt_files/Kmerga2H+OLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
+     open('txt_files/Sus.txt', 'w', encoding='utf-8') as file_out:
     #enter文件
     for line in file_in:
         #enter
@@ -542,9 +542,9 @@ with open('Kmerga2H+OLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
 			
 
 #enter
-with open('Kmergalow2H+lowOLD-SPD.txt', 'r', encoding='utf-8') as file_in:
+with open('txt_files/Kmergalow2H+lowOLD-SPD.txt', 'r', encoding='utf-8') as file_in:
     #enter
-    with open('Kmergalow2H+lowOLD-SPDjump.txt', 'w', encoding='utf-8') as file_out:
+    with open('txt_files/Kmergalow2H+lowOLD-SPDjump.txt', 'w', encoding='utf-8') as file_out:
         #enter
         for line in file_in:
             #enter
@@ -555,8 +555,8 @@ with open('Kmergalow2H+lowOLD-SPD.txt', 'r', encoding='utf-8') as file_in:
 seen_lines = set()
 
 #enter
-with open('Kmergalow2H+lowOLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
-     open('Susa.txt', 'w', encoding='utf-8') as file_out:
+with open('txt_files/Kmergalow2H+lowOLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
+     open('txt_files/Susa.txt', 'w', encoding='utf-8') as file_out:
     #enter文件
     for line in file_in:
         #enter
@@ -568,9 +568,9 @@ with open('Kmergalow2H+lowOLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
 
 
 #enter
-with open('Kmergaverylow2H+verylowOLD-SPD.txt', 'r', encoding='utf-8') as file_in:
+with open('txt_files/Kmergaverylow2H+verylowOLD-SPD.txt', 'r', encoding='utf-8') as file_in:
     #enter
-    with open('Kmergaverylow2H+verylowOLD-SPDjump.txt', 'w', encoding='utf-8') as file_out:
+    with open('txt_files/Kmergaverylow2H+verylowOLD-SPDjump.txt', 'w', encoding='utf-8') as file_out:
         #enter
         for line in file_in:
             #enter
@@ -581,8 +581,8 @@ with open('Kmergaverylow2H+verylowOLD-SPD.txt', 'r', encoding='utf-8') as file_i
 seen_lines = set()
 
 #enter
-with open('Kmergaverylow2H+verylowOLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
-     open('Susaw.txt', 'w', encoding='utf-8') as file_out:
+with open('txt_files/Kmergaverylow2H+verylowOLD-SPDjump.txt', 'r', encoding='utf-8') as file_in, \
+     open('txt_files/Susaw.txt', 'w', encoding='utf-8') as file_out:
     #enter文件
     for line in file_in:
         #enter
@@ -604,7 +604,7 @@ future_time = current_time + timedelta(hours=8)
 formatted_future_time = future_time.strftime("%Y-%m-%d %H:%M:%S")
 
 #enter
-with open('IP_address.txt', 'a', encoding='utf-8') as file:
+with open('txt_files/IP_address.txt', 'a', encoding='utf-8') as file:
     file.write('\n' * 2)  # enter
     file.write(formatted_future_time + '\n')  # enter
     file.write('\n')  # enter
@@ -621,7 +621,7 @@ pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter
 
-with open('Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file, open('IP_address.txt', 'a', encoding='utf-8') as IP_address:
+with open('txt_files/Kmerga2H+OLD.txt', 'r', encoding='utf-8') as file, open('txt_files/IP_address.txt', 'a', encoding='utf-8') as IP_address:
 
     for line in file:
 
@@ -636,7 +636,7 @@ keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农�
 pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter	 
-with open('Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file, open('IP_address.txt', 'a', encoding='utf-8') as IP_address:
+with open('txt_files/Kmergalow2H+lowOLD.txt', 'r', encoding='utf-8') as file, open('txt_files/IP_address.txt', 'a', encoding='utf-8') as IP_address:
 
     for line in file:
 
@@ -653,7 +653,7 @@ keywords = ['S川A爱科幻','天JD都市高清','安HH生活时尚','山DB农�
 pattern = '|'.join(keywords)  #enterenter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter	 
-with open('Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file, open('IP_address.txt', 'a', encoding='utf-8') as IP_address:
+with open('txt_files/Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file, open('txt_files/IP_address.txt', 'a', encoding='utf-8') as IP_address:
 
     for line in file:
 
@@ -666,12 +666,12 @@ with open('Kmergaverylow2H+verylowOLD.txt', 'r', encoding='utf-8') as file, open
 
 
 #enter
-with open('IP_address.txt', 'r', encoding='utf-8') as file_in:
+with open('txt_files/IP_address.txt', 'r', encoding='utf-8') as file_in:
     # go
-    with open('IP_addressjump.txt', 'w', encoding='utf-8') as file_out:
-        #enterIP_address.txt
+    with open('txt_files/IP_addressjump.txt', 'w', encoding='utf-8') as file_out:
+        #entertxt_files/IP_address.txt
         for line in file_in:
-            #enterIP_addressjump.txt
+            #entertxt_files/IP_addressjump.txt
             file_out.write(line)
 
 # enter
@@ -679,9 +679,9 @@ with open('IP_address.txt', 'r', encoding='utf-8') as file_in:
 seen_lines = set()
 
 #enter
-with open('IP_addressjump.txt', 'r', encoding='utf-8') as file_in, \
-     open('IP_address.txt', 'w', encoding='utf-8') as file_out:
-    #enter IP_addressjump.txt
+with open('txt_files/IP_addressjump.txt', 'r', encoding='utf-8') as file_in, \
+     open('txt_files/IP_address.txt', 'w', encoding='utf-8') as file_out:
+    #enter txt_files/IP_addressjump.txt
     for line in file_in:
         #enter
         stripped_line = line.strip()
@@ -736,7 +736,7 @@ import fileinput
 file_contents = []   #enter
 
 #enter
-file_paths = ['Sus.txt','Susa.txt','Susaw.txt','gaa-SPD.txt','gaar-SPD.txt',"ga.txt"]
+file_paths = ['txt_files/Sus.txt','txt_files/Susa.txt','txt_files/Susaw.txt','txt_files/gaa-SPD.txt','txt_files/gaar-SPD.txt',"txt_files/ga.txt"]
 
 
 
@@ -751,14 +751,14 @@ for file_path in file_paths:
 
 #enter
 
-with open("merga.txt", "w", encoding="utf-8") as output:
+with open("txt_files/merga.txt", "w", encoding="utf-8") as output:
 
     output.write('\n'.join(file_contents))
 
 
 #替换
 
-for line in fileinput.input("merga.txt", inplace=True):  #enter
+for line in fileinput.input("txt_files/merga.txt", inplace=True):  #enter
 
     line = line.replace("CCTV10", "CCTW10")
 
@@ -860,7 +860,7 @@ for line in fileinput.input("merga.txt", inplace=True):  #enter
 
 #enter####################################################################################################
 
-for line in fileinput.input("merga.txt", inplace=True):  #enter
+for line in fileinput.input("txt_files/merga.txt", inplace=True):  #enter
 
     
     line = line.replace("CCTV10", "CCTW10")
@@ -888,7 +888,7 @@ for line in fileinput.input("merga.txt", inplace=True):  #enter
 
 
 
-with open('merga.txt', 'r', encoding='utf-8') as f:
+with open('txt_files/merga.txt', 'r', encoding='utf-8') as f:
 
     lines = f.readlines()
 
@@ -896,7 +896,7 @@ with open('merga.txt', 'r', encoding='utf-8') as f:
 lines.sort()
 
 
-with open('排序.txt', 'w', encoding='UTF-8') as f:
+with open('txt_files/排序.txt', 'w', encoding='UTF-8') as f:
 
     for line in lines:
 
@@ -905,7 +905,7 @@ with open('排序.txt', 'w', encoding='UTF-8') as f:
 
 #enter##########################################################################################################################
 
-for line in fileinput.input("排序.txt", inplace=True):  #enter
+for line in fileinput.input("txt_files/排序.txt", inplace=True):  #enter
 
     line = line.replace("CCTW10", "CCTV10")
 
@@ -933,10 +933,10 @@ for line in fileinput.input("排序.txt", inplace=True):  #enter
  
 
 # enter
-with open('g.txt', 'r', encoding='utf-8') as file1:
+with open('txt_files/g.txt', 'r', encoding='utf-8') as file1:
   
     #enter
-    with open('TT1.txt', 'w', encoding='utf-8') as file2:
+    with open('txt_files/TT1.txt', 'w', encoding='utf-8') as file2:
         #enter
         for line in file1:
             #enter
@@ -952,7 +952,7 @@ pattern = '|'.join(keywords)  #enter
 
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter
 
-with open('排序.txt', 'r', encoding='utf-8') as file, open('T1.txt', 'w', encoding='utf-8') as T1:    #####enter
+with open('txt_files/排序.txt', 'r', encoding='utf-8') as file, open('txt_files/T1.txt', 'w', encoding='utf-8') as T1:    #####enter
 
     for line in file:
 
@@ -960,12 +960,12 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('T1.txt', 'w', enco
 
          T1.write(line)  #enter
 
-for line in fileinput.input("T1.txt", inplace=True):  #enter 
+for line in fileinput.input("txt_files/T1.txt", inplace=True):  #enter 
 
     print(line, end="")  #enter          
 
 #enter
-with open('TT1.txt', 'a', encoding='utf-8') as TT1:    #####enter
+with open('txt_files/TT1.txt', 'a', encoding='utf-8') as TT1:    #####enter
 
     TT1.write('\n#shougong\n')        
  
@@ -1003,7 +1003,7 @@ def custom_sort_key(item):
 
     return (channel_sort_key, sort_key)
 
-with open('T1.txt', 'r', encoding="utf-8") as input_file, open('TT1.txt', 'a', encoding="utf-8") as output_file:
+with open('txt_files/T1.txt', 'r', encoding="utf-8") as input_file, open('txt_files/TT1.txt', 'a', encoding="utf-8") as output_file:
     #enter
     lines = input_file.readlines()
 
@@ -1030,7 +1030,7 @@ with open('T1.txt', 'r', encoding="utf-8") as input_file, open('TT1.txt', 'a', e
 
 file_contents = []
 
-file_paths = ["TT1.txt"] 
+file_paths = ["txt_files/TT1.txt"] 
 
 for file_path in file_paths:
 
@@ -1044,7 +1044,7 @@ for file_path in file_paths:
 
 # enter
 
-with open("AMER-start.txt", "w", encoding="utf-8") as output:
+with open("txt_files/AMER-start.txt", "w", encoding="utf-8") as output:
 
     output.write('\n'.join(file_contents))
 
@@ -1054,13 +1054,13 @@ with open("AMER-start.txt", "w", encoding="utf-8") as output:
   
 
 #star
-with open('AMER-start.txt', 'r', encoding='utf-8') as file:
+with open('txt_files/AMER-start.txt', 'r', encoding='utf-8') as file:
     content = file.read()
 
 #enter
 content = content.replace("WA", "").replace("WP", "").replace("WB", "").replace("WC", "").replace("WD", "").replace("WE", "").replace("WF", "").replace("WG", "").replace("WH", "").replace("WI", "").replace("WJ", "").replace("WK", "").replace("WL", "").replace("WM", "").replace("WN", "").replace("WO", "").replace("WP", "").replace("WQ", "").replace("WR", "").replace("WS", "").replace("WT", "").replace("WU", "").replace("WV", "").replace("WW", "").replace("WX", "").replace("WY", "").replace("WZ", "").replace("CF", "").replace("IV", "").replace("X纪实", "纪实").replace("Y动漫", "动漫").replace("Y金色学堂", "金色学堂").replace("电Y", "电影").replace("老DY", "老电影").replace("X乐", "乐").replace("X求", "求").replace("X纪", "纪").replace("X记", "记").replace("Y新", "新").replace("剧J", "连续剧").replace("重Q", "重庆").replace("北J", "北京").replace("河B", "河北").replace("河N", "河南").replace("天J", "天津").replace("湖B", "湖北").replace("湖N", "湖南").replace("山D", "山东").replace("安H", "安徽").replace("江S", "江苏").replace("山X", "山西").replace("浙J", "浙江").replace("辽L", "辽宁").replace("吉L", "吉林").replace("贵Z", "贵州").replace("陕X", "陕西").replace("S川", "四川").replace("褔J", "福建").replace("GAT-", "").replace("裾J", "裾集").replace("江X", "江西").replace("新J", "新疆").replace("褔JA", "福建").replace("褔JB", "福建").replace("褔JC", "福建").replace("褔JD", "福建").replace("福J", "福建").replace("广X", "广西").replace("A", "").replace("B", "").replace("F", "").replace("G", "").replace("I", "").replace("J", "").replace("K", "").replace("L", "").replace("M", "").replace("N", "").replace("O", "").replace("P", "").replace("Q", "").replace("R", "").replace("S", "").replace("U", "").replace("W", "").replace("X", "").replace("Y", "").replace("Z", "").replace("C新闻", "新闻").replace("电映C", "电映").replace("电映E", "电映").replace("电映H", "电映").replace("D影视", "影视").replace("E都市", "都市").replace("H新农", "新农").replace("河北C", "河北").replace("河北D", "河北").replace("河南C", "河南").replace("河南D", "河南").replace("天津C", "天津").replace("天津D", "天津").replace("天津E", "天津").replace("广D", "广东").replace("广东C", "广东").replace("广东H", "广东").replace("广西C", "广西").replace("广西D", "广西").replace("广西E", "广西").replace("广西H", "广西").replace("湖北C", "湖北").replace("湖北D", "湖北").replace("山东C", "山东").replace("山东D", "山东").replace("山东E", "山东").replace("山东H", "山东").replace("安徽C", "安徽").replace("安徽D", "安徽").replace("安徽E", "安徽").replace("安徽H", "安徽").replace("江西C", "").replace("江西D", "").replace("江西E", "").replace("江西H", "").replace("江XB", "").replace("江西欢笑剧场", "欢笑剧场").replace("江西都市剧场", "都市剧场").replace("陕西C", "陕西").replace("陕西D", "陕西").replace("陕西E", "陕西").replace("陕西H", "陕西").replace("浙江C", "浙江").replace("浙江D", "浙江").replace("浙江E", "浙江").replace("浙江H", "浙江").replace("四川C", "四川").replace("四川D", "四川").replace("四川E", "四川").replace("四川H", "四川").replace("辽宁C", "辽宁").replace("辽宁D", "辽宁").replace("辽宁E", "辽宁").replace("辽宁H", "辽宁").replace("吉林C", "吉林").replace("山西C", "山西").replace("山西D", "山西").replace("山西E", "山西").replace("山西H", "山西").replace("CHE-V", "Channel-V").replace("爱上4", "爱上4K").replace("4超清", "4K超清").replace("凤凰卫视咨询台", "凤凰卫视资讯台").replace("CCTV怀旧剧场", "怀旧剧场").replace("CCTV文化精品", "文化精品").replace("CCTV第一剧场", "第一剧场").replace("CCTV高尔夫网球", "高尔夫网球")
 
-with open('AMER-delete.txt', 'w', encoding='utf-8') as file:
+with open('txt_files/AMER-delete.txt', 'w', encoding='utf-8') as file:
     file.write(content)
 	
 #enter
@@ -1069,7 +1069,7 @@ with open('AMER-delete.txt', 'w', encoding='utf-8') as file:
   
 
 #enter
-with open('AMER-delete.txt', 'r', encoding="utf-8") as file:
+with open('txt_files/AMER-delete.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
  
 #enter
@@ -1092,17 +1092,17 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
 
 #enter
 
-os.remove("IP_addressjump.txt")
+os.remove("txt_files/IP_addressjump.txt")
 
-os.remove("AMER-delete.txt")
+os.remove("txt_files/AMER-delete.txt")
 
-os.remove("AMER-start.txt")
+os.remove("txt_files/AMER-start.txt")
 
-os.remove("merga.txt")
+os.remove("txt_files/merga.txt")
 
-os.remove("排序.txt")
+os.remove("txt_files/排序.txt")
 
-os.remove("T1.txt")
+os.remove("txt_files/T1.txt")
 
 print("over")
 
