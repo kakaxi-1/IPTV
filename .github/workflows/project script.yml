@@ -2,7 +2,7 @@ name: project script
 
 on:
   schedule:
-  - cron: '02 14,18,22,2,6,10 * * *'  #6>10>14>18>22>2&&&
+  - cron: '02 13,18,23,3,7,10 * * *'
   workflow_dispatch:
     分支:
       - main
