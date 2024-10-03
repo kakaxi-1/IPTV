@@ -1,0 +1,76 @@
+name: IPTV
+
+on:
+  watch:
+    types: [started]
+  schedule:
+   - cron: 0 */4 * * *
+   workflow_dispatch:
+    分支:
+      - main
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: GetTime
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
+
+    - name: Update
+      run: |
+
+        rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
+        sed -i -n '/CCTV-1\|CCTV-2\|CCTV-3\|CCTV-4\|CCTV-5\|CCTV-5\|CCTV-6\|CCTV-7\|CCTV-8\|CCTV-9\|CCTV-10\|CCTV-11\|CCTV-12\|CCTV-13\|CCTV-14\|CCTV-15\|CCTV-16\|CCTV-17\|CCTV-4K\|CCTV-8K\+/,+1p' CCTV.m3u
+        sed -i 's/央视频道/央视/' CCTV.m3u
+        sed -i '/联通/,+1d' CCTV.m3u
+        sed -i '1i #EXTM3U' CCTV.m3u
+        sed -i '/^\s*$/d' CCTV.m3u
+
+        rm -f STV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O STV.m3u
+        sed -i -n '/湖南卫视\|浙江卫视\|东方卫视\|北京卫视\|江苏卫视\|安徽卫视\|重庆卫视\|东南卫视\|甘肃卫视\|广东卫视\|广西卫视\|贵州卫视\|海南卫视\|河北卫视\|黑龙江卫视\|河南卫视\|湖北卫视\|江西卫视\|吉林卫视\|辽宁卫视\|山东卫视\|深圳卫视\|四川卫视\|天津卫视\|云南卫视\|新疆卫视\|三沙卫视\|青海卫视\|陕西卫视\|山西卫视\|西藏卫视\|内蒙古卫视\|宁夏卫视\|兵团卫视\|安多卫视\|康巴卫视\|大湾区卫视\|农林卫视\|延边卫视\|厦门卫视\+/,+1p' STV.m3u
+        sed -i 's/卫视频道/卫视/' STV.m3u
+        sed -i '/联通/,+1d' STV.m3u
+        sed -i '1i #EXTM3U' STV.m3u
+        sed -i '/^\s*$/d' STV.m3u
+        
+        rm -f DTV.m3u && wget https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u -O DTV.m3u
+        sed -i -n '/CHC影迷电影\|CHC家庭影院\|CHC动作电影\|淘电影\|淘剧场\|淘娱乐\|淘精彩\|淘BABY\|欢笑剧场\|都市剧场\|黑莓电影\|黑莓动画\|newtv\+/,+1p' DTV.m3u
+        sed -i 's/央视频道/数字/;s/卫视频道/数字/;s/地方/数字/;s/数字频道/数字/' DTV.m3u
+        sed -i '1i #EXTM3U' DTV.m3u
+        sed -i '/^\s*$/d' DTV.m3u
+        
+        rm -f IHOT.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O IHOT.m3u
+        sed -i -n '/IHOT爱\+/,+1p' IHOT.m3u
+        sed -i '/iHOT爱怀旧\|iHOT爱经典\|iHOT爱娱乐\|iHOT爱江湖\|iHOT爱探索\|iHOT爱世界\|iHOT爱极限\|iHOT爱解密\|iHOT爱猎奇\|iHOT爱美食\|iHOT爱时尚\|iHOT爱家庭\|iHOT爱都市/,+1d' IHOT.m3u
+        sed -i 's/\"浙江求索生活\"/\"求索生活\"/g' IHOT.m3u
+        sed -i '1i #EXTM3U' IHOT.m3u
+        sed -i '/^\s*$/d' IHOT.m3u
+
+        rm -f IPTV.m3u && touch IPTV.m3u
+        cat CCTV.m3u >> IPTV.m3u
+        cat STV.m3u >> IPTV.m3u
+        cat DTV.m3u >> IPTV.m3u
+        cat IHOT.m3u >> IPTV.m3u
+        sed -i '/#EXTM3U/d' IPTV.m3u
+        sed -i '1i #EXTM3U' IPTV.m3u
+        sed -i '/^\s*$/d' IPTV.m3u
+
+        rm -f kakaxiEPG.xml && wget https://epg.112114.xyz/pp.xml -O kakaxiEPG.xml
+        echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
+
+    - name: Clean
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        git commit -am "${{ steps.date.outputs.date }}"
+
+    - name: Push
+      run: git push -f origin master
