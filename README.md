@@ -1,37 +1,36 @@
-声明：
+##免责声明##
 
-仅供学习，切勿用于商业或非法传播，否则后果自负，均于本人关联。
-部分内容严明禁止中国大陆用户使用！
-可能随时失效，请定期关注更新。
-所有文件均托管在GitHub，由项目发起人公益维护，欢迎Star本项目或点击Issues反馈您的问题。
+本仓库仅供学习，不得擅自用于商业用途，否则后果自负，均于本人无关。部分内容严明禁止中国大陆用户使用！
 
+涵盖国内几乎所有央视卫视等节目，一直完善的台标。资源均收集来自网络，侵权联系删除。
+
+喜欢本仓库欢迎加星！
+
+（记录学习过程）
+
+地址：https://live.kakaxi-1.ink
 
 订阅链接：
 
-live.kakaxi-1.ink
+需要IPV6网络支持，部分需要代理：https://live.kakaxi-1.ink/ipv6.m3u
 
-https://live.kakaxi-1.ink/ipv6.m3u
-
-https://live.kakaxi-1.ink/iptv.txt
+支持IPV4网络：https://live.kakaxi-1.ink/iptv.txt
 
 频道LOGO：https://live.kakaxi-1.ink/LOGO/名称.png
 
 EPG：
 
-https://live.kakaxi-1.ink/epg.xml
+通用版：https://live.kakaxi-1.ink/epg.xml
 
-http://tv.kakaxi-1.ink:8877/epg/t.xml
-
-
+需网络支持版：http://tv.kakaxi-1.ink:8877/epg/t.xml
 
 ##推荐使用APP##
 
-安卓TV端用户推荐：Tivimate、影视FM、酷9
+安卓TV端用户推荐：Tivimate、影视FM
 
-安卓手机端用户推荐：影视FM、酷9
+安卓手机端用户推荐：影视FM
 
 苹果用户推荐：APTV
-
 
 ##特别鸣谢##
 
@@ -47,19 +46,16 @@ http://tv.kakaxi-1.ink:8877/epg/t.xml
 
 ❤ 感谢epg.pw、112114、erw.cc的EPG数据提供
 
-❤ 感谢所有贡献直播源的社区成员
+❤ 感谢所有贡献直播源的社区成员。
 
-❤ 感谢GitHub提供的平台支持
+❤ 感谢GitHub提供的平台支持。
 
-❤ 感谢我的用户和支持者
-
-
+❤ 感谢我的用户和支持者。
 
 ##更新日志##
 
-2024-09-06 影视轮播改名斗鱼轮播，并详细化
+2024/09/13：完善EPG，新增iptv.txt支持IPV4网络
 
-2024-08-23 部分频道ipv6没有新加入地方组播iptv，实现部分低分辨率频道
+2024/09/06：影视轮播改名斗鱼轮播，并细分化
 
-2024-08-02 优化部分EPG、LOGO
-
+2024/08/23：部分频道ipv6没有新加入地方组播iptv，去除部分低分辨率频道
