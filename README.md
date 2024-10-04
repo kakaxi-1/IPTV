@@ -20,9 +20,8 @@
 
 EPG：
 
-通用版：https://live.kakaxi-1.ink/epg.xml
+https://live.kakaxi-1.ink/epg.xml
 
-需网络支持版：http://tv.kakaxi-1.ink:8877/epg/t.xml
 
 ##推荐使用APP##
 
