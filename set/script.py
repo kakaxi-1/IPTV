@@ -1145,3 +1145,17 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
     file.writelines(updated_lines)
 
 print("Processing complete: The first URL for each channel has been removed.")
+
+with open('iptv.txt', 'r', encoding="utf-8") as file:
+    lines = file.readlines()
+
+
+updated_lines = []
+for line in lines:
+    updated_line = line.replace('genre#', '#genre#')
+    updated_lines.append(updated_line)
+
+with open('iptv.txt', 'w', encoding="utf-8") as file:
+    file.writelines(updated_lines)
+
+print("Processing complete: # added before every genre#.")
