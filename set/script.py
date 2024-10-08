@@ -932,27 +932,31 @@ for line in fileinput.input("txt_files/排序.txt", inplace=True):  #enter
  
  
 
-# enter
+#enter
+ # 定义匹配 URL 的正则表达式
+url_pattern = r'http[s]?://\S+'
 
-# 定义关键词
-keywords = ['CCTV','CCTV欧','CCTV美','CETV', 'CF', 'IPT淘', 'CHC', 'IWA', '凤凰卫视', '星空', 'CHANNEL', 'W','卫视', 'X','Y']
-pattern = '|'.join(keywords)
+# 读取 g.txt 并删除其中的 URL，保留其余内容
+with open('txt_files/g.txt', 'r', encoding='utf-8') as file1:
+    with open('txt_files/TT1.txt', 'w', encoding='utf-8') as file2:
+        for line in file1:
+            # 删除匹配 URL 的部分
+            line_without_url = re.sub(url_pattern, '', line)
+            # 将修改后的行写入 TT1.txt
+            file2.write(line_without_url)         
 
-# 从 '排序.txt' 文件中读取并过滤符合条件的行，写入到 'T1.txt'
-with open('txt_files/排序.txt', 'r', encoding='utf-8') as file, open('txt_files/T1.txt', 'w', encoding='utf-8') as T1:
-    for line in file:
-        if re.search(pattern, line) and line.count(',') == 1:
-            T1.write(line)
+#enter
+with open('txt_files/TT1.txt', 'a', encoding='utf-8') as TT1:    #####enter
 
-# 去除 'T1.txt' 中的空行
-for line in fileinput.input("txt_files/T1.txt", inplace=True):
-    print(line, end="")
+    TT1.write('\n#shougong\n')        
+ 
+    print(line, end="")  #enter 
+#enter
 
-# 向 'TT1.txt' 文件追加数据
-with open('txt_files/TT1.txt', 'a', encoding='utf-8') as TT1:
-    TT1.write('\n#shougong\n')
+#enter
+import re
 
-# 自定义排序函数
+#enter
 def custom_sort_key(item):
     channel, url = item.split(',')
 
@@ -970,36 +974,59 @@ def custom_sort_key(item):
     else:
         sort_key = url
 
+    # enter
     if sort_key[0].isalpha():
-        sort_key = (0, sort_key)
+        sort_key = (0, sort_key)  # enter
     elif sort_key.isdigit():
-        sort_key = (1, -int(sort_key))
+        sort_key = (1, -int(sort_key))  #enter
     else:
         sort_key = (2, sort_key)
 
     return (channel_sort_key, sort_key)
 
-# 读取 'T1.txt' 中的数据，排序后写入到 'TT1.txt'
 with open('txt_files/T1.txt', 'r', encoding="utf-8") as input_file, open('txt_files/TT1.txt', 'a', encoding="utf-8") as output_file:
+    #enter
     lines = input_file.readlines()
+
+    #enter
     lines = [line.strip() for line in lines if line.strip()]
     
     sorted_data = sorted(lines, key=custom_sort_key)
 
+    #enter
     for channels in sorted_data: 
         output_file.write(f"{channels}\n")
+    sorted_data = sorted(lines, key=custom_sort_key)
 
-# 合并文件内容
+   #结束########################################################
+
+ ##################################################################################################################################SPLIT#
+
+#star#########################
+#enter#############################################################################################
+
+
+
+#starmerga多个文件到一个文件###########
+
 file_contents = []
-file_paths = ["txt_files/TT1.txt"]
+
+file_paths = ["txt_files/TT1.txt"] 
 
 for file_path in file_paths:
+
     with open(file_path, 'r', encoding="utf-8") as file:
+
         content = file.read()
+
         file_contents.append(content)
 
-# 写入到最终的 'AMER-start.txt' 文件
+
+
+# enter
+
 with open("txt_files/AMER-start.txt", "w", encoding="utf-8") as output:
+
     output.write('\n'.join(file_contents))
 
 #enter
