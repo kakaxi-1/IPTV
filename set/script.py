@@ -1181,11 +1181,15 @@ with open('iptv.txt', 'r', encoding="utf-8") as file:
 
 lines = [line.strip().replace(' ', '') for line in lines if line.strip()]
 
-
 sorted_lines = []
 sorted_lines += sort_channels(lines, yangshi_channels)
+sorted_lines.append('央视,genre#\n') 
+
 sorted_lines += sort_channels(lines, weishe_channels)
+sorted_lines.append('卫视,genre#\n')
+
 sorted_lines += sort_channels(lines, shuzi_channels)
+sorted_lines.append('数字,genre#\n')  
 
 remaining_lines = [line for line in lines if line not in sorted_lines]
 sorted_lines += remaining_lines
