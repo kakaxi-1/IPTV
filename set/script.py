@@ -1146,9 +1146,10 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
 
 print("Processing complete: The first URL for each channel has been removed.")
 
+
 yangshi_channels = [
     'CCTV1', 'CCTV2', 'CCTV3', 'CCTV4', 'CCTV4欧', 'CCTV4美', 'CCTV5', 'CCTV5+', 'CCTV6', 
-    'CCTV7', 'CCTV8', 'CCTV9', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15', 'CCTV16', 'CCTV17', 
+    'CCTV7', 'CCTV8', 'CCTV9', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15', 'CCTV17', 
     '兵器科技', '世界地理', '央视台球', '高尔夫网球', '风云足球', '第一剧场', '女性时尚', 
     '风云音乐', '风云剧场', '文化精品', '怀旧剧场', '电视指南', 'CETV1', 'CETV2', 'CETV4', 'CETV5'
 ]
@@ -1182,20 +1183,21 @@ with open('iptv.txt', 'r', encoding="utf-8") as file:
 lines = [line.strip().replace(' ', '') for line in lines if line.strip()]
 
 sorted_lines = []
+
+sorted_lines.append('央视,genre#\n')
 sorted_lines += sort_channels(lines, yangshi_channels)
-sorted_lines.append('央视,genre#\n') 
 
-sorted_lines += sort_channels(lines, weishe_channels)
 sorted_lines.append('卫视,genre#\n')
+sorted_lines += sort_channels(lines, weishe_channels)
 
+sorted_lines.append('数字,genre#\n')
 sorted_lines += sort_channels(lines, shuzi_channels)
-sorted_lines.append('数字,genre#\n')  
 
 remaining_lines = [line for line in lines if line not in sorted_lines]
 sorted_lines += remaining_lines
 
 with open('iptv.txt', 'w', encoding="utf-8") as file:
     for line in sorted_lines:
-        file.write(line + '\n')
+        file.write(line)
 
 print("Processing complete: Channels have been sorted, spaces removed, and saved.")
