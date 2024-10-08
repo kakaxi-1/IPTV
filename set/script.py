@@ -1145,3 +1145,53 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
     file.writelines(updated_lines)
 
 print("Processing complete: The first URL for each channel has been removed.")
+
+yangshi_channels = [
+    'CCTV1', 'CCTV2', 'CCTV3', 'CCTV4', 'CCTV4欧', 'CCTV4美', 'CCTV5', 'CCTV5+', 'CCTV6', 
+    'CCTV7', 'CCTV8', 'CCTV9', 'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15', 'CCTV16', 'CCTV17', 
+    '兵器科技', '世界地理', '央视台球', '高尔夫网球', '风云足球', '第一剧场', '女性时尚', 
+    '风云音乐', '风云剧场', '文化精品', '怀旧剧场', '电视指南', 'CETV1', 'CETV2', 'CETV4', 'CETV5'
+]
+
+weishe_channels = [
+    '湖南卫视', '浙江卫视', '江苏卫视', '东方卫视', '深圳卫视', '凤凰卫视中文台', '凤凰卫视资讯台', 
+    '凤凰卫视电影台', '星空卫视', 'CHEV', '广东卫视', '广西卫视', '东南卫视', '厦门卫视', '海南卫视', 
+    '北京卫视', '河北卫视', '河南卫视', '湖北卫视', '江西卫视', '四川卫视', '重庆卫视', '贵州卫视', 
+    '云南卫视', '天津卫视', '安徽卫视', '山东卫视', '山东教育卫视', '辽宁卫视', '黑龙江卫视', 
+    '吉林卫视', '宁夏卫视', '山西卫视', '陕西卫视', '甘肃卫视', '青海卫视', '新疆卫视', '西藏卫视', 
+    '内蒙古卫视', '三沙卫视', '兵团卫视', '康巴卫视'
+]
+
+shuzi_channels = [
+    'CHC家庭影院', 'CHC动作电影', 'CHC高清电影', 'T淘电影', 'T淘剧场', 'T淘娱乐', 'T淘贝比', 
+    'T淘萌宠', '纪实人文', '纪实科教', '金鹰纪实', '求索记录', '欢笑剧场', '都市剧场', '生活时尚', 
+    '游戏风云', '乐游频道', '金色学堂', '动漫秀场', '卡酷少儿', '金鹰卡通', '优漫卡通', '哈哈炫动', '嘉佳卡通'
+]
+
+def sort_channels(lines, channel_order):
+    sorted_lines = []
+    for channel in channel_order:
+        for line in lines:
+            if line.startswith(channel + ','):
+                sorted_lines.append(line)
+    return sorted_lines
+
+with open('iptv.txt', 'r', encoding="utf-8") as file:
+    lines = file.readlines()
+
+lines = [line.strip().replace(' ', '') for line in lines if line.strip()]
+
+
+sorted_lines = []
+sorted_lines += sort_channels(lines, yangshi_channels)
+sorted_lines += sort_channels(lines, weishe_channels)
+sorted_lines += sort_channels(lines, shuzi_channels)
+
+remaining_lines = [line for line in lines if line not in sorted_lines]
+sorted_lines += remaining_lines
+
+with open('iptv.txt', 'w', encoding="utf-8") as file:
+    for line in sorted_lines:
+        file.write(line + '\n')
+
+print("Processing complete: Channels have been sorted, spaces removed, and saved.")
