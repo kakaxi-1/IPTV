@@ -933,17 +933,36 @@ for line in fileinput.input("txt_files/排序.txt", inplace=True):  #enter
  
 
 #enter
- # 定义匹配 URL 的正则表达式
-url_pattern = r'http[s]?://\S+'
-
-# 读取 g.txt 并删除其中的 URL，保留其余内容
 with open('txt_files/g.txt', 'r', encoding='utf-8') as file1:
+  
+    #enter
     with open('txt_files/TT1.txt', 'w', encoding='utf-8') as file2:
+        #enter
         for line in file1:
-            # 删除匹配 URL 的部分
-            line_without_url = re.sub(url_pattern, '', line)
-            # 将修改后的行写入 TT1.txt
-            file2.write(line_without_url)         
+            #enter
+            file2.write(line)
+
+
+#star#########################
+#enter#############################################################################################
+
+keywords = ['CCTV','CCTV欧','CCTV美','CETV', 'CF', 'IPT淘', 'CHC', 'IWA', '凤凰卫视', '星空', 'CHANNEL', 'W','卫视', 'X','Y']  #enter
+
+pattern = '|'.join(keywords)  #enter
+
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #enter
+
+with open('txt_files/排序.txt', 'r', encoding='utf-8') as file, open('txt_files/T1.txt', 'w', encoding='utf-8') as T1:    #####enter
+
+    for line in file:
+
+        if re.search(pattern, line) and line.count(',') == 1:  #enter
+
+         T1.write(line)  #enter
+
+for line in fileinput.input("txt_files/T1.txt", inplace=True):  #enter 
+
+    print(line, end="")  #enter          
 
 #enter
 with open('txt_files/TT1.txt', 'a', encoding='utf-8') as TT1:    #####enter
