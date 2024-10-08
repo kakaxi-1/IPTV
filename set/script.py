@@ -1123,3 +1123,25 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
         file.write(merged_url)
 
 print("Processing complete")
+
+
+with open('iptv.txt', 'r', encoding="utf-8") as file:
+    lines = file.readlines()
+
+updated_lines = []
+for line in lines:
+    parts = line.strip().split(',', 1)
+    if len(parts) == 2:
+        name, urls = parts
+
+        url_list = urls.split('#')
+        if len(url_list) > 1:
+
+            url_list.pop(0)
+        updated_line = f"{name}, {'#'.join(url_list)}\n"
+        updated_lines.append(updated_line)
+
+with open('iptv.txt', 'w', encoding="utf-8") as file:
+    file.writelines(updated_lines)
+
+print("Processing complete: The first URL for each channel has been removed.")
