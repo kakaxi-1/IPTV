@@ -1255,3 +1255,37 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
     file.write("\n".join(final_output))
 
 print("Processing complete and file updated.")
+
+
+
+sort_order = ['北京', '湖北', '湖南', '江西', '江苏新', '河南', '河北', '天津', '重庆', '四川', '浙江', '广西']
+
+def process_iptv_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+
+    sorted_lines = []
+    for line in lines:
+        if ',' not in line:
+            continue
+        
+        channel, urls = line.split(',', 1)
+        url_list = urls.split('#')
+
+        sorted_url_list = []
+
+        for province in sort_order:
+            for url in url_list:
+                if province in url:
+                    sorted_url_list.append(url)
+                    break 
+
+        sorted_line = f"{channel},{'#'.join(sorted_url_list)}\n"
+        sorted_lines.append(sorted_line)
+
+    with open(file_path, 'w', encoding='utf-8') as file:
+        for line in sorted_lines:
+            file.write(line)
+
+iptv_file = 'iptv.txt'
+process_iptv_file(iptv_file)
