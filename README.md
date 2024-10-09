@@ -12,22 +12,20 @@
 
 订阅链接：
 
-需要IPV6网络支持，部分需要代理：https://live.kakaxi-1.ink/ipv6.m3u
+支持IPV6网络：https://live.kakaxi-1.ink/ipv6.m3u
 
 支持IPV4网络：https://live.kakaxi-1.ink/iptv.txt
 
 频道LOGO：https://live.kakaxi-1.ink/LOGO/名称.png
 
-EPG：
-
-https://live.kakaxi-1.ink/epg.xml
+EPG：https://live.kakaxi-1.ink/epg.xml
 
 
 ##推荐使用APP##
 
-安卓TV端用户推荐：Tivimate、影视FM
+安卓TV端用户推荐：Tivimate、酷9、影视FM
 
-安卓手机端用户推荐：影视FM
+安卓手机端用户推荐：酷9、影视FM
 
 苹果用户推荐：APTV
 
