@@ -1264,26 +1264,39 @@ def process_iptv_file(file_path):
         lines = file.readlines()
 
     sorted_lines = []
+    genre = None
+
     for line in lines:
-        if ',' not in line:
+        line = line.strip()
+        
+        if not line:
             continue
         
-        channel, urls = line.split(',', 1)
-        url_list = urls.split('#')
+        if '#genre#' in line:
+            genre = line
+            sorted_lines.append(genre + '\n')
+            continue
+        
+        if ',' in line:
+            channel, urls = line.split(',', 1)
+            url_list = urls.split('#')
 
-        sorted_url_list = []
+            sorted_url_list = []
 
-        for province in sort_order:
-            for url in url_list:
-                if province in url:
-                    sorted_url_list.append(url)  
+            for province in sort_order:
+                for url in url_list:
+                    if province in url:
+                        sorted_url_list.append(url)
 
-        sorted_line = f"{channel},{'#'.join(sorted_url_list)}\n"
-        sorted_lines.append(sorted_line)
+            if not sorted_url_list:
+                sorted_url_list = url_list
+
+            sorted_line = f"{channel},{'#'.join(sorted_url_list)}\n"
+            sorted_lines.append(sorted_line)
 
     with open(file_path, 'w', encoding='utf-8') as file:
         for line in sorted_lines:
             file.write(line)
 
-iptv_file = 'iptv.txt' 
+iptv_file = 'iptv.txt'
 process_iptv_file(iptv_file)
