@@ -1257,7 +1257,6 @@ with open('iptv.txt', 'w', encoding="utf-8") as file:
 print("Processing complete and file updated.")
 
 
-
 sort_order = ['北京', '湖北', '湖南', '江西', '江苏新', '河南', '河北', '天津', '重庆', '四川', '浙江', '广西']
 
 def process_iptv_file(file_path):
@@ -1277,8 +1276,7 @@ def process_iptv_file(file_path):
         for province in sort_order:
             for url in url_list:
                 if province in url:
-                    sorted_url_list.append(url)
-                    break 
+                    sorted_url_list.append(url)  
 
         sorted_line = f"{channel},{'#'.join(sorted_url_list)}\n"
         sorted_lines.append(sorted_line)
@@ -1287,5 +1285,5 @@ def process_iptv_file(file_path):
         for line in sorted_lines:
             file.write(line)
 
-iptv_file = 'iptv.txt'
+iptv_file = 'iptv.txt' 
 process_iptv_file(iptv_file)
