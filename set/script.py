@@ -1264,7 +1264,7 @@ def process_iptv_file(file_path):
         lines = file.readlines()
 
     sorted_lines = []
-    genre = None
+    genre = None  
 
     for line in lines:
         line = line.strip()
@@ -1274,27 +1274,28 @@ def process_iptv_file(file_path):
 
         if line.startswith("#") and line.endswith("#"):
             genre = line
-            sorted_lines.append(genre + '\n')
+            sorted_lines.append(f"{genre}\n")
             continue
 
-        if ',' not in line:
+        if ',' in line and '#' not in line:
+            sorted_lines.append(f"{line}\n")
             continue
 
-        channel, urls = line.split(',', 1)
-        url_list = urls.split('#')
+        if ',' in line and '#' in line:
+            channel, urls = line.split(',', 1)
+            url_list = urls.split('#')
 
-        sorted_url_list = []
+            sorted_url_list = []
 
-        for province in sort_order:
-            matching_urls = [url for url in url_list if province in url]
-            sorted_url_list.extend(matching_urls)
+            for province in sort_order:
+                matching_urls = [url for url in url_list if province in url]
+                sorted_url_list.extend(matching_urls)
 
-        sorted_line = f"{channel},{'#'.join(sorted_url_list)}\n"
-        sorted_lines.append(sorted_line)
+            sorted_line = f"{channel},{'#'.join(sorted_url_list)}\n"
+            sorted_lines.append(sorted_line)
 
     with open(file_path, 'w', encoding='utf-8') as file:
-        for line in sorted_lines:
-            file.write(line)
+        file.writelines(sorted_lines)
 
 iptv_file = 'iptv.txt'
 process_iptv_file(iptv_file)
