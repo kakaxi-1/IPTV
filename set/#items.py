@@ -14,15 +14,15 @@ for file in files:
     files_name.append(name)
 
 
-provinces_isps = [name for name in files_name if name.count('_') == 1]
-print(f"本次查询：{provinces_isps}的组播节目")
+provincesisps = [name for name in files_name if name.count('_') == 1]
+print(f"本次查询：{provincesisps}的组播节目")
 
 keywords = []
 
 
-for province_isp in provinces_isps:
+for provinceisp in provincesisps:
     try:
-        with open(f'rtp/{province_isp}.txt', 'r', encoding='utf-8') as file:
+        with open(f'rtp/{provinceisp}.txt', 'r', encoding='utf-8') as file:
             lines = file.readlines()
             lines = [line.strip() for line in lines if line.strip()]
 
@@ -30,9 +30,9 @@ for province_isp in provinces_isps:
             first_line = lines[0]
             if "rtp://" in first_line:
                 mcast = first_line.split("rtp://")[1].split(" ")[0]
-                keywords.append(province_isp + "_" + mcast)
+                keywords.append(provinceisp + "_" + mcast)
     except FileNotFoundError:
-        print(f"文件 '{province_isp}.txt' 不存在. 跳过此文件.")
+        print(f"文件 '{provinceisp}.txt' 不存在. 跳过此文件.")
 
 
 for keyword in keywords:
