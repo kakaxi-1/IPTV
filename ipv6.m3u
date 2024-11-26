@@ -7,6 +7,10 @@ http://[2409:8087:74d9:21::6]:80/270000001128/9900000502/index.m3u8
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000003/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV4.png" group-title="央视频道",CCTV-4 
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000503/index.m3u8
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV4-欧洲.png" group-title="央视频道",CCTV4欧洲 
+http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000350/index.m3u8?IASHttpSessionId=
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV4-美洲.png" group-title="央视频道",CCTV4美洲
+http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000351/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV5.png" group-title="央视频道",CCTV-5 
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000005/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV5-plus.png" group-title="央视频道",CCTV5+
