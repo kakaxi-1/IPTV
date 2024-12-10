@@ -174,57 +174,82 @@ def natural_key(string_):
     """将字符串转换为自然排序的 key"""
     return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', string_)]
 
-def group_and_sort_channels(channel_data):
-    """根据规则分组并排序频道信息"""
+from collections import defaultdict
+from datetime import datetime, timedelta
+
+def merge_and_save_channels(channel_data):
+    """
+    合并相同频道的 URL，并按分组规则保存到文件。
+    """
     groups = {
-        '央视频道': [],
-        '卫视频道': [],
-        '其他频道': [],
+        '央视频道': [
+            "CCTV1", "CCTV2", "CCTV3", "CCTV4", "CCTV4美洲", "CCTV4欧洲", 
+            "CCTV5", "CCTV6", "CCTV7", "CCTV8", "CCTV9", "CCTV10", "CCTV11", 
+            "CCTV12", "CCTV13", "CCTV14", "CCTV15", "CCTV16", "CCTV17", 
+            "CCTV兵器科技", "CCTV世界地理", "CCTV央视台球", "CCTV高尔夫网球", 
+            "CCTV风云足球", "CCTV第一剧场", "CCTV女性时尚", "CCTV风云剧场", 
+            "CCTV风云音乐", "CCTV怀旧剧场", "CCTV央视文化精品", "CCTV电视指南"
+        ],
+        '卫视频道': [
+            "湖南卫视", "浙江卫视", "江苏卫视", "东方卫视", "深圳卫视", "广东卫视", 
+            "广西卫视", "东南卫视", "厦门卫视", "海南卫视", "北京卫视", "河北卫视", 
+            "河南卫视", "湖北卫视", "江西卫视", "四川卫视", "重庆卫视", "贵州卫视", 
+            "云南卫视", "天津卫视", "安徽卫视", "山东卫视", "山东教育卫视", "辽宁卫视", 
+            "黑龙江卫视", "吉林卫视", "宁夏卫视", "山西卫视", "陕西卫视", "甘肃卫视", 
+            "青海卫视", "新疆卫视", "西藏卫视", "内蒙古卫视", "三沙卫视", "兵团卫视", 
+            "延边卫视", "安多卫视", "康巴卫视", "农林卫视", "CETV1", "CETV2", "CETV3", 
+            "CETV4", "CETV早期教育"
+        ],
+        '数字频道': [
+            "凤凰中文", "凤凰资讯", "凤凰电影", "星空卫视", "ChanelV", "CHC家庭影院", 
+            "CHC动作电影", "CHC影迷电影", "淘电影", "淘剧场", "淘娱乐", "淘baby", 
+            "生活时尚", "都市剧场", "欢笑剧场", "游戏风云", "金色学堂", "法治天地", 
+            "武术世界", "河南梨园", "纪实人文", "金鹰纪实", "全纪实", "乐游", "动漫秀场", 
+            "北京卡酷", "金鹰卡通", "优漫卡通", "嘉佳卡通", "炫动卡通"
+        ],
         '未分组': []
     }
 
+    # 合并频道 URL
+    channel_dict = defaultdict(list)
     for channel_info in channel_data:
-        if isinstance(channel_info, list):
-            channel_info = ','.join(map(str, channel_info))
+        parts = channel_info.split(',')
+        if len(parts) < 2:
+            print(f"无效数据格式：{channel_info}，跳过该频道")
+            continue
 
-        if isinstance(channel_info, str):
-            parts = channel_info.split(',')
-            if len(parts) == 3:
-                name, url, speed = parts[0], parts[1], float(parts[2])
-            else:
-                print(f"无效数据格式：{channel_info}，跳过该频道")
-                continue
+        name, url = parts[0], parts[1]
+        channel_dict[name].append(url)
 
-            if speed < 0.1:
-                continue
+    # 格式化为指定格式
+    merged_channels = {name: '#'.join(urls) for name, urls in channel_dict.items()}
 
-            if 'cctv' in name.lower():
-                groups['央视频道'].append((name, url, speed))
-            elif '卫视' in name or '凤凰' in name:
-                groups['卫视频道'].append((name, url, speed))
-            else:
-                groups['其他频道'].append((name, url, speed))
+    # 分配频道到对应组
+    sorted_groups = defaultdict(list)
+    for group_name, ordered_list in groups.items():
+        for channel_name in ordered_list:
+            if channel_name in merged_channels:
+                sorted_groups[group_name].append((channel_name, merged_channels[channel_name]))
 
-    for group_name, group in groups.items():
-        if group_name == '央视频道':
-            group.sort(key=lambda x: (natural_key(x[0]), -x[2] if x[2] is not None else float('-inf')))
-        else:
-            group.sort(key=lambda x: (len(x[0]), natural_key(x[0]), -x[2] if x[2] is not None else float('-inf')))
+    # 未分组的频道
+    for name, urls in merged_channels.items():
+        if all(name not in group for group in groups.values()):
+            sorted_groups['未分组'].append((name, urls))
 
-    with open("itvlist.txt", 'w', encoding='utf-8') as file:
-        for group_name, channel_list in groups.items():
+    # 保存到文件
+    with open("iptv.txt", 'w', encoding='utf-8') as file:
+        for group_name, channel_list in sorted_groups.items():
             file.write(f"{group_name},#genre#\n")
-            for name, url, speed in channel_list:
-                file.write(f"{name},{url},{speed}\n")
+            for name, urls in channel_list:
+                file.write(f"{name},{urls}\n")
             file.write("\n")
 
+        # 添加时间信息
         new_time = datetime.now() + timedelta(hours=8)
         new_time_str = new_time.strftime("%m-%d %H:%M")
-
         file.write(f"{new_time_str},#genre#:\n{new_time_str},https://raw.gitmirror.com/MemoryCollection/IPTV/main/TB/mv.mp4\n")
 
-    print("分组后的频道信息已保存到 itvlist.txt ")
-    return groups
+    print("合并后的频道信息已保存到 iptv.txt")
 
 def download_speed_test(ip_list):
     """测试下载速度并返回可用 IP 列表"""
