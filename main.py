@@ -8,6 +8,15 @@ import threading
 import requests
 import aiohttp
 from github import Github
+import subprocess
+import sys
+
+# 安装依赖，如果尚未安装
+subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "flask"])
+
+# 导入你的模块
+import requests
+from flask import Flask
 
 with open('data/config.json', 'r', encoding='utf-8') as json_file:
     config = json.load(json_file)
