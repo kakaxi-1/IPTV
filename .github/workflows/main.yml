@@ -22,7 +22,9 @@ jobs:
         run: pip install --upgrade pip
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests
+          pip install aiohttp
 
       - name: Run main.py
         run: python main.py
