@@ -9,6 +9,25 @@ on:
       - main
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3-distutils -y
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+
+jobs:
   run-python-script:
     runs-on: ubuntu-latest
 
@@ -28,22 +47,3 @@ jobs:
       - name: Run main.py
         run: |
           python main.py
-
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install python3-distutils -y
-
-      - name: Set up Python environment
-        uses: actions/setup-python@v3
-        with:
-          python-version: 3.12
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
