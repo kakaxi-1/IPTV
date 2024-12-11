@@ -1,0 +1,30 @@
+name: Run main.py Daily
+
+# 设置触发条件为定时（每天下午5点）
+on:
+  schedule:
+    - cron: "0 17 * * *"  # 每天下午5点（UTC时间）
+  push:
+    branches:
+      - main
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run main.py
+        run: |
+          python main.py
