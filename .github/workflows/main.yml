@@ -1,49 +1,39 @@
-name: Run main.py Daily
+name: CI/CD Pipeline
 
-# 设置触发条件为定时（每天下午5点）
 on:
-  schedule:
-    - cron: "0 17 * * *"  # 每天下午5点（UTC时间）
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 17 * * *" # 每天下午5点定时触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install dependencies
+      # 1. 更新系统并安装 distutils
+      - name: Install distutils
         run: |
           sudo apt-get update
           sudo apt-get install python3-distutils -y
 
-      - name: Set up Python environment
+      # 2. 设置 Python 版本
+      - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: 3.12
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      # 3. 检查 Python 版本
+      - name: Check Python version
+        run: python --version
 
-
-jobs:
-  run-python-script:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-
+      # 4. 安装项目依赖
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run main.py
-        run: |
-          python main.py
+      # 5. 运行测试或构建命令
+      - name: Run Tests
+        run: pytest tests/
