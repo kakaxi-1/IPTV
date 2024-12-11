@@ -11,6 +11,17 @@ from github import Github
 import subprocess
 import sys
 
+from dotenv import load_dotenv
+
+# 加载 .env 文件中的变量
+load_dotenv()
+
+# 获取 token_360
+token_360 = os.getenv("token_360")
+if not token_360:
+    print("未设置：token_360，程序无法执行")
+    exit(1)
+
 # 安装依赖，如果尚未安装
 subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "flask"])
 
