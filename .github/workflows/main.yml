@@ -1,45 +1,29 @@
-name: Run Main Script
+name: IPTV Scraper Workflow
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "0 0 * * *"  # 每天凌晨 0 点触发脚本
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - name: Clone Repository
+        run: git clone https://github.com/username/iptv-scraper.git
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.12
-
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-          pip install --upgrade pip
-          pip install requests flask aiohttp PyGithub
+          cd iptv-scraper
+          pip install -r requirements.txt
 
-      - name: Run main.py
+      - name: Run Script
+        run: python main_script.py
+
+      - name: Upload Files to GitHub
         run: |
-          python main.py
-
-      - name: Check output files
-        run: |
-          ls -l
-          cat itvlist.txt
-
-      - name: Upload itvlist to workspace
-        uses: actions/upload-artifact@v4
-        with:
-          name: itvlist-artifact
-          path: ./itvlist.txt
-
-      - name: Upload JSON data
-        uses: actions/upload-artifact@v4
-        with:
-          name: iplist-json
-          path: ./data/iplist.json
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-upload generated IPTV data"
+          git push origin main
