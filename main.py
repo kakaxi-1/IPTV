@@ -335,29 +335,56 @@ def upload_file_to_github(token, repo_name, file_path, folder='', branch='main')
     except Exception as e:
         print("文件上传失败:", e)
 
+import os
+import asyncio
+
 def main():
+    # 硬编码 token_360 值
+    token_360 = "718f33ed-406d-495e-9078-64708f138d38"
 
-    token_360 ="718f33ed-406d-495e-9078-64708f138d38"
-
+    # 检查 token_360 是否设置
     if not token_360:
         print("未设置：token_360，程序无法执行")
         return True
 
+    print("开始执行程序...")
+
     if should_run():
+        print("需要运行任务，开始更新...")
         update_run_time()
         ip_list = get_ip(token_360)
+        print(f"获取的 IP 列表：{ip_list}")
         ip_list = merge_and_deduplicate(ip_list, read_json_file("data/iplist.json"))
+        print(f"合并去重后的 IP 列表：{ip_list}")
     else:
+        print("不需要运行任务，读取现有数据...")
         ip_list = read_json_file("data/iplist.json")
+        print(f"读取的 IP 列表：{ip_list}")
+
+    print("开始测试 IP 信息...")
     ip_list = asyncio.run(test_and_get_ip_info(ip_list))
+    print(f"测试并更新后的 IP 列表：{ip_list}")
+
+    print("写入 IP 列表到文件...")
     write_json_file("data/iplist.json", ip_list)
+
+    print("处理 IP 列表...")
     ip_list = process_ip_list(ip_list)
+    print(f"处理后的 IP 列表：{ip_list}")
+
+    print("执行下载速度测试...")
     ip_list = download_speed_test(ip_list)
+    print(f"速度测试后的 IP 列表：{ip_list}")
+
+    print("分组并排序频道...")
     group_and_sort_channels(ip_list)
 
-    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
     if GITHUB_TOKEN:
+        print("开始上传文件到 GitHub...")
         upload_file_to_github(GITHUB_TOKEN, "IPTV", "itvlist.txt")
+        print("文件上传完成！")
+
+    print("程序执行完成。")
 
 if __name__ == "__main__":
     main()
