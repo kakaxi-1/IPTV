@@ -1,39 +1,23 @@
-name: CI/CD Pipeline
+name: CI/CD Workflow
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: "0 17 * * *" # 每天下午5点定时触发
+    # 每天下午5点运行
+    - cron: "0 17 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 更新系统并安装 distutils
-      - name: Install distutils
-        run: |
-          sudo apt-get update
-          sudo apt-get install python3-distutils -y
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      # 2. 设置 Python 版本
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: 3.12
+      - name: Upgrade pip
+        run: pip install --upgrade pip
 
-      # 3. 检查 Python 版本
-      - name: Check Python version
-        run: python --version
-
-      # 4. 安装项目依赖
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      # 5. 运行测试或构建命令
-      - name: Run Tests
-        run: pytest tests/
+      - name: Run main.py
+        run: python main.py
