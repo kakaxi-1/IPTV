@@ -25,6 +25,7 @@ jobs:
         run: |
           pip install requests
           pip install aiohttp
+          pip install PyGithub  # 安装 PyGithub 库
 
       - name: Run main.py
         run: python main.py
