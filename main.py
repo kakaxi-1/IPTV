@@ -334,6 +334,7 @@ def upload_file_to_github(token, repo_name, file_path, folder='', branch='main')
         print("文件上传失败:", e)
 
 def main():
+    os.makedirs('data', exist_ok=True)  # 确保 data 文件夹存在
 
     token_360 = os.getenv("token_360")
 
@@ -347,16 +348,16 @@ def main():
         ip_list = merge_and_deduplicate(ip_list, read_json_file("data/iplist.json"))
     else:
         ip_list = read_json_file("data/iplist.json")
+
     ip_list = asyncio.run(test_and_get_ip_info(ip_list))
     write_json_file("data/iplist.json", ip_list)
     ip_list = process_ip_list(ip_list)
     ip_list = download_speed_test(ip_list)
+
     group_and_sort_channels(ip_list)
 
-    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-    if GITHUB_TOKEN:
-        upload_file_to_github(GITHUB_TOKEN, "IPTV", "itvlist.txt")
-
-if __name__ == "__main__":
-    main()
-    
+    # 打印文件是否生成
+    if os.path.exists('itvlist.txt'):
+        print("itvlist.txt 文件已生成")
+    else:
+        print("itvlist.txt 文件未生成")
