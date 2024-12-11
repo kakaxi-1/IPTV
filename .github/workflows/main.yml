@@ -20,3 +20,9 @@ jobs:
 
       - name: Run main.py
         run: python main.py
+        
+- name: Checkout repository
+  uses: actions/checkout@v2
+
+- name: List current directory files (debug step)
+  run: ls -la
