@@ -1,31 +1,45 @@
-name: Run main.py
+name: Run Main Script
 
 on:
-  schedule:
-    - cron: "0 17 * * *"  # 每天下午5点自动触发
-  workflow_dispatch:   # 也可以手动触发
+  push:
+    branches:
+      - main
 
 jobs:
-  run_main:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
-
-      - name: Upgrade pip
-        run: pip install --upgrade pip
+          python-version: 3.12
 
       - name: Install dependencies
         run: |
-          pip install requests
-          pip install aiohttp
-          pip install PyGithub  # 安装 PyGithub 库
+          pip install --upgrade pip
+          pip install requests flask aiohttp PyGithub
 
       - name: Run main.py
-        run: python main.py
+        run: |
+          python main.py
+
+      - name: Check output files
+        run: |
+          ls -l
+          cat itvlist.txt
+
+      - name: Upload itvlist to workspace
+        uses: actions/upload-artifact@v4
+        with:
+          name: itvlist-artifact
+          path: ./itvlist.txt
+
+      - name: Upload JSON data
+        uses: actions/upload-artifact@v4
+        with:
+          name: iplist-json
+          path: ./data/iplist.json
