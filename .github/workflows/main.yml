@@ -2,8 +2,7 @@ name: CI/CD Workflow
 
 on:
   schedule:
-    # 每天下午5点运行
-    - cron: "0 17 * * *"
+    - cron: "0 17 * * *"  # 每天下午5点运行
 
 jobs:
   build:
