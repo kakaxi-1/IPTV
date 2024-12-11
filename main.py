@@ -1,11 +1,3 @@
-from dotenv import load_dotenv
-import os
-
-# 加载环境变量
-load_dotenv()
-
-# 验证 token_360 是否正确加载
-print(f"token_360: {os.getenv('token_360')}")
 import json
 import os
 import re
@@ -345,7 +337,7 @@ def upload_file_to_github(token, repo_name, file_path, folder='', branch='main')
 
 def main():
 
-    token_360 = os.getenv("token_360")
+    token_360 ="718f33ed-406d-495e-9078-64708f138d38"
 
     if not token_360:
         print("未设置：token_360，程序无法执行")
