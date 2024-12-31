@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://live.kakaxi-1.ink/epg.xml"
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV1.png" group-title="央视",CCTV-1 综合
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000001000018602/index.m3u8?channel-id=ystenlive&Contentid=1000000001000018602&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV2.png" group-title="央视",CCTV-2 财经
