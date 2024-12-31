@@ -119,20 +119,34 @@ http://[2409:8087:5e08:24::2]:6610/000000001000/1000000005000266002/index.m3u8?l
 http://[2409:8087:5e08:24::2]:6610/000000001000/5000000002000002652/index.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://live.kakaxi-1.ink/LOGO/CETV4.png" group-title="卫视",CETV-4
 http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="上海纪实人文" tvg-logo="https://live.kakaxi-1.ink/LOGO/纪实人文.png" group-title="数字",纪实人文
-http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000010282/index.m3u8?channel-id=bestzb&Contentid=5000000004000010282&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="劲爆体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/劲爆体育.png" group-title="数字",劲爆体育
-http://[2409:8087:5e01:24::8]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-name="全纪实" tvg-logo="https://live.kakaxi-1.ink/LOGO/乐游.png" group-title="数字",乐游频道
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031112/1.m3u8
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://live.kakaxi-1.ink/LOGO/欢笑剧场.png" group-title="数字",欢笑剧场 4K
 http://[2409:8087:5e08:24::17]:6610/000000001000/5000000007000010001/index.m3u8?channel-id=bestzb&Contentid=5000000007000010001&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://live.kakaxi-1.ink/LOGO/都市剧场.png" group-title="数字",都市剧场
 http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031111/index.m3u8?channel-id=bestzb&Contentid=5000000011000031111&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://live.kakaxi-1.ink/LOGO/金鹰纪实.png" group-title="数字",金鹰纪实
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031203/1.m3u8
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://live.kakaxi-1.ink/LOGO/动漫秀场.png" group-title="数字",动漫秀场
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031113/1.m3u8
+#EXTINF:-1 tvg-name="求索生活" tvg-logo="https://live.kakaxi-1.ink/LOGO/求索生活.png" group-title="数字",求索生活
+http://[2409:8087:5e01:24::8]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-name="求索动物" tvg-logo="https://live.kakaxi-1.ink/LOGO/求索动物.png" group-title="数字",求索动物
+http://[2409:8087:5e01:24::8]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-name="求索科学" tvg-logo="https://live.kakaxi-1.ink/LOGO/求索科学.png" group-title="数字",求索科学
+http://[2409:8087:5e01:24::8]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩竞技.png" group-title="数字",睛彩竞技
+http://[2409:8087:74d6:22::7]:6410/270000001128/9900000119/index.m3u8?
+#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩篮球.png" group-title="数字",睛彩篮球
+http://[2409:8087:74d6:22::7]:6410/270000001128/9900000118/index.m3u8?
+#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩青少.png" group-title="数字",睛彩青少
+http://[2409:8087:74d6:22::7]:6410/270000001128/9900000120/index.m3u8?
+#EXTINF:-1 tvg-name="劲爆体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/劲爆体育.png" group-title="数字",劲爆体育
+http://[2409:8087:5e01:24::8]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://live.kakaxi-1.ink/LOGO/魅力足球.png" group-title="数字",魅力足球
+http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031207/index.m3u8?channel-id=bestzb&Contentid=5000000011000031207&livemode=1&stbId=3
+#EXTINF:-1 tvg-name="上海纪实人文" tvg-logo="https://live.kakaxi-1.ink/LOGO/纪实人文.png" group-title="数字",纪实人文
+http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000010282/index.m3u8?channel-id=bestzb&Contentid=5000000004000010282&livemode=1&stbId=3
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://live.kakaxi-1.ink/LOGO/金鹰纪实.png" group-title="数字",金鹰纪实
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031203/1.m3u8
 #EXTINF:-1 tvg-name="哒啵赛事" tvg-logo="https://live.kakaxi-1.ink/LOGO/哒啵赛事.png" group-title="数字",哒啵赛事
 http://[2409:8087:5e08:24::17]:6610/000000001000/1000000001000006906/index.m3u8?channel-id=ystenlive&Contentid=1000000001000006906&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="哒啵电竞" tvg-logo="https://live.kakaxi-1.ink/LOGO/哒啵电竞.png" group-title="数字",哒啵电竞
@@ -141,20 +155,6 @@ http://[2409:8087:5e01:24::8]:6610/000000001000/2000000003000000066/index.m3u8?s
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000004000021734/index.m3u8?channel-id=ystenlive&Contentid=1000000004000021734&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/黑莓电影.png" group-title="数字",黑莓电影
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000004000019624/index.m3u8?channel-id=ystenlive&Contentid=1000000004000019624&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="求索生活" tvg-logo="https://live.kakaxi-1.ink/LOGO/求索生活.png" group-title="数字",求索生活
-http://[2409:8087:5e01:24::8]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-name="求索动物" tvg-logo="https://live.kakaxi-1.ink/LOGO/求索动物.png" group-title="数字",求索动物
-http://[2409:8087:5e01:24::8]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-name="求索科学" tvg-logo="https://live.kakaxi-1.ink/LOGO/求索科学.png" group-title="数字",求索科学
-http://[2409:8087:5e01:24::8]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://live.kakaxi-1.ink/LOGO/魅力足球.png" group-title="数字",魅力足球
-http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031207/index.m3u8?channel-id=bestzb&Contentid=5000000011000031207&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩竞技.png" group-title="数字",睛彩竞技
-http://[2409:8087:74d6:22::7]:6410/270000001128/9900000119/index.m3u8?
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩篮球.png" group-title="数字",睛彩篮球
-http://[2409:8087:74d6:22::7]:6410/270000001128/9900000118/index.m3u8?
-#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩青少.png" group-title="数字",睛彩青少
-http://[2409:8087:74d6:22::7]:6410/270000001128/9900000120/index.m3u8?
 #EXTINF:-1 tvg-name="NEWTV超级体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/NEWTV超级体育.png" group-title="数字",超级体育
 http://[2409:8087:74d6:22::7]:6410/270000001128/9900000020/index.m3u8?
 #EXTINF:-1 tvg-name="NEWTV超级电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/NEWTV超级电影.png" group-title="数字",超级电影
