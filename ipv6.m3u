@@ -116,6 +116,10 @@ http://[2409:8087:5e08:24::2]:6610/000000001000/1000000005000266001/index.m3u8?l
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000005000266002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000266002
 #EXTINF:-1 tvg-name="农林卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/农林卫视.png" group-title="卫视频道",农林卫视
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000005000266003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000266003
+#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://live.kakaxi-1.ink/LOGO/中国教育1台.png" group-title="卫视频道",中国教育1台
+http://[2409:8087:5e08:24::2]:6610/000000001000/5000000002000002652/index.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3
+#EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://live.kakaxi-1.ink/LOGO/中国教育4台.png" group-title="卫视频道",中国教育4台
+http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/CHC动作电影.png" group-title="数字频道",CHC动作电影
 http://[2409:8087:7008:20::2]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://live.kakaxi-1.ink/LOGO/CHC家庭影院.png" group-title="数字频道",CHC家庭影院
@@ -164,8 +168,6 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000010063/1.m3u8
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000000172/1.m3u8
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://live.kakaxi-1.ink/LOGO/嘉佳卡通.png" group-title="数字频道",嘉佳卡通
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000025964/1.m3u8
-#EXTINF:-1 tvg-name="中国天气" tvg-logo="https://live.kakaxi-1.ink/LOGO/中国天气.png" group-title="数字频道",中国天气
-http://[2409:8087:5e08:24::2]:6610/000000001000/5000000005000031974/index.m3u8?channel-id=bestzb&Contentid=5000000005000031974&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="哒啵电竞" tvg-logo="https://live.kakaxi-1.ink/LOGO/哒啵电竞.png" group-title="数字频道",哒啵电竞
 http://[2409:8087:5e01:24::8]:6610/000000001000/2000000003000000066/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000003000000066&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-name="哒啵赛事" tvg-logo="https://live.kakaxi-1.ink/LOGO/哒啵赛事.png" group-title="数字频道",哒啵赛事
@@ -174,6 +176,8 @@ http://[2409:8087:5e08:24::17]:6610/000000001000/1000000001000006906/index.m3u8?
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000004000021734/index.m3u8?channel-id=ystenlive&Contentid=1000000004000021734&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/黑莓电影.png" group-title="数字频道",黑莓电影
 http://[2409:8087:5e08:24::2]:6610/000000001000/1000000004000019624/index.m3u8?channel-id=ystenlive&Contentid=1000000004000019624&livemode=1&stbId=3
+#EXTINF:-1 tvg-name="中国天气" tvg-logo="https://live.kakaxi-1.ink/LOGO/中国天气.png" group-title="数字频道",中国天气
+http://[2409:8087:5e08:24::2]:6610/000000001000/5000000005000031974/index.m3u8?channel-id=bestzb&Contentid=5000000005000031974&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="iHOT爱体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/iHOT爱体育.png" group-title="数字频道",iHOT爱体育
 http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000060/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000060&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-name="iHOT爱动漫" tvg-logo="https://live.kakaxi-1.ink/LOGO/iHOT爱动漫.png" group-title="数字频道",iHOT爱动漫
