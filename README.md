@@ -14,7 +14,7 @@
 
 支持IPV6网络：https://live.kakaxi-1.ink/ipv6.m3u
 
-支持IPV4网络：https://live.kakaxi-1.ink/iptv.txt
+支持IPV4网络：https://live.kakaxi-1.ink/ipv4.txt
 
 频道LOGO：https://live.kakaxi-1.ink/LOGO/名称.png
 
