@@ -69,7 +69,7 @@ http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/贵州卫视.png" group-title="卫视频道",贵州卫视
 http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226474/index.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/云南卫视.png" group-title="卫视频道",云南卫视
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
+http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226444/index.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/天津卫视.png" group-title="卫视频道",天津卫视
 http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/安徽卫视.png" group-title="卫视频道",安徽卫视
@@ -103,41 +103,15 @@ http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/大湾区卫视.png" group-title="卫视频道",大湾区卫视
 http://148.135.93.213:81/live.php?id=大湾区卫视
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/兵团卫视.png" group-title="卫视频道",兵团卫视
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226439/2.m3u8
-#EXTINF:-1 tvg-name="延边卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/延边卫视.png" group-title="卫视频道",延边卫视
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
-#EXTINF:-1 tvg-name="山东教育" tvg-logo="https://live.kakaxi-1.ink/LOGO/山东教育.png" group-title="卫视频道",山东教育
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225655/index.m3u8
-#EXTINF:-1 tvg-name="安多卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/安多卫视.png" group-title="卫视频道",安多卫视
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
-#EXTINF:-1 tvg-name="康巴卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/康巴卫视.png" group-title="卫视频道",康巴卫视
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225660/2.m3u8
+http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226439/index.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/CHC动作电影.png" group-title="数字频道",CHC动作电影
 http://148.135.93.213:81/live.php?id=CHC动作电影
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://live.kakaxi-1.ink/LOGO/CHC家庭影院.png" group-title="数字频道",CHC家庭影院
 http://148.135.93.213:81/live.php?id=CHC家庭影院
 #EXTINF:-1 tvg-name="五星体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/五星体育.png" group-title="数字频道",五星体育
 http://148.135.93.213:81/live.php?id=五星体育
-#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩广场舞.png" group-title="数字频道",睛彩广场舞
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩竞技.png" group-title="数字频道",睛彩竞技
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩篮球.png" group-title="数字频道",睛彩篮球
-http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
-#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://live.kakaxi-1.ink/LOGO/睛彩青少.png" group-title="数字频道",睛彩青少
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://live.kakaxi-1.ink/LOGO/卡酷少儿.png" group-title="数字频道",卡酷少儿
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225654/2.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://live.kakaxi-1.ink/LOGO/金鹰卡通.png" group-title="数字频道",金鹰卡通
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
-#EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://live.kakaxi-1.ink/LOGO/优漫卡通.png" group-title="数字频道",优漫卡通
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225656/2.m3u8
-#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://live.kakaxi-1.ink/LOGO/哈哈炫动.png" group-title="数字频道",哈哈炫动
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225657/2.m3u8
-#EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://live.kakaxi-1.ink/LOGO/黑莓动画.png" group-title="数字频道",黑莓动画
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/黑莓电影.png" group-title="数字频道",黑莓电影
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225743/2.m3u8
+http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225654/index.m3u8
 #EXTINF:-1 tvg-name="iHOT爱体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/iHOT爱体育.png" group-title="数字频道",iHOT爱体育
 http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000060/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000060&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-name="iHOT爱动漫" tvg-logo="https://live.kakaxi-1.ink/LOGO/iHOT爱动漫.png" group-title="数字频道",iHOT爱动漫
@@ -168,37 +142,3 @@ http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000038/index.m3u8
 http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000055/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000055&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-name="iHOT爱院线" tvg-logo="https://live.kakaxi-1.ink/LOGO/iHOT爱院线.png" group-title="数字频道",iHOT爱院线
 http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000034/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000034&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-name="NewTV东北热剧" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV东北热剧.png" group-title="数字频道",NewTV东北热剧
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-name="NewTV中国功夫" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV中国功夫.png" group-title="数字频道",NewTV中国功夫
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV军事评论.png" group-title="数字频道",NewTV军事评论
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV军旅剧场.png" group-title="数字频道",NewTV军旅剧场
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-name="NewTV古装剧场" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV古装剧场.png" group-title="数字频道",NewTV古装剧场
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-#EXTINF:-1 tvg-name="NewTV惊悚悬疑" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV惊悚悬疑.png" group-title="数字频道",NewTV惊悚悬疑
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-name="NewTV明星大片" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV明星大片.png" group-title="数字频道",NewTV明星大片
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-name="NewTV欢乐剧场" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV欢乐剧场.png" group-title="数字频道",NewTV欢乐剧场
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV潮妈辣婆.png" group-title="数字频道",NewTV潮妈辣婆
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-name="NewTV精品大剧" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV精品大剧.png" group-title="数字频道",NewTV精品大剧
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
-#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV精品纪录.png" group-title="数字频道",NewTV精品纪录
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV精品萌宠.png" group-title="数字频道",NewTV精品萌宠
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
-#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV超级体育.png" group-title="数字频道",NewTV超级体育
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-name="NewTV超级电影" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV超级电影.png" group-title="数字频道",NewTV超级电影
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-name="NewTV超级电视剧" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV超级电视剧.png" group-title="数字频道",NewTV超级电视剧
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-name="NewTV超级综艺" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV超级综艺.png" group-title="数字频道",NewTV超级综艺
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-name="NewTV金牌综艺" tvg-logo="https://live.kakaxi-1.ink/LOGO/NewTV金牌综艺.png" group-title="数字频道",NewTV金牌综艺
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
