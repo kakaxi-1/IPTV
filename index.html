@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>kakaxi-1☆★☆优质电视直播源仓库</title>
     <style>
-        /* 基本样式 */
+        /* 全局基础样式 */
         body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             background-color: #121212;
             color: #e0e0e0;
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
         h1, h2, h3, p {
@@ -23,22 +24,23 @@
 
         a {
             text-decoration: none;
-            color: #4CAF50;
+            color: inherit;
         }
 
-        /* 全局样式 */
-        .container {
-            width: 90%;
-            margin: 0 auto;
-            max-width: 1200px;
+        /* 渐变背景和现代感 */
+        .gradient-background {
+            background: linear-gradient(135deg, #3a3a3a, #121212);
+            color: #fff;
         }
 
         /* 头部 */
         header {
-            background: linear-gradient(135deg, #333, #555);
-            padding: 50px 0;
+            background: linear-gradient(135deg, #FF5733, #1c1c1c);
+            padding: 80px 0;
             color: #fff;
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
 
         header .avatar {
@@ -47,52 +49,60 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
-            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         header .avatar:hover {
             transform: scale(1.1);
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
         }
 
         header h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             color: #fff;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            font-weight: 700;
             letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: fadeIn 1.5s ease-out;
         }
 
         header p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            color: #ddd;
             max-width: 800px;
             margin: 0 auto;
-            color: #ddd;
             line-height: 1.8;
+            animation: fadeIn 2s ease-out;
         }
 
-        /* 关于我们部分 */
+        /* 关于部分 */
         #about {
-            background-color: #181818;
-            padding: 60px 30px;
+            background-color: #222;
+            padding: 80px 30px;
             text-align: center;
             color: #fff;
         }
 
         #about h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            font-weight: 500;
+            font-size: 3rem;
+            margin-bottom: 30px;
+            font-weight: 600;
         }
 
         #about p {
             font-size: 1.2rem;
-            max-width: 800px;
+            line-height: 1.8;
             margin: 0 auto;
+            max-width: 800px;
         }
 
         /* 服务部分 */
         #services {
-            padding: 60px 30px;
+            padding: 80px 30px;
             background-color: #1a1a1a;
+            position: relative;
         }
 
         #services h2 {
@@ -105,56 +115,67 @@
         .card-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
             justify-content: space-between;
+            gap: 30px;
         }
 
         .card {
-            background-color: #222;
+            background-color: #333;
             border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             width: 22%;
-            padding: 20px;
+            padding: 25px;
+            text-align: center;
             color: #fff;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.3s ease;
         }
 
         .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+            transform: translateY(-15px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+            background-color: #444;
         }
 
         .card img {
             width: 100%;
             border-radius: 10px 10px 0 0;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card img:hover {
+            transform: scale(1.05);
         }
 
         .card h3 {
             font-size: 1.5rem;
-            margin-top: 10px;
+            margin-top: 15px;
             color: #4CAF50;
+            font-weight: 500;
         }
 
         .card p {
             font-size: 1rem;
-            color: #ddd;
+            color: #bbb;
         }
 
         .card button {
-            background-color: #4CAF50;
-            color: #fff;
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
             border: none;
-            padding: 12px 20px;
+            padding: 15px 25px;
             border-radius: 5px;
-            font-size: 1rem;
+            font-size: 1.1rem;
             cursor: pointer;
-            margin-top: 15px;
-            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            transition: background 0.3s ease, transform 0.3s ease;
         }
 
         .card button:hover {
-            background-color: #45a049;
+            background: linear-gradient(135deg, #45a049, #4CAF50);
+            transform: translateY(-5px);
         }
 
         /* 说明部分 */
@@ -166,7 +187,7 @@
         }
 
         #description ul li {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-bottom: 10px;
             color: #bbb;
         }
@@ -180,11 +201,12 @@
         }
 
         #acknowledgements ul li {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
             color: #bbb;
             position: relative;
-            padding-left: 30px;
+            padding-left: 35px;
+            transition: color 0.3s ease;
         }
 
         #acknowledgements ul li::before {
@@ -192,7 +214,11 @@
             position: absolute;
             left: 0;
             color: #f44336;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
+        }
+
+        #acknowledgements ul li:hover {
+            color: #fff;
         }
 
         /* 更新日志部分 */
@@ -204,12 +230,15 @@
         }
 
         #updates ul li {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
             color: #bbb;
+            position: relative;
+            padding-left: 30px;
+            transition: color 0.3s ease;
         }
 
-        /* 页脚样式 */
+        /* 页脚 */
         footer {
             background-color: #121212;
             color: #fff;
@@ -221,6 +250,18 @@
             font-size: 1rem;
         }
 
+        /* 动画效果 */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         /* 响应式设计 */
         @media (max-width: 768px) {
             .card-container {
@@ -230,78 +271,81 @@
 
             .card {
                 width: 80%;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
         }
     </style>
 </head>
 <body>
-    <!-- 头部部分 -->
+
+    <!-- 头部 -->
     <header>
         <div class="container">
-            <img src="https://live.kakaxi-1.ink/LOGO/kakaxi.jpg" alt="your avatar" class="avatar">
+            <img src="https://live.kakaxi-1.ink/LOGO/kakaxi.jpg" alt="Logo" class="avatar">
             <h1>欢迎来到kakaxi-1的网站</h1>
-            <p>长期维护的电视直播源仓库，提供中国大部分电视频道的直播源，帮助您在数字时代蓬勃发展。</p>
+            <p>这里是一个长期维护且免费分享的电视直播源仓库，提供高质量的直播源与相关资源，助力数字化时代发展。</p>
         </div>
     </header>
 
     <!-- 关于我们部分 -->
-    <section id="about">
-        <h2>关于</h2>
-        <p>我们致力于分享免费的优质电视直播源，帮助用户方便快捷地收看各种频道。通过我们的 GitHub 仓库，您可以获得最新的电视直播源列表，并学习如何在各种设备上配置和使用这些源。</p>
+    <section id="about" class="gradient-background">
+        <h2>关于我们</h2>
+        <p>我们致力于提供高质量、免费的电视直播源，涵盖中国各地区的电视频道，并持续更新完善。欢迎通过我们的 GitHub 获取源文件和学习如何配置与使用。</p>
     </section>
 
     <!-- 服务部分 -->
     <section id="services">
-        <h2>服务</h2>
+        <h2>服务内容</h2>
         <div class="card-container">
             <div class="card">
                 <h3>主源地址</h3>
-                <p>M3U格式大部分需要IPV6网络支持，部分需要代理。</p>
+                <p>提供IPV6网络支持的M3U格式直播源。</p>
                 <a href="https://github.com/kakaxi-1/IPTV/blob/main/ipv6.m3u" target="_blank"><button>了解更多</button></a>
             </div>
             <div class="card">
                 <h3>EPG地址</h3>
-                <p>通用版，需网络支持。</p>
+                <p>提供通用版EPG地址，支持多种设备。</p>
                 <a href="https://github.com/kakaxi-1/IPTV/blob/main/.github/workflows/epg.yml" target="_blank"><button>了解更多</button></a>
             </div>
             <div class="card">
                 <h3>副源地址</h3>
-                <p>TXT格式IPV4网络支持，自动更新。</p>
+                <p>提供TXT格式源，适用于IPV4网络。</p>
                 <a href="https://github.com/kakaxi-1/IPTV/blob/main/ipv4.txt" target="_blank"><button>了解更多</button></a>
             </div>
             <div class="card">
                 <h3>LOGO地址</h3>
-                <p>PNG格式TVLOGO地址，不断完善中。</p>
+                <p>提供不断完善的PNG格式频道LOGO。</p>
                 <a href="https://github.com/kakaxi-1/IPTV/tree/main/LOGO" target="_blank"><button>了解更多</button></a>
             </div>
         </div>
     </section>
 
-    <!-- 说明、鸣谢、更新日志部分 -->
+    <!-- 说明部分 -->
     <section id="description">
-        <h2>说明</h2>
+        <h2>使用说明</h2>
         <ul>
-            <li>仅供学习，切勿用于商业或非法传播。</li>
-            <li>部分内容严禁中国大陆用户使用！</li>
-            <li>可能随时失效，定期关注更新。</li>
-            <li>所有文件均托管在GitHub，由项目发起人公益维护。</li>
+            <li>仅供学习用途，禁止商业或非法使用。</li>
+            <li>部分内容禁止在中国大陆使用。</li>
+            <li>请定期关注更新，确保内容有效。</li>
+            <li>项目由GitHub托管，公益性质，欢迎参与。</li>
         </ul>
     </section>
 
+    <!-- 鸣谢部分 -->
     <section id="acknowledgements">
         <h2>特别鸣谢</h2>
         <ul>
             <li>❤ 感谢所有贡献者和支持者。</li>
-            <li>❤ 感谢GitHub提供的平台支持。</li>
+            <li>❤ 感谢GitHub平台的支持。</li>
         </ul>
     </section>
 
+    <!-- 更新日志 -->
     <section id="updates">
         <h2>更新日志</h2>
         <ul>
-            <li>2024-09-06 影视轮播改名斗鱼轮播，并详细化。</li>
-            <li>2024-08-23 部分频道ipv6没有新加入地方组播iptv。</li>
+            <li>2024-09-06 影视轮播改名为斗鱼轮播，并细化。</li>
+            <li>2024-08-23 部分频道IPv6未更新，调整组播设置。</li>
         </ul>
     </section>
 
