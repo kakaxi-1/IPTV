@@ -33,8 +33,10 @@
 
 ---
 
-## 🎨 频道 LOGO 画卷  
-🖼️ [LOGO 目录](https://live.kakaxi-1.ink/LOGO/名称.png) —— **逐步完善，终成大成！**  
+## 🎨 频道 LOGO 画卷  —— **逐步完善，终成大成！**  
+🖼️ LOGO 资源，使用时请替换 `频道名称` | `https://live.kakaxi-1.ink/LOGO/频道名称.png` |
+
+📢 **频道 LOGO 示例：** `https://live.kakaxi-1.ink/LOGO/CCTV1.png` 
 
 ---
 
