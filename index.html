@@ -3,43 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📡 IPTV 神源收集站</title>
+    <title>📡 玄门 IPTV · 神源之境</title>
     <style>
+        /* 基本设置 */
         body {
-            font-family: Arial, sans-serif;
+            font-family: "KaiTi", "STKaiti", serif;
             margin: 0;
             padding: 0;
-            background: #000;
-            color: #fff;
+            background: black;
+            color: #ffcc00;
             text-align: center;
-            overflow: hidden;
+            overflow-x: hidden;
+            position: relative;
         }
-        
-        /* 星空背景 */
-        canvas {
+
+        /* 玄学烟雾背景 */
+        @keyframes smoke {
+            0% { opacity: 0.2; transform: translateY(10px); }
+            50% { opacity: 0.6; transform: translateY(-10px); }
+            100% { opacity: 0.2; transform: translateY(10px); }
+        }
+
+        .smoke {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            background: url('https://i.imgur.com/zSM9RFJ.png') no-repeat center center;
+            background-size: cover;
+            opacity: 0.2;
             z-index: -1;
+            animation: smoke 6s infinite ease-in-out;
         }
 
         .container {
             position: relative;
             z-index: 10;
-            margin-top: 10vh;
+            margin-top: 5vh;
         }
 
-        /* 玄学 IPTV 玄言 */
-        #quote {
-            font-size: 1.5em;
+        /* 玄学标题 */
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            text-shadow: 4px 4px 10px rgba(255, 204, 0, 0.8);
+        }
+
+        /* 玄学口诀 */
+        .mantra {
+            font-size: 2.2em;
             color: #f4c542;
             font-weight: bold;
             margin: 20px 0;
+            animation: glow 2s infinite alternate;
         }
 
-        /* IPTV 卡片样式 */
+        @keyframes glow {
+            from { text-shadow: 0 0 10px rgba(255, 204, 0, 0.8); }
+            to { text-shadow: 0 0 20px rgba(255, 255, 0, 1); }
+        }
+
+        /* 玄学卡片样式 */
         .card-container {
             display: flex;
             flex-wrap: wrap;
@@ -49,95 +74,124 @@
         }
 
         .card {
-            background: rgba(255, 204, 0, 0.1);
-            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, 0.7);
             border: 2px solid #ffcc00;
-            padding: 20px;
-            width: 250px;
+            padding: 30px;
+            width: 350px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.8);
             transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
         }
 
         .card:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 20px rgba(255, 204, 0, 1);
+            box-shadow: 0 0 40px rgba(255, 204, 0, 1);
         }
 
         .card a {
             text-decoration: none;
             color: #ffcc00;
             font-weight: bold;
-            display: block;
             font-size: 1.2em;
+            display: block;
             margin-top: 10px;
         }
 
-        /* 倒计时样式 */
+        /* IPTV 资源倒计时 */
         #countdown {
-            font-size: 1.2em;
+            font-size: 1.5em;
             color: #ffcc00;
             margin-top: 20px;
         }
 
-        /* 页脚 */
+        /* 神秘滚动内容 */
+        .long-scroll-content {
+            font-size: 1.2em;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            margin-bottom: 50px;
+        }
+
         .footer {
-            margin-top: 40px;
-            font-size: 0.9em;
+            margin-top: 100px;
+            font-size: 1em;
             color: gray;
         }
+
+        /* 增加更长的页面 */
+        .extra-long {
+            height: 120vh;
+            background: rgba(0, 0, 0, 0.5);
+            margin-top: 100px;
+            padding: 20px;
+        }
+
+        /* 强化页面滚动效果 */
+        body {
+            height: auto;
+            min-height: 200vh;
+        }
+
     </style>
 </head>
 <body>
 
-    <!-- 星空背景 -->
-    <canvas id="stars"></canvas>
+    <!-- 玄学烟雾 -->
+    <div class="smoke"></div>
 
     <div class="container">
-        <h1>📡 IPTV 神源收集站</h1>
-        <p>⚠️ **免责声明**：本页面仅供娱乐，神源随缘能用，切勿商用！</p>
+        <h1>📡 玄门 IPTV · 神源之境</h1>
+        <p class="mantra">⚡ 玄之又玄，直播之门 ⚡</p>
 
-        <!-- 玄学 IPTV 玄言 -->
-        <p id="quote">📜 玄学 IPTV，随机一句妙语 📜</p>
-
-        <!-- IPTV 资源卡片 -->
+        <!-- IPTV 资源介绍 -->
         <div class="card-container">
             <div class="card">
-                <h3>🌍 IPv6 神源</h3>
-                <p>适合“六脉神剑”级别的 IPv6 高手！</p>
+                <h3>🌍 IPv6 玄学频道</h3>
+                <p>适合“六脉神剑”级别的 IPv6 高手，纯净无干扰，畅通天地。</p>
                 <a href="https://live.kakaxi-1.ink/ipv6.m3u">🔗 立即查看</a>
             </div>
             <div class="card">
                 <h3>🔥 IPv4 赛选版</h3>
-                <p>每 4 小时更新，随缘能用！</p>
+                <p>三千大千世界，纷繁直播之道，需筛选出可用线路，稍纵即逝。</p>
                 <a href="https://live.kakaxi-1.ink/ipv4.txt">📜 立即查看</a>
             </div>
             <div class="card">
-                <h3>📅 EPG 电子节目表</h3>
-                <p>知天时，晓节目，运筹帷幄！</p>
+                <h3>⚡ IPv4 高速版</h3>
+                <p>传说中的极速 IPTV 之道，江湖传闻此源可召唤“秒开直播”。</p>
+                <a href="https://live.kakaxi-1.ink/ipv4.1.txt">⚡ 立即查看</a>
+            </div>
+            <div class="card">
+                <h3>📅 电子节目表（EPG）</h3>
+                <p>知天时，晓节目，运筹帷幄，方可立于直播不败之地。</p>
                 <a href="https://live.kakaxi-1.ink/epg.xml">📅 立即查看</a>
             </div>
         </div>
 
-        <!-- IPTV 资源倒计时 -->
-        <p id="countdown">⏳ 下一次神源刷新时间：<span id="timer"></span></p>
+        <!-- 神秘滚动内容 -->
+        <div class="long-scroll-content">
+            <h3>🌙【江湖传闻】</h3>
+            <p>江湖流言传出，天地之大，资源无穷，只有强者才能洞悉源头。IPTV，究竟能带来怎样的震撼与感动？无数网友在深夜问道：“如何让这个频道永久播放？”答案便是通过神源之力，随缘找到其中的奥秘。</p>
+        </div>
 
+        <!-- 神秘资源推荐 -->
+        <div class="long-scroll-content">
+            <h3>🔥【神秘资源推荐】</h3>
+            <p>在这个浩瀚的网络江湖中，隐藏着许多尚未解开的谜团。每个资源，背后都代表着一个不可告人的秘密。随着滚动，你将看到无数未曾透露的奥秘……</p>
+        </div>
+
+        <!-- 下一次更新倒计时 -->
+        <p id="countdown">⏳ 下一次神源刷新时间：<span id="timer"></span></p>
+        
         <div class="footer">
             <p>💡 **玄学 TV，随缘收看！** 🎉</p>
         </div>
     </div>
 
     <script>
-        // 玄学 IPTV 玄言（随机显示）
-        const quotes = [
-            "🌟 神源随缘，得之我幸，失之我命！",
-            "🚀 看 IPTV 如同修炼，心境决定画质！",
-            "📡 玄学频道，信则有，不信则卡！",
-            "⚡ 直播秒开？那是运气！",
-            "🎬 影视流畅？那是天意！"
-        ];
-        document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
-
         // 倒计时
         function updateCountdown() {
             const now = new Date();
@@ -151,31 +205,6 @@
         }
         setInterval(updateCountdown, 1000);
         updateCountdown();
-
-        // 星空背景
-        const canvas = document.getElementById("stars");
-        const ctx = canvas.getContext("2d");
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        let stars = Array(300).fill().map(() => ({
-            x: Math.random() * canvas.width,
-            y: Math.random() * canvas.height,
-            r: Math.random() * 2,
-            d: Math.random() * 0.1 + 0.1
-        }));
-        function drawStars() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = "white";
-            stars.forEach(s => {
-                ctx.beginPath();
-                ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-                ctx.fill();
-                s.y += s.d;
-                if (s.y > canvas.height) s.y = 0;
-            });
-            requestAnimationFrame(drawStars);
-        }
-        drawStars();
     </script>
 
 </body>
