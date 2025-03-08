@@ -5,56 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📡 IPTV 神源收集站</title>
     <style>
-        /* 背景动画 */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background: #000;
             color: #fff;
-            overflow: hidden;
             text-align: center;
+            overflow: hidden;
         }
-        /* 动态背景星空 */
-        #background {
+        
+        /* 星空背景 */
+        canvas {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('https://source.unsplash.com/1600x900/?galaxy,stars') no-repeat center center/cover;
-            animation: moveBackground 60s linear infinite;
+            z-index: -1;
         }
-        @keyframes moveBackground {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-        /* 容器 */
+
         .container {
             position: relative;
             z-index: 10;
             margin-top: 10vh;
         }
-        /* 打字机效果 */
-        .typing {
-            font-size: 2.5em;
+
+        /* 玄学 IPTV 玄言 */
+        #quote {
+            font-size: 1.5em;
             color: #f4c542;
             font-weight: bold;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid #f4c542;
-            width: 0;
-            animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+            margin: 20px 0;
         }
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
-        /* IPTV 资源卡片 */
+
+        /* IPTV 卡片样式 */
         .card-container {
             display: flex;
             flex-wrap: wrap;
@@ -62,6 +47,7 @@
             gap: 20px;
             margin-top: 30px;
         }
+
         .card {
             background: rgba(255, 204, 0, 0.1);
             backdrop-filter: blur(5px);
@@ -72,10 +58,12 @@
             box-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
             transition: transform 0.3s, box-shadow 0.3s;
         }
+
         .card:hover {
             transform: scale(1.1);
             box-shadow: 0 0 20px rgba(255, 204, 0, 1);
         }
+
         .card a {
             text-decoration: none;
             color: #ffcc00;
@@ -84,6 +72,15 @@
             font-size: 1.2em;
             margin-top: 10px;
         }
+
+        /* 倒计时样式 */
+        #countdown {
+            font-size: 1.2em;
+            color: #ffcc00;
+            margin-top: 20px;
+        }
+
+        /* 页脚 */
         .footer {
             margin-top: 40px;
             font-size: 0.9em;
@@ -94,13 +91,14 @@
 <body>
 
     <!-- 星空背景 -->
-    <div id="background"></div>
+    <canvas id="stars"></canvas>
 
-    <!-- 内容 -->
     <div class="container">
-        <h1 class="typing">📡 IPTV 神源收集站</h1>
+        <h1>📡 IPTV 神源收集站</h1>
         <p>⚠️ **免责声明**：本页面仅供娱乐，神源随缘能用，切勿商用！</p>
-        <p>📺 **江湖 IPTV，能看多久，全凭玄学！** 😆</p>
+
+        <!-- 玄学 IPTV 玄言 -->
+        <p id="quote">📜 玄学 IPTV，随机一句妙语 📜</p>
 
         <!-- IPTV 资源卡片 -->
         <div class="card-container">
@@ -115,28 +113,70 @@
                 <a href="https://live.kakaxi-1.ink/ipv4.txt">📜 立即查看</a>
             </div>
             <div class="card">
-                <h3>🚀 IPv4 纯净版</h3>
-                <p>玄学 TV，长久稳定，谁也不知道！</p>
-                <a href="https://live.kakaxi-1.ink/ipv4.1.txt">⚡ 立即查看</a>
-            </div>
-            <div class="card">
                 <h3>📅 EPG 电子节目表</h3>
                 <p>知天时，晓节目，运筹帷幄！</p>
                 <a href="https://live.kakaxi-1.ink/epg.xml">📅 立即查看</a>
             </div>
-            <div class="card">
-                <h3>🎨 频道 LOGO</h3>
-                <p>频道 LOGO 资源，使用时请替换“频道名称”</p>
-                <p><strong>示例：</strong> <code>https://live.kakaxi-1.ink/LOGO/央视一套.png</code></p>
-                <a href="https://live.kakaxi-1.ink/LOGO/">🖼️ 访问 LOGO 目录</a>
-            </div>
         </div>
 
+        <!-- IPTV 资源倒计时 -->
+        <p id="countdown">⏳ 下一次神源刷新时间：<span id="timer"></span></p>
+
         <div class="footer">
-            <p>💡 **温馨提示**：IPTV 玄学，随缘收看，切勿深究！</p>
-            <p>© 2025 Kakaxi IPTV | **玄学 TV，随缘收看** 🎉</p>
+            <p>💡 **玄学 TV，随缘收看！** 🎉</p>
         </div>
     </div>
+
+    <script>
+        // 玄学 IPTV 玄言（随机显示）
+        const quotes = [
+            "🌟 神源随缘，得之我幸，失之我命！",
+            "🚀 看 IPTV 如同修炼，心境决定画质！",
+            "📡 玄学频道，信则有，不信则卡！",
+            "⚡ 直播秒开？那是运气！",
+            "🎬 影视流畅？那是天意！"
+        ];
+        document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+
+        // 倒计时
+        function updateCountdown() {
+            const now = new Date();
+            const nextUpdate = new Date();
+            nextUpdate.setHours(nextUpdate.getHours() + (4 - (now.getHours() % 4)), 0, 0, 0);
+            const diff = nextUpdate - now;
+            const hours = String(Math.floor(diff / 3600000)).padStart(2, '0');
+            const minutes = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
+            const seconds = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
+            document.getElementById("timer").innerText = `${hours}:${minutes}:${seconds}`;
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // 星空背景
+        const canvas = document.getElementById("stars");
+        const ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        let stars = Array(300).fill().map(() => ({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            r: Math.random() * 2,
+            d: Math.random() * 0.1 + 0.1
+        }));
+        function drawStars() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "white";
+            stars.forEach(s => {
+                ctx.beginPath();
+                ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+                ctx.fill();
+                s.y += s.d;
+                if (s.y > canvas.height) s.y = 0;
+            });
+            requestAnimationFrame(drawStars);
+        }
+        drawStars();
+    </script>
 
 </body>
 </html>
