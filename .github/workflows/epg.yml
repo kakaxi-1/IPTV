@@ -2,7 +2,7 @@ name: EPG Fetcher
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每 6 小时运行一次
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
