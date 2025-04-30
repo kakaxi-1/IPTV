@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://live.kakaxi-1.ink/epg.xml"
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV1.png" group-title="央视频道",CCTV1
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226691/.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000060000000000000131
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV2.png" group-title="央视频道",CCTV2
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000360
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV3.png" group-title="央视频道",CCTV3
@@ -27,7 +27,7 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000359
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV10.png" group-title="央视频道",CCTV10
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000360
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV11.png" group-title="央视频道",CCTV11
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226684/.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000050000000000000583
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV12.png" group-title="央视频道",CCTV12
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000361
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV13.png" group-title="央视频道",CCTV13
@@ -35,11 +35,11 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000514
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV14.png" group-title="央视频道",CCTV14
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000358
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV15.png" group-title="央视频道",CCTV15
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226677/.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000050000000000000587
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV16.png" group-title="央视频道",CCTV16
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000612
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV17.png" group-title="央视频道",CCTV17
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226642/.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000050000000000000580
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV4K.png" group-title="央视频道",CCTV4K
 http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226737/.m3u8
 #EXTINF:-1 tvg-name="世界地理" tvg-logo="https://live.kakaxi-1.ink/LOGO/CCTV世界地理.png" group-title="央视频道",世界地理
@@ -67,23 +67,23 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000314
 #EXTINF:-1 tvg-name="中学生" tvg-logo="https://live.kakaxi-1.ink/LOGO/中央新影中学生.png" group-title="央视频道",中学生
 http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226774/.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖南卫视.png" group-title="卫视频道",湖南卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/223/3221226117/2.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000060000000000000174
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/浙江卫视.png" group-title="卫视频道",浙江卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226701/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000195
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/江苏卫视.png" group-title="卫视频道",江苏卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226682/.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000060000000000000177
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/东方卫视.png" group-title="卫视频道",东方卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226674/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000198
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/深圳卫视.png" group-title="卫视频道",深圳卫视
 http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226703/.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/北京卫视.png" group-title="卫视频道",北京卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226698/.m3u8
+rtsp://111.48.34.138:1554/170000004112/00000001000000060000000000000173
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/广东卫视.png" group-title="卫视频道",广东卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226700/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000197
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/广西卫视.png" group-title="卫视频道",广西卫视
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000515
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/东南卫视.png" group-title="卫视频道",东南卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226692/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000346
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/海南卫视.png" group-title="卫视频道",海南卫视
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000442
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/河北卫视.png" group-title="卫视频道",河北卫视
@@ -91,21 +91,21 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000447
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/河南卫视.png" group-title="卫视频道",河南卫视
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000463
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北卫视.png" group-title="卫视频道",湖北卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226689/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000194
 #EXTINF:-1 tvg-name="湖北经视" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北经视.png" group-title="卫视频道",湖北经视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226639/.m3u8
+rtsp://111.48.34.138:1554/170000004112/10000100000000050000000002444588
 #EXTINF:-1 tvg-name="湖北综合" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北综合.png" group-title="卫视频道",湖北综合
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226628/.m3u8
+rtsp://111.48.34.138:1554/170000004112/10000100000000050000000002444593
 #EXTINF:-1 tvg-name="湖北影视" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北影视.png" group-title="卫视频道",湖北影视
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000515
 #EXTINF:-1 tvg-name="湖北公共新闻" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北公共.png" group-title="卫视频道",湖北公共新闻
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226626/.m3u8
+rtsp://111.48.34.138:1554/170000004112/10000100000000050000000002444582
 #EXTINF:-1 tvg-name="湖北教育" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北教育.png" group-title="卫视频道",湖北教育
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000518
 #EXTINF:-1 tvg-name="湖北生活" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北生活.png" group-title="卫视频道",湖北生活
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000515
 #EXTINF:-1 tvg-name="湖北垄上" tvg-logo="https://live.kakaxi-1.ink/LOGO/湖北垄上.png" group-title="卫视频道",湖北垄上
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226631/.m3u8
+rtsp://111.48.34.138:1554/170000004112/10000100000000050000000002444600
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/江西卫视.png" group-title="卫视频道",江西卫视
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000393
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/四川卫视.png" group-title="卫视频道",四川卫视
@@ -117,13 +117,13 @@ rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000419
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/云南卫视.png" group-title="卫视频道",云南卫视
 http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226566/.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/天津卫视.png" group-title="卫视频道",天津卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226693/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000323
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/安徽卫视.png" group-title="卫视频道",安徽卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226696/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000325
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/山东卫视.png" group-title="卫视频道",山东卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226695/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000324
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226718/.m3u8
+rtsp://111.48.34.138:1554/170000004112/99180001000000060000000000000326
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221226724/.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.kakaxi-1.ink/LOGO/吉林卫视.png" group-title="卫视频道",吉林卫视
