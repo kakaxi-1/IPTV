@@ -10,6 +10,12 @@
     li { margin: 5px 0; }
     a { text-decoration: none; color: #1a73e8; }
     a:hover { text-decoration: underline; }
+
+    /* 文件夹样式 */
+    .folder { font-weight: bold; cursor: pointer; user-select: none; display: flex; align-items: center; }
+    .arrow { display: inline-block; transition: transform 0.2s ease; margin-right: 5px; }
+    .collapsed { display: none; }
+    .arrow.open { transform: rotate(90deg); } /* 展开时箭头旋转 */
   </style>
 </head>
 <body>
@@ -20,7 +26,6 @@
     async function loadFiles() {
       const repoOwner = "kakaxi-1";
       const repoName = "IPTV";
-      const branch = "main";
       const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
 
       try {
@@ -31,14 +36,29 @@
 
         for (const file of files) {
           const li = document.createElement("li");
+
           if (file.type === "file") {
             const a = document.createElement("a");
             a.href = file.name;
             a.textContent = file.name;
             li.appendChild(a);
           } else if (file.type === "dir") {
-            li.textContent = `📁 ${file.name}`;
+            // 文件夹箭头
+            const folderDiv = document.createElement("div");
+            folderDiv.className = "folder";
+
+            const arrow = document.createElement("span");
+            arrow.className = "arrow";
+            arrow.textContent = "▶"; // 箭头
+            folderDiv.appendChild(arrow);
+
+            const folderName = document.createElement("span");
+            folderName.textContent = `📁 ${file.name}`;
+            folderDiv.appendChild(folderName);
+            li.appendChild(folderDiv);
+
             const subUl = document.createElement("ul");
+            subUl.className = "collapsed";
 
             // 获取子目录文件
             const subResponse = await fetch(file.url);
@@ -53,8 +73,13 @@
                 subUl.appendChild(subLi);
               }
             });
-
             li.appendChild(subUl);
+
+            // 点击折叠/展开
+            folderDiv.addEventListener("click", () => {
+              subUl.classList.toggle("collapsed");
+              arrow.classList.toggle("open");
+            });
           }
           ul.appendChild(li);
         }
