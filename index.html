@@ -2,15 +2,69 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>IPTV 索引</title>
+  <title>IPTV 文件索引</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+    h1 { color: #333; }
+    ul { list-style-type: none; padding-left: 20px; }
+    li { margin: 5px 0; }
+    a { text-decoration: none; color: #1a73e8; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <h1>📂 IPTV 文件列表</h1>
-  <ul>
-    <li><a href="ipv4.1.txt">ipv4.1.txt</a></li>
-    <li><a href="ipv4.txt">ipv4.txt</a></li>
-    <li><a href="ipv6.m3u">ipv6.m3u</a></li>
-    <li><a href="README.md">README.md</a></li>
-  </ul>
+  <ul id="file-list">加载中...</ul>
+
+  <script>
+    async function loadFiles() {
+      const repoOwner = "kakaxi-1";
+      const repoName = "IPTV";
+      const branch = "main";
+      const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
+
+      try {
+        const response = await fetch(apiUrl);
+        const files = await response.json();
+        const ul = document.getElementById("file-list");
+        ul.innerHTML = "";
+
+        for (const file of files) {
+          const li = document.createElement("li");
+          if (file.type === "file") {
+            const a = document.createElement("a");
+            a.href = file.name;
+            a.textContent = file.name;
+            li.appendChild(a);
+          } else if (file.type === "dir") {
+            li.textContent = `📁 ${file.name}`;
+            const subUl = document.createElement("ul");
+
+            // 获取子目录文件
+            const subResponse = await fetch(file.url);
+            const subFiles = await subResponse.json();
+            subFiles.forEach(subFile => {
+              if(subFile.type === "file"){
+                const subLi = document.createElement("li");
+                const a = document.createElement("a");
+                a.href = `${file.name}/${subFile.name}`;
+                a.textContent = subFile.name;
+                subLi.appendChild(a);
+                subUl.appendChild(subLi);
+              }
+            });
+
+            li.appendChild(subUl);
+          }
+          ul.appendChild(li);
+        }
+      } catch (error) {
+        document.getElementById("file-list").textContent = "加载失败，请稍后重试";
+        console.error(error);
+      }
+    }
+
+    loadFiles();
+  </script>
 </body>
 </html>
