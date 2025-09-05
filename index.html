@@ -8,66 +8,42 @@
       font-family: Arial, sans-serif; 
       line-height: 2; 
       padding: 20px; 
-      font-size: 28px; /* 主体字体更大 */
-      background-color: #f9f9f9;
+      font-size: 32px; /* 主体字体改大 */
+      background-color: #f9f9f9; 
     }
     h1 { 
       color: #333; 
-      font-size: 40px; /* 标题更大 */
-      margin-bottom: 20px;
+      font-size: 45px; /* 标题改大 */
+      margin-bottom: 20px; 
     }
-    ul { 
-      list-style-type: none; 
-      padding-left: 0; 
-    }
-    li { 
-      margin: 8px 0; 
-    }
+    ul { list-style-type: none; padding-left: 0; }
+    li { margin: 10px 0; }
     a { 
       text-decoration: none; 
       color: #1a73e8; 
-      padding: 6px 10px;
-      display: inline-block;
-      border-radius: 4px;
-      font-size: 28px; /* 链接字体加大 */
+      padding: 8px 12px; 
+      display: inline-block; 
+      border-radius: 4px; 
+      font-size: 32px; /* 链接字体同步放大 */
     }
-    a:hover { 
-      background-color: #e0f0ff;
-    }
+    a:hover { background-color: #e0f0ff; }
 
-    /* 文件夹样式 */
     .folder { 
       font-weight: bold; 
       cursor: pointer; 
       user-select: none; 
       display: flex; 
       align-items: center; 
-      padding: 6px 10px;
-      border-radius: 4px;
-      transition: background-color 0.2s;
-      font-size: 32px; /* 文件夹字体加大 */
+      padding: 8px 12px; 
+      border-radius: 4px; 
+      transition: background-color 0.2s; 
+      font-size: 36px; /* 文件夹字体放大 */
     }
-    .folder:hover { 
-      background-color: #e0f0ff; 
-    }
-    .arrow { 
-      display: inline-block; 
-      transition: transform 0.2s ease; 
-      margin-right: 10px; 
-      font-size: 22px; /* 箭头更大 */
-    }
-    .collapsed { 
-      display: none; 
-    }
-    .arrow.open { 
-      transform: rotate(90deg); 
-    }
-    /* 多级缩进 */
-    ul ul { 
-      padding-left: 25px; 
-      border-left: 1px dashed #ccc; 
-      margin-left: 10px;
-    }
+    .folder:hover { background-color: #e0f0ff; }
+    .arrow { display: inline-block; transition: transform 0.2s ease; margin-right: 10px; font-size: 32px; }
+    .collapsed { display: none; }
+    .arrow.open { transform: rotate(90deg); }
+    ul ul { padding-left: 25px; border-left: 1px dashed #ccc; margin-left: 10px; }
   </style>
 </head>
 <body>
@@ -75,6 +51,9 @@
   <ul id="file-list">加载中...</ul>
 
   <script>
+    const HIDDEN_FOLDERS = [".github", "docs", "pull"];
+    const HIDDEN_FILES = ["index.html", "ipv6tpl.m3u"];
+
     async function loadFiles(apiUrl = `https://api.github.com/repos/kakaxi-1/IPTV/contents/`) {
       try {
         const response = await fetch(apiUrl);
@@ -82,11 +61,11 @@
         const ul = document.getElementById("file-list");
         if (apiUrl.endsWith('/contents/')) ul.innerHTML = "";
 
-        // 分开文件夹和文件
-        const dirs = files.filter(f => f.type === "dir");
-        const regularFiles = files.filter(f => f.type === "file");
+        // 过滤隐藏文件夹和文件
+        const dirs = files.filter(f => f.type === "dir" && !HIDDEN_FOLDERS.includes(f.name));
+        const regularFiles = files.filter(f => f.type === "file" && !HIDDEN_FILES.includes(f.name));
 
-        // 先处理文件夹
+        // 先显示文件夹
         for (const file of dirs) {
           const li = document.createElement("li");
           const folderDiv = document.createElement("div");
@@ -111,19 +90,20 @@
               try {
                 const subResponse = await fetch(file.url);
                 const subFiles = await subResponse.json();
-                // 分开子文件夹和文件
-                const subDirs = subFiles.filter(f => f.type === "dir");
-                const subRegularFiles = subFiles.filter(f => f.type === "file");
+                const subDirs = subFiles.filter(f => f.type === "dir" && !HIDDEN_FOLDERS.includes(f.name));
+                const subRegularFiles = subFiles.filter(f => f.type === "file" && !HIDDEN_FILES.includes(f.name));
 
-                // 先子文件夹
+                // 子文件夹
                 subDirs.forEach(subFile => {
                   const subLi = document.createElement("li");
                   const nestedFolder = document.createElement("div");
                   nestedFolder.className = "folder";
+
                   const nestedArrow = document.createElement("span");
                   nestedArrow.className = "arrow";
                   nestedArrow.textContent = "▶";
                   nestedFolder.appendChild(nestedArrow);
+
                   const nestedName = document.createElement("span");
                   nestedName.textContent = `📁 ${subFile.name}`;
                   nestedFolder.appendChild(nestedName);
@@ -137,8 +117,8 @@
                     if(nestedUl.childElementCount === 0){
                       const nestedResp = await fetch(subFile.url);
                       const nestedSubFiles = await nestedResp.json();
-                      const nestedDirs2 = nestedSubFiles.filter(f => f.type === "dir");
-                      const nestedFiles2 = nestedSubFiles.filter(f => f.type === "file");
+                      const nestedDirs2 = nestedSubFiles.filter(f => f.type === "dir" && !HIDDEN_FOLDERS.includes(f.name));
+                      const nestedFiles2 = nestedSubFiles.filter(f => f.type === "file" && !HIDDEN_FILES.includes(f.name));
                       nestedDirs2.concat(nestedFiles2).forEach(f2 => {
                         const li2 = document.createElement("li");
                         if(f2.type === "file"){
@@ -161,7 +141,7 @@
                   subUl.appendChild(subLi);
                 });
 
-                // 再子文件
+                // 子文件
                 subRegularFiles.forEach(subFile => {
                   const subLi = document.createElement("li");
                   const a = document.createElement("a");
@@ -170,9 +150,7 @@
                   subLi.appendChild(a);
                   subUl.appendChild(subLi);
                 });
-              } catch (err) {
-                console.error(err);
-              }
+              } catch (err) { console.error(err); }
             }
             subUl.classList.toggle("collapsed");
             arrow.classList.toggle("open");
@@ -181,7 +159,7 @@
           ul.appendChild(li);
         }
 
-        // 再处理根目录文件
+        // 再显示根目录文件
         regularFiles.forEach(file => {
           const li = document.createElement("li");
           const a = document.createElement("a");
