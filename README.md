@@ -12,31 +12,26 @@
 
 ---
 
-## 🚀 入口地址（总舵）  
-🔗 **主站**：[live.kakaxi-1.ink](https://live.kakaxi-1.ink)  
-
----
-
 ## 🌍 IPv6 神源（含 LOGO + EPG）  
-📜 [点击获取](https://live.kakaxi-1.ink/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
+📜 [点击获取](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
 
 ---
 
 ## 🔥 IPv4 赛选源（每 4 小时更新）  
-⚔️ [#号隔断版本](https://live.kakaxi-1.ink/ipv4.txt) —— **未来可能换成 m3u 格式！**  
-⚔️ [纯 IPv4 版本](https://live.kakaxi-1.ink/ipv4.1.txt) —— **坚持不变，才是最大的变化！**  
+⚔️ [#号隔断版本](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt) —— **未来可能换成 m3u 格式！**  
+⚔️ [纯 IPv4 版本](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.1.txt) —— **坚持不变，才是最大的变化！**  
 
 ---
 
 ## 🗓️ EPG 电子节目表  
-📺 [一键召唤](https://live.kakaxi-1.ink/epg.xml) —— **知天时，晓节目，运筹帷幄！**  
+📺 [一键召唤](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/epg.xml) —— **知天时，晓节目，运筹帷幄！**  
 
 ---
 
 ## 🎨 频道 LOGO 画卷  —— **逐步完善，终成大成！**  
-🖼️ LOGO 资源，使用时请替换 `频道名称` | `https://live.kakaxi-1.ink/LOGO/频道名称.png` |
+🖼️ LOGO 资源，使用时请替换 `频道名称` | `https://raw.githubusercontent.com/kakaxi-1/IPTV/main/LOGO/频道名称.png` |
 
-📢 **频道 LOGO 示例：** `https://live.kakaxi-1.ink/LOGO/CCTV1.png` 
+📢 **频道 LOGO 示例：** `https://raw.githubusercontent.com/kakaxi-1/IPTV/main/LOGO/CCTV1.png` 
 
 ---
 
