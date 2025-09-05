@@ -4,18 +4,68 @@
   <meta charset="UTF-8">
   <title>IPTV 文件索引</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
-    h1 { color: #333; }
-    ul { list-style-type: none; padding-left: 20px; }
-    li { margin: 5px 0; }
-    a { text-decoration: none; color: #1a73e8; }
-    a:hover { text-decoration: underline; }
+    body { 
+      font-family: Arial, sans-serif; 
+      line-height: 1.8; 
+      padding: 20px; 
+      font-size: 18px;
+      background-color: #f9f9f9;
+    }
+    h1 { 
+      color: #333; 
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    ul { 
+      list-style-type: none; 
+      padding-left: 0; 
+    }
+    li { 
+      margin: 5px 0; 
+    }
+    a { 
+      text-decoration: none; 
+      color: #1a73e8; 
+      padding: 4px 8px;
+      display: inline-block;
+      border-radius: 4px;
+    }
+    a:hover { 
+      background-color: #e0f0ff;
+    }
 
     /* 文件夹样式 */
-    .folder { font-weight: bold; cursor: pointer; user-select: none; display: flex; align-items: center; }
-    .arrow { display: inline-block; transition: transform 0.2s ease; margin-right: 5px; }
-    .collapsed { display: none; }
-    .arrow.open { transform: rotate(90deg); } /* 展开时箭头旋转 */
+    .folder { 
+      font-weight: bold; 
+      cursor: pointer; 
+      user-select: none; 
+      display: flex; 
+      align-items: center; 
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+    .folder:hover { 
+      background-color: #e0f0ff; 
+    }
+    .arrow { 
+      display: inline-block; 
+      transition: transform 0.2s ease; 
+      margin-right: 8px; 
+      font-size: 18px; 
+    }
+    .collapsed { 
+      display: none; 
+    }
+    .arrow.open { 
+      transform: rotate(90deg); 
+    }
+    /* 多级缩进 */
+    ul ul { 
+      padding-left: 20px; 
+      border-left: 1px dashed #ccc; 
+      margin-left: 8px;
+    }
   </style>
 </head>
 <body>
@@ -23,33 +73,28 @@
   <ul id="file-list">加载中...</ul>
 
   <script>
-    async function loadFiles() {
-      const repoOwner = "kakaxi-1";
-      const repoName = "IPTV";
-      const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
-
+    async function loadFiles(apiUrl = `https://api.github.com/repos/kakaxi-1/IPTV/contents/`) {
       try {
         const response = await fetch(apiUrl);
         const files = await response.json();
         const ul = document.getElementById("file-list");
-        ul.innerHTML = "";
+        if (apiUrl.endsWith('/contents/')) ul.innerHTML = "";
 
         for (const file of files) {
           const li = document.createElement("li");
 
           if (file.type === "file") {
             const a = document.createElement("a");
-            a.href = file.name;
+            a.href = file.name.includes('.') ? file.name : file.path;
             a.textContent = file.name;
             li.appendChild(a);
           } else if (file.type === "dir") {
-            // 文件夹箭头
             const folderDiv = document.createElement("div");
             folderDiv.className = "folder";
 
             const arrow = document.createElement("span");
             arrow.className = "arrow";
-            arrow.textContent = "▶"; // 箭头
+            arrow.textContent = "▶";
             folderDiv.appendChild(arrow);
 
             const folderName = document.createElement("span");
@@ -59,28 +104,39 @@
 
             const subUl = document.createElement("ul");
             subUl.className = "collapsed";
-
-            // 获取子目录文件
-            const subResponse = await fetch(file.url);
-            const subFiles = await subResponse.json();
-            subFiles.forEach(subFile => {
-              if(subFile.type === "file"){
-                const subLi = document.createElement("li");
-                const a = document.createElement("a");
-                a.href = `${file.name}/${subFile.name}`;
-                a.textContent = subFile.name;
-                subLi.appendChild(a);
-                subUl.appendChild(subLi);
-              }
-            });
             li.appendChild(subUl);
 
-            // 点击折叠/展开
-            folderDiv.addEventListener("click", () => {
+            folderDiv.addEventListener("click", async () => {
+              if(subUl.childElementCount === 0){ 
+                // 第一次点击加载子文件
+                try {
+                  const subResponse = await fetch(file.url);
+                  const subFiles = await subResponse.json();
+                  subFiles.forEach(subFile => {
+                    const subLi = document.createElement("li");
+                    if(subFile.type === "file"){
+                      const a = document.createElement("a");
+                      a.href = `${file.name}/${subFile.name}`;
+                      a.textContent = subFile.name;
+                      subLi.appendChild(a);
+                    } else if(subFile.type === "dir"){
+                      const nestedUl = document.createElement("ul");
+                      const nestedLi = document.createElement("li");
+                      nestedLi.textContent = `📁 ${subFile.name}`;
+                      nestedUl.appendChild(nestedLi);
+                      subLi.appendChild(nestedUl);
+                    }
+                    subUl.appendChild(subLi);
+                  });
+                } catch (err) {
+                  console.error(err);
+                }
+              }
               subUl.classList.toggle("collapsed");
               arrow.classList.toggle("open");
             });
           }
+
           ul.appendChild(li);
         }
       } catch (error) {
