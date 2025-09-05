@@ -6,14 +6,14 @@
   <style>
     body { 
       font-family: Arial, sans-serif; 
-      line-height: 1.8; 
+      line-height: 2; 
       padding: 20px; 
-      font-size: 18px;
+      font-size: 28px; /* 主体字体更大 */
       background-color: #f9f9f9;
     }
     h1 { 
       color: #333; 
-      font-size: 28px;
+      font-size: 40px; /* 标题更大 */
       margin-bottom: 20px;
     }
     ul { 
@@ -21,14 +21,15 @@
       padding-left: 0; 
     }
     li { 
-      margin: 5px 0; 
+      margin: 8px 0; 
     }
     a { 
       text-decoration: none; 
       color: #1a73e8; 
-      padding: 4px 8px;
+      padding: 6px 10px;
       display: inline-block;
       border-radius: 4px;
+      font-size: 28px; /* 链接字体加大 */
     }
     a:hover { 
       background-color: #e0f0ff;
@@ -41,9 +42,10 @@
       user-select: none; 
       display: flex; 
       align-items: center; 
-      padding: 4px 8px;
+      padding: 6px 10px;
       border-radius: 4px;
       transition: background-color 0.2s;
+      font-size: 32px; /* 文件夹字体加大 */
     }
     .folder:hover { 
       background-color: #e0f0ff; 
@@ -51,8 +53,8 @@
     .arrow { 
       display: inline-block; 
       transition: transform 0.2s ease; 
-      margin-right: 8px; 
-      font-size: 18px; 
+      margin-right: 10px; 
+      font-size: 22px; /* 箭头更大 */
     }
     .collapsed { 
       display: none; 
@@ -62,9 +64,9 @@
     }
     /* 多级缩进 */
     ul ul { 
-      padding-left: 20px; 
+      padding-left: 25px; 
       border-left: 1px dashed #ccc; 
-      margin-left: 8px;
+      margin-left: 10px;
     }
   </style>
 </head>
@@ -80,65 +82,115 @@
         const ul = document.getElementById("file-list");
         if (apiUrl.endsWith('/contents/')) ul.innerHTML = "";
 
-        for (const file of files) {
+        // 分开文件夹和文件
+        const dirs = files.filter(f => f.type === "dir");
+        const regularFiles = files.filter(f => f.type === "file");
+
+        // 先处理文件夹
+        for (const file of dirs) {
           const li = document.createElement("li");
+          const folderDiv = document.createElement("div");
+          folderDiv.className = "folder";
 
-          if (file.type === "file") {
-            const a = document.createElement("a");
-            a.href = file.name.includes('.') ? file.name : file.path;
-            a.textContent = file.name;
-            li.appendChild(a);
-          } else if (file.type === "dir") {
-            const folderDiv = document.createElement("div");
-            folderDiv.className = "folder";
+          const arrow = document.createElement("span");
+          arrow.className = "arrow";
+          arrow.textContent = "▶";
+          folderDiv.appendChild(arrow);
 
-            const arrow = document.createElement("span");
-            arrow.className = "arrow";
-            arrow.textContent = "▶";
-            folderDiv.appendChild(arrow);
+          const folderName = document.createElement("span");
+          folderName.textContent = `📁 ${file.name}`;
+          folderDiv.appendChild(folderName);
+          li.appendChild(folderDiv);
 
-            const folderName = document.createElement("span");
-            folderName.textContent = `📁 ${file.name}`;
-            folderDiv.appendChild(folderName);
-            li.appendChild(folderDiv);
+          const subUl = document.createElement("ul");
+          subUl.className = "collapsed";
+          li.appendChild(subUl);
 
-            const subUl = document.createElement("ul");
-            subUl.className = "collapsed";
-            li.appendChild(subUl);
+          folderDiv.addEventListener("click", async () => {
+            if(subUl.childElementCount === 0){ 
+              try {
+                const subResponse = await fetch(file.url);
+                const subFiles = await subResponse.json();
+                // 分开子文件夹和文件
+                const subDirs = subFiles.filter(f => f.type === "dir");
+                const subRegularFiles = subFiles.filter(f => f.type === "file");
 
-            folderDiv.addEventListener("click", async () => {
-              if(subUl.childElementCount === 0){ 
-                // 第一次点击加载子文件
-                try {
-                  const subResponse = await fetch(file.url);
-                  const subFiles = await subResponse.json();
-                  subFiles.forEach(subFile => {
-                    const subLi = document.createElement("li");
-                    if(subFile.type === "file"){
-                      const a = document.createElement("a");
-                      a.href = `${file.name}/${subFile.name}`;
-                      a.textContent = subFile.name;
-                      subLi.appendChild(a);
-                    } else if(subFile.type === "dir"){
-                      const nestedUl = document.createElement("ul");
-                      const nestedLi = document.createElement("li");
-                      nestedLi.textContent = `📁 ${subFile.name}`;
-                      nestedUl.appendChild(nestedLi);
-                      subLi.appendChild(nestedUl);
+                // 先子文件夹
+                subDirs.forEach(subFile => {
+                  const subLi = document.createElement("li");
+                  const nestedFolder = document.createElement("div");
+                  nestedFolder.className = "folder";
+                  const nestedArrow = document.createElement("span");
+                  nestedArrow.className = "arrow";
+                  nestedArrow.textContent = "▶";
+                  nestedFolder.appendChild(nestedArrow);
+                  const nestedName = document.createElement("span");
+                  nestedName.textContent = `📁 ${subFile.name}`;
+                  nestedFolder.appendChild(nestedName);
+                  subLi.appendChild(nestedFolder);
+
+                  const nestedUl = document.createElement("ul");
+                  nestedUl.className = "collapsed";
+                  subLi.appendChild(nestedUl);
+
+                  nestedFolder.addEventListener("click", async () => {
+                    if(nestedUl.childElementCount === 0){
+                      const nestedResp = await fetch(subFile.url);
+                      const nestedSubFiles = await nestedResp.json();
+                      const nestedDirs2 = nestedSubFiles.filter(f => f.type === "dir");
+                      const nestedFiles2 = nestedSubFiles.filter(f => f.type === "file");
+                      nestedDirs2.concat(nestedFiles2).forEach(f2 => {
+                        const li2 = document.createElement("li");
+                        if(f2.type === "file"){
+                          const a = document.createElement("a");
+                          a.href = `${subFile.name}/${f2.name}`;
+                          a.textContent = f2.name;
+                          li2.appendChild(a);
+                        } else if(f2.type === "dir"){
+                          const d = document.createElement("div");
+                          d.textContent = `📁 ${f2.name}`;
+                          li2.appendChild(d);
+                        }
+                        nestedUl.appendChild(li2);
+                      });
                     }
-                    subUl.appendChild(subLi);
+                    nestedUl.classList.toggle("collapsed");
+                    nestedArrow.classList.toggle("open");
                   });
-                } catch (err) {
-                  console.error(err);
-                }
+
+                  subUl.appendChild(subLi);
+                });
+
+                // 再子文件
+                subRegularFiles.forEach(subFile => {
+                  const subLi = document.createElement("li");
+                  const a = document.createElement("a");
+                  a.href = `${file.name}/${subFile.name}`;
+                  a.textContent = subFile.name;
+                  subLi.appendChild(a);
+                  subUl.appendChild(subLi);
+                });
+              } catch (err) {
+                console.error(err);
               }
-              subUl.classList.toggle("collapsed");
-              arrow.classList.toggle("open");
-            });
-          }
+            }
+            subUl.classList.toggle("collapsed");
+            arrow.classList.toggle("open");
+          });
 
           ul.appendChild(li);
         }
+
+        // 再处理根目录文件
+        regularFiles.forEach(file => {
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = file.name;
+          a.textContent = file.name;
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+
       } catch (error) {
         document.getElementById("file-list").textContent = "加载失败，请稍后重试";
         console.error(error);
