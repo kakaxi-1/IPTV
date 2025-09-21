@@ -22,8 +22,8 @@
 ---
 
 ## 🔥 IPv4 赛选源（每 4 小时更新）  
-⚔️ [#号隔断版本](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt) —— **未来可能换成 m3u 格式！**  
-⚔️ [纯 IPv4 版本](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.1.txt) —— **坚持不变，才是最大的变化！**  
+⚔️ [点击获取](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt) —— **未来可能换成 m3u 格式！**  
+ 
 
 ---
 
