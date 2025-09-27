@@ -1,6 +1,3 @@
-机场推荐https://biuu.top/register?code=EjZHyGjE
-速度快节点多，主要是便宜好用
-
 
 # 📡 IPTV 神源收集站（仅供娱乐，切勿商用）  
 
@@ -17,25 +14,34 @@
 ---
 
 ## 🌍 IPv6 神源（含 LOGO + EPG）  
-📜 [点击获取](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
+📜 [点击获取](https://kakaxi-1.github.io/IPTV/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
 
 ---
 
-## 🔥 IPv4 赛选源（每 4 小时更新）  
-⚔️ [点击获取](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt) —— **未来可能换成 m3u 格式！**  
+## 🔥 IPv4 赛选源（每 2 小时更新）  
+⚔️ [点击获取](https://kakaxi-1.github.io/IPTV/ipv4.txt) —— **港台频道秒播，需要台湾节点**  
  
+---
 
+## 🔥 IPTV 赛选源（每 4 小时更新）  
+⚔️ [点击获取](https://kakaxi-1.github.io/IPTV/iptv.txt) —— **是否断流全凭感觉，切换试试**  
+ 
 ---
 
 ## 🗓️ EPG 电子节目表  
-📺 [一键召唤](https://raw.githubusercontent.com/kakaxi-1/IPTV/main/epg.xml) —— **知天时，晓节目，运筹帷幄！**  
+📺 [一键召唤](https://kakaxi-1.github.io/IPTV/epg.xml) —— **知天时，晓节目，运筹帷幄！**  
 
 ---
 
 ## 🎨 频道 LOGO 画卷  —— **逐步完善，终成大成！**  
-🖼️ LOGO 资源，使用时请替换 `频道名称` | `https://raw.githubusercontent.com/kakaxi-1/IPTV/main/LOGO/频道名称.png` |
+🖼️ LOGO 资源，使用时请替换 `频道名称` | `https://kakaxi-1.github.io/IPTV/` |
 
-📢 **频道 LOGO 示例：** `https://raw.githubusercontent.com/kakaxi-1/IPTV/main/LOGO/CCTV1.png` 
+📢 **频道 LOGO 示例：** `https://kakaxi-1.github.io/IPTV/LOGO/CCTV1.png` 
+
+---
+
+##  ✈️机场推荐  (好用推荐，港台频道无压力，高峰期4k无压力)
+⚔️ [点击注册](https://biuu.top/register?code=EjZHyGjE)
 
 ---
 
@@ -44,5 +50,6 @@
 1. 该项目所有源均来自互联网公开收集，仅供技术学习和娱乐使用。  
 2. IPTV 玄学，源的存活时间不定，**能看多久全凭缘分！** 😆  
 3. **切勿商用**，否则后果自负！  
+4. 国内无机场用户订阅链接前添加加速链接。加速链接也有失效的时候，所以自己网上找不做推荐
 
 🙏 **如果觉得有用，欢迎点个 Star ⭐，感谢支持！**  
