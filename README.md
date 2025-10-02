@@ -15,17 +15,17 @@
 
 ## 🌍 IPv6 神源（含 LOGO + EPG）  
 📜 [点击获取](https://kakaxi-1.github.io/IPTV/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
-
+优先推荐配用app:Tivimate
 ---
 
 ## 🔥 IPv4 赛选源（每 2 小时更新）  
 ⚔️ [点击获取](https://kakaxi-1.github.io/IPTV/ipv4.txt) —— **港台频道秒播，需要台湾节点**  
- 
+优先推荐配用app:酷9
 ---
 
 ## 🔥 IPTV 赛选源（每 4 小时更新）  
 ⚔️ [点击获取](https://kakaxi-1.github.io/IPTV/iptv.txt) —— **是否断流全凭感觉，切换试试**  
- 
+优先推荐配用app:酷9
 ---
 
 ## 🗓️ EPG 电子节目表  
