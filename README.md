@@ -14,29 +14,29 @@
 ---
 
 ## 🌍 IPv6 神源（含 LOGO + EPG）  
-📜 [点击获取](https://kakaxi-1.asia/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
+📜 [点击获取](http://kakaxi.indevs.in/ipv6.m3u) —— **适合拥有“六脉神剑”的 IPv6 高手！**  
 优先推荐配用app:Tivimate
 ---
 
 ## 🔥 IPv4 赛选源（每 2 小时更新）  
-⚔️ [点击获取](https://kakaxi-1.asia/ipv4.txt) —— **港台频道秒播，需要台湾节点**  
+⚔️ [点击获取](http://kakaxi.indevs.in/ipv4.txt) —— **港台频道秒播，需要台湾节点**  
 优先推荐配用app:酷9
 ---
 
 ## 🔥 IPTV 赛选源（每 4 小时更新）  
-⚔️ [点击获取](https://kakaxi-1.asia/iptv.txt) —— **是否断流全凭感觉，切换试试**  
+⚔️ [点击获取](http://kakaxi.indevs.in/iptv.txt) —— **是否断流全凭感觉，切换试试**  
 优先推荐配用app:酷9
 ---
 
 ## 🗓️ EPG 电子节目表  
-📺 [一键召唤](https://kakaxi-1.asia/epg.xml) —— **知天时，晓节目，运筹帷幄！**  
+📺 [一键召唤](http://kakaxi.indevs.in/epg.xml) —— **知天时，晓节目，运筹帷幄！**  
 
 ---
 
 ## 🎨 频道 LOGO 画卷  —— **逐步完善，终成大成！**  
-🖼️ LOGO 资源，使用时请替换 `频道名称` | `https://kakaxi-1.asia/LOGO/` |
+🖼️ LOGO 资源，使用时请替换 `频道名称` | `http://kakaxi.indevs.in/LOGO/` |
 
-📢 **频道 LOGO 示例：** `https://kakaxi-1.asia/LOGO/CCTV1.png` 
+📢 **频道 LOGO 示例：** `http://kakaxi.indevs.in/LOGO/CCTV1.png` 
 
 ---
 
