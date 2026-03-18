@@ -372,7 +372,7 @@ async function home(params) {
     logInfo("进入首页");
     try {
         const res = await axiosInstance.get(API_URL, { 
-            params: { ac: 'list', pg: 1 },
+            params: { ac: 'list', pg: 1, pagesize: 100 },
             headers: def_headers 
         });
         const data = res.data;
@@ -396,7 +396,7 @@ async function category(params) {
     logInfo(`请求分类: ${categoryId}, 页码: ${pg}`);
     try {
         const res = await axiosInstance.get(API_URL, {
-            params: { ac: 'list', t: categoryId, pg: pg },
+            params: { ac: 'list', t: categoryId, pg: pg, pagesize: 100 },
             headers: def_headers
         });
         const data = res.data;
@@ -420,21 +420,22 @@ async function search(params) {
     logInfo(`搜索关键词: ${wd}, 页码: ${pg}`);
     try {
         const res = await axiosInstance.get(API_URL, {
-            params: { ac: 'list', wd: wd, pg: pg },
+            params: { ac: 'list', wd: wd, pg: pg, pagesize: 100 },
             headers: def_headers
         });
         const data = res.data;
         let videos = formatVideos(data.list || []);
         videos = await enrichVideosWithDetails(videos);
-        logInfo(`搜索结果: ${videos.length}条, 带封面的视频: ${videos.filter(v => v.vod_pic).length} 个`);
+        logInfo(`搜索结果: ${videos.length}条, 总页数: ${data.pagecount}, 总条数: ${data.total || '未知'}`);
         return {
             list: videos,
             page: pg,
-            pagecount: data.pagecount || 1
+            pagecount: data.pagecount || 1,
+            total: data.total || 0
         };
     } catch (e) {
         logError("搜索失败", e);
-        return { list: [], page: pg, pagecount: 0 };
+        return { list: [], page: pg, pagecount: 0, total: 0 };
     }
 }
 
