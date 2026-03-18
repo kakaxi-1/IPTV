@@ -2,10 +2,8 @@ const axios = require("axios");
 const https = require("https");
 const OmniBox = require("omnibox_sdk");
 
-// ========== 只需要修改这里 ==========
 const API_HOST = 'https://thzy1.me';
 const API_URL = `${API_HOST}/api.php/provide/vod`;
-// ===================================
 
 const def_headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
