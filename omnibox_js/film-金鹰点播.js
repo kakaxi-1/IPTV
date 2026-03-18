@@ -180,7 +180,6 @@ async function matchDanmu(fileName) {
     }
 }
 
-// ========== 格式化视频列表 ==========
 function formatVideos(list) {
     if (!Array.isArray(list)) return [];
     return list.map(item => {
@@ -195,7 +194,7 @@ function formatVideos(list) {
             vod_remarks: String(item.vod_remarks || ''),
             vod_time: String(item.vod_time || ''),
             vod_play_from: String(item.vod_play_from || 'default'),
-            vod_play_url: String(item.vod_play_url || ''), // 保存原始播放URL
+            vod_play_url: String(item.vod_play_url || ''),
             vod_en: String(item.vod_en || '')
         };
     }).filter(v => v && v.vod_id);
@@ -221,7 +220,6 @@ function formatDetailVideos(list) {
             vod_en: String(item.vod_en || '')
         };
         
-        // 解析播放源
         vod.vod_play_sources = parsePlaySources(vod);
         
         return vod;
@@ -274,10 +272,6 @@ async function enrichVideosWithDetails(videos) {
     return videos;
 }
 
-// ========== 🚀 智能播放源解析 ==========
-// 支持两种模式：
-// 1. 直接播放地址：从 vod_play_url 解析出真实的视频地址
-// 2. 播放页模式：如果没有直接地址，则构造播放页URL进行嗅探
 const parsePlaySources = (vodItem) => {
     const playSources = [];
     
@@ -287,10 +281,8 @@ const parsePlaySources = (vodItem) => {
     const playUrl = vodItem.vod_play_url || '';
     
     if (playUrl) {
-        // 模式1：API直接返回了播放地址（如 "第1集$http://example.com/1.m3u8#第2集$http://example.com/2.m3u8"）
         logInfo(`检测到直接播放地址: ${playUrl.substring(0, 100)}...`);
         
-        // 解析多集播放地址
         const episodes = playUrl.split('#').map((item, index) => {
             const parts = item.split('$');
             const episodeName = parts[0] || `第${index + 1}集`;
@@ -302,8 +294,8 @@ const parsePlaySources = (vodItem) => {
                 fid: fid,
                 v: vodName,
                 e: index + 1,
-                url: directUrl, // 保存直接地址
-                isDirect: true   // 标记为直接地址
+                url: directUrl,
+                isDirect: true
             };
             
             return {
@@ -322,10 +314,8 @@ const parsePlaySources = (vodItem) => {
             });
         }
     } else {
-        // 模式2：没有直接地址，使用播放页模式（需要嗅探）
         logInfo(`未检测到直接地址，使用播放页模式`);
         
-        // 使用特殊标记，在play时动态解析播放页
         const episodes = [{
             name: '正片',
             playId: `need_resolve:${vodId}|||${encodeMeta({ 
@@ -348,7 +338,6 @@ const parsePlaySources = (vodItem) => {
     return playSources;
 };
 
-// ========== 智能获取播放页URL（用于模式2） ==========
 const PLAY_URL_PATTERNS = [
     (vodId) => `${API_HOST}/play/${vodId}.html`,
     (vodId) => `${API_HOST}/vod/play/${vodId}.html`,
@@ -372,7 +361,6 @@ async function getPlayPageUrlSmart(vodId, playFrom = 'default') {
                 return testUrl;
             }
         } catch (e) {
-            // 继续尝试下一个
         }
     }
     
@@ -380,7 +368,6 @@ async function getPlayPageUrlSmart(vodId, playFrom = 'default') {
     return `${API_HOST}/play/${vodId}.html`;
 }
 
-// ========== 首页接口 ==========
 async function home(params) {
     logInfo("进入首页");
     try {
@@ -403,7 +390,6 @@ async function home(params) {
     }
 }
 
-// ========== 分类接口 ==========
 async function category(params) {
     const { categoryId, page } = params;
     const pg = parseInt(page) || 1;
@@ -428,7 +414,6 @@ async function category(params) {
     }
 }
 
-// ========== 搜索接口 ==========
 async function search(params) {
     const wd = params.keyword || params.wd || "";
     const pg = parseInt(params.page) || 1;
@@ -453,7 +438,6 @@ async function search(params) {
     }
 }
 
-// ========== 详情接口 ==========
 async function detail(params, context) {
     const videoId = params.videoId;
     logInfo(`请求详情: ${videoId}`);
@@ -467,7 +451,6 @@ async function detail(params, context) {
         if (videos.length === 0) return { list: [] };
         const vod = videos[0];
         
-        // 准备刮削数据
         const sourceCandidates = [];
         const playSources = Array.isArray(vod.vod_play_sources) ? vod.vod_play_sources : [];
         for (const source of playSources) {
@@ -486,7 +469,6 @@ async function detail(params, context) {
             }
         }
         
-        // 刮削处理
         if (sourceCandidates.length > 0 && vod.vod_name) {
             try {
                 const sourceId = `spider_source_${context.sourceId}_${videoId}`;
@@ -521,7 +503,6 @@ async function detail(params, context) {
                         if (directors) vod.vod_director = directors;
                     }
                     
-                    // 应用刮削后的剧集名称
                     for (const source of playSources) {
                         for (const ep of source.episodes || []) {
                             const meta = ep.playId && ep.playId.includes('|||') ? decodeMeta(ep.playId.split('|||')[1]) : {};
@@ -539,7 +520,6 @@ async function detail(params, context) {
                             ep._episodeNumber = mapping.episodeNumber;
                         }
                         
-                        // 排序剧集
                         const hasEpisodeNumber = (source.episodes || []).some(
                             ep => ep._episodeNumber !== undefined && ep._episodeNumber !== null
                         );
@@ -554,7 +534,6 @@ async function detail(params, context) {
                             });
                         }
                         
-                        // 清理内部字段
                         source.episodes = (source.episodes || []).map(ep => ({
                             name: ep.name,
                             playId: ep.playId
@@ -576,7 +555,6 @@ async function detail(params, context) {
     }
 }
 
-// ========== 播放接口 ==========
 async function play(params, context) {
     const rawPlayId = params.playId || '';
     const flag = params.flag || '';
@@ -588,20 +566,17 @@ async function play(params, context) {
     let episodeName = '';
     let isDirectAddress = false;
 
-    // 解析元数据
     if (rawPlayId.includes('|||')) {
         const [mainPlayId, metaB64] = rawPlayId.split('|||');
         const meta = decodeMeta(metaB64 || '');
         vodName = meta.v || '';
         episodeName = meta.e || '';
-        isDirectAddress = meta.isDirect || false; // 检查是否是直接地址
+        isDirectAddress = meta.isDirect || false;
         
-        // 如果是直接地址，mainPlayId就是真实的视频URL
         if (isDirectAddress) {
             playUrl = mainPlayId;
             logInfo(`使用直接播放地址: ${playUrl}`);
         }
-        // 如果是need_resolve模式，需要解析播放页
         else if (mainPlayId.startsWith('need_resolve:')) {
             const resolveVodId = mainPlayId.split(':')[1] || meta.sid;
             if (resolveVodId) {
@@ -614,7 +589,6 @@ async function play(params, context) {
         }
     }
 
-    // 获取刮削元数据用于弹幕
     let scrapedDanmuFileName = '';
     try {
         const sourceVideoId = params.vodId || (rawPlayId.includes('|||') ? (decodeMeta(rawPlayId.split('|||')[1] || '').sid || '') : '');
@@ -646,19 +620,16 @@ async function play(params, context) {
         logError("获取刮削元数据失败", error);
     }
 
-    // 解析播放地址
     let resolvedUrl = playUrl;
     let resolvedHeader = {};
     let parse = 1;
 
     const isDirectPlayable = /\.(m3u8|mp4|flv|avi|mkv|ts)(?:\?|#|$)/i.test(playUrl || '');
     
-    // 如果是直接地址或者已经是可播放的URL
     if (isDirectPlayable || isDirectAddress) {
         parse = 0;
         logInfo(`使用直接播放地址: ${playUrl}`);
     } 
-    // 否则尝试嗅探
     else if (/^https?:\/\//i.test(playUrl || '')) {
         try {
             const sniffResult = await OmniBox.sniffVideo(playUrl);
@@ -683,7 +654,6 @@ async function play(params, context) {
         parse: parse
     };
 
-    // 添加弹幕
     if (DANMU_API) {
         let fileName = '';
         if (vodName) {
