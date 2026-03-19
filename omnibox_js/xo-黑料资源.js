@@ -372,7 +372,7 @@ async function home(params) {
     logInfo("进入首页");
     try {
         const res = await axiosInstance.get(API_URL, { 
-            params: { ac: 'list', pg: 1, pagesize: 40 },
+            params: { ac: 'list', pg: 1, pagesize: 20 },
             headers: def_headers 
         });
         const data = res.data;
@@ -396,7 +396,7 @@ async function category(params) {
     logInfo(`请求分类: ${categoryId}, 页码: ${pg}`);
     try {
         const res = await axiosInstance.get(API_URL, {
-            params: { ac: 'list', t: categoryId, pg: pg, pagesize: 40 },
+            params: { ac: 'list', t: categoryId, pg: pg, pagesize: 20 },
             headers: def_headers
         });
         const data = res.data;
@@ -420,7 +420,7 @@ async function search(params) {
     logInfo(`搜索关键词: ${wd}, 页码: ${pg}`);
     try {
         const res = await axiosInstance.get(API_URL, {
-            params: { ac: 'list', wd: wd, pg: pg, pagesize: 40 },
+            params: { ac: 'list', wd: wd, pg: pg, pagesize: 100 },
             headers: def_headers
         });
         const data = res.data;
