@@ -41,7 +41,7 @@
 ---
 
 ##  ✈️机场推荐  (好用推荐，港台频道无压力，高峰期4k无压力)
-⚔️ [点击注册](https://biuu.top/register?code=EjZHyGjE)
+⚔️ [点击注册](https://biuuu.lat/register?code=EjZHyGjE)
 
 ---
 
