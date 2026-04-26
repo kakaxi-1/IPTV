@@ -2,8 +2,8 @@ const axios = require("axios");
 const https = require("https");
 const OmniBox = require("omnibox_sdk");
 
-const API_HOST = 'https://www.yyzywcj.com';
-const API_URL = 'https://www.yyzywcj.com/api.php/provide/vod';
+const API_HOST = 'https://www.yytv4.cc';
+const API_URL = 'https://www.yytv4.cc/api.php/provide/vod';
 
 const def_headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
