@@ -11,7 +11,7 @@ const def_headers = {
 };
 
 const axiosInstance = axios.create({
-    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    httpsAgent: new https.Agent({ rejectUnauthorized: true }),
     timeout: 15000
 });
 
@@ -40,6 +40,13 @@ const decodeMeta = (str) => {
     } catch (_) {
         return null;
     }
+};
+
+const sanitizeText = (value) => {
+    return String(value || '')
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<[^>]*>/g, '')
+        .replace(/javascript:/gi, '');
 };
 
 const buildScrapedEpisodeName = (scrapeData, mapping, originalName) => {
@@ -186,7 +193,7 @@ function formatVideos(list) {
         if (!item || typeof item !== 'object') return null;
         return {
             vod_id: String(item.vod_id || ''),
-            vod_name: String(item.vod_name || ''),
+            vod_name: sanitizeText(item.vod_name),
             vod_pic: String(item.vod_pic || ''),
             type_id: String(item.type_id || ''),
             type_name: String(item.type_name || ''),
@@ -212,9 +219,9 @@ function formatDetailVideos(list) {
             vod_year: String(item.vod_year || ''),
             vod_area: String(item.vod_area || ''),
             vod_remarks: String(item.vod_remarks || ''),
-            vod_actor: String(item.vod_actor || ''),
-            vod_director: String(item.vod_director || ''),
-            vod_content: String(item.vod_content || '').trim(),
+            vod_actor: sanitizeText(item.vod_actor),
+            vod_director: sanitizeText(item.vod_director),
+            vod_content: sanitizeText(item.vod_content).trim(),
             vod_play_from: String(item.vod_play_from || 'default'),
             vod_play_url: String(item.vod_play_url || ''),
             vod_en: String(item.vod_en || '')
